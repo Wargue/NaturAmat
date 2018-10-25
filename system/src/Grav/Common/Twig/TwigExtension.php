@@ -756,7 +756,7 @@ class TwigExtension extends \Twig_Extension implements \Twig_Extension_GlobalsIn
     /**
      * Return URL to the resource.
      *
-     * @example {{ url('theme://images/logo.png')|default('http://www.placehold.it/150x100/f4f4f4') }}
+     * @example {{ url('theme://images/logo2.png')|default('http://www.placehold.it/150x100/f4f4f4') }}
      *
      * @param  string $input  Resource to be located.
      * @param  bool   $domain True to include domain name.

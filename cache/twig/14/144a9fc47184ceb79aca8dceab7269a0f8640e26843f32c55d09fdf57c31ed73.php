@@ -23,7 +23,7 @@ class __TwigTemplate_8b1cc1df36943c8050aa20db7436f1b309c9d5539833b751515ba305fb0
         echo ($context["base_url_absolute"] ?? null);
         echo "\"><img alt=\"Grill point\" src=\"";
         echo ($context["theme_url"] ?? null);
-        echo "/img/logo.png\"></a></h1>
+        echo "/img/logo2.png\"></a></h1>
       </div>
       <div class=\"menuheader\">
           <div class=\"container\">
@@ -65,7 +65,7 @@ class __TwigTemplate_8b1cc1df36943c8050aa20db7436f1b309c9d5539833b751515ba305fb0
     {
         return new Twig_Source("<header id=\"header\">
       <div class=\"container\">
-        <h1 class=\"navbar-brand navbar-brand_\"><a href=\"{{ base_url_absolute }}\"><img alt=\"Grill point\" src=\"{{ theme_url }}/img/logo.png\"></a></h1>
+        <h1 class=\"navbar-brand navbar-brand_\"><a href=\"{{ base_url_absolute }}\"><img alt=\"Grill point\" src=\"{{ theme_url }}/img/logo2.png\"></a></h1>
       </div>
       <div class=\"menuheader\">
           <div class=\"container\">

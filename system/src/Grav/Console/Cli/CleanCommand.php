@@ -39,7 +39,7 @@ class CleanCommand extends Command
         'user/plugins/admin/vendor/robthree/twofactorauth/.travis.yml',
         'user/plugins/admin/vendor/robthree/twofactorauth/composer.json',
         'user/plugins/admin/vendor/robthree/twofactorauth/composer.lock',
-        'user/plugins/admin/vendor/robthree/twofactorauth/logo.png',
+        'user/plugins/admin/vendor/robthree/twofactorauth/logo2.png',
         'user/plugins/admin/vendor/robthree/twofactorauth/multifactorauthforeveryone.png',
         'user/plugins/admin/vendor/robthree/twofactorauth/TwoFactorAuth.phpproj',
         'user/plugins/admin/vendor/robthree/twofactorauth/TwoFactorAuth.sin',
