@@ -2,7 +2,7 @@
 title: Accueil
 menu : accueil
 onpage_menu: true
-body_classes: modular title-center title-h1h2
+body_classes: "modular title-center title-h1h2"
 content:
     items: @self.modular
     order:
