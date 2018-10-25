@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d1b0fdda-29a5-4081-9e67-56e1f0b0e81d" name="Default Changelist" comment="" />
+    <list default="true" id="d1b0fdda-29a5-4081-9e67-56e1f0b0e81d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/user/pages/01.home/default.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pages/02.typography/default.md" beforeDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +26,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="txt" value="20" />
+          <entry key="txt" value="37" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="20" />
+          <entry key="PLAIN_TEXT" value="37" />
         </counts>
       </usages-collector>
     </session>
@@ -121,6 +124,17 @@
               <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
               <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -157,7 +171,7 @@
       <option name="presentableId" value="Default" />
       <updated>1540487982394</updated>
       <workItem from="1540487984752" duration="1519000" />
-      <workItem from="1540489831308" duration="956000" />
+      <workItem from="1540489831308" duration="1207000" />
     </task>
     <task id="LOCAL-00001" summary="Grav basic install">
       <created>1540490844572</created>
@@ -166,11 +180,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540490844572</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Create admin user">
+      <created>1540491129340</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1540491129340</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2475000" />
+    <option name="totallyTimeSpent" value="2726000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -213,6 +234,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Grav basic install" />
-    <option name="LAST_COMMIT_MESSAGE" value="Grav basic install" />
+    <MESSAGE value="Create admin user" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create admin user" />
   </component>
 </project>
