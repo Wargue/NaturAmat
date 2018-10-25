@@ -1,0 +1,8 @@
+name: customtheme
+version: 1.0.0
+description: "Extending photographer"
+icon: crosshairs
+author:
+  name: Laurent Gillet
+  email: gillet_l@hotmail.com
+  url: http://getgrav.org
