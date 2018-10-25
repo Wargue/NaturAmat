@@ -30,6 +30,7 @@ body {
 .row_2 {
 	text-align: center;
 	padding: 22px 0 0;
+	height: 600px;
 	background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
 }
 .row_3 {
