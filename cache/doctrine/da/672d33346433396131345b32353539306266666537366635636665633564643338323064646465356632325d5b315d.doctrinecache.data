@@ -1,0 +1,79 @@
+1541354727
+a:2:{s:7:"content";s:4208:"<div class="row_1">
+    <div class="container">
+        <p class="title1">Les derniers articles</p>
+    </div>
+    <div class="container">
+        <div class="row">
+                            <div class="news col-lg-4">
+                    <div class="blog-card spring-fever" style="background-image: ;">
+                            <div class="title-content">
+                            <h3>mon avant dernier article</h3>
+                            <hr />
+                            <div class="intro">Yllamco laboris nisi ut aliquip ex ea commodo.</div>
+                        </div><!-- /.title-content -->
+                        <div class="card-info">
+                           <p><p>Bla bla bla bla bla</p></p>
+                            <a class="btn btn-default" href="/Naturamat/accueil/_categorie/mon-avant-dernier-article">Read more</a>
+                        </div><!-- /.card-info -->
+                        <div class="utility-info">
+                            <ul class="utility-list">
+                                <li class="comments">12</li>
+                                <li class="date">28/10/2018</li>
+                            </ul>
+                        </div><!-- /.utility-info -->
+                        <!-- overlays -->
+                        <div class="gradient-overlay"></div>
+                        <div class="color-overlay"></div>
+                    </div><!-- /.blog-card -->
+                </div>
+                            <div class="news col-lg-4">
+                    <div class="blog-card spring-fever" style="background-image: ;">
+                            <div class="title-content">
+                            <h3>Mon dernier article</h3>
+                            <hr />
+                            <div class="intro">Yllamco laboris nisi ut aliquip ex ea commodo.</div>
+                        </div><!-- /.title-content -->
+                        <div class="card-info">
+                           <p></p>
+                            <a class="btn btn-default" href="/Naturamat/accueil/_categorie/mon-dernier-article">Read more</a>
+                        </div><!-- /.card-info -->
+                        <div class="utility-info">
+                            <ul class="utility-list">
+                                <li class="comments">12</li>
+                                <li class="date">28/10/2018</li>
+                            </ul>
+                        </div><!-- /.utility-info -->
+                        <!-- overlays -->
+                        <div class="gradient-overlay"></div>
+                        <div class="color-overlay"></div>
+                    </div><!-- /.blog-card -->
+                </div>
+                            <div class="news col-lg-4">
+                    <div class="blog-card spring-fever" style="background-image: ;">
+                            <div class="title-content">
+                            <h3>Encore un article</h3>
+                            <hr />
+                            <div class="intro">Yllamco laboris nisi ut aliquip ex ea commodo.</div>
+                        </div><!-- /.title-content -->
+                        <div class="card-info">
+                           <p><p>Qu'est-ce que le Lorem Ipsum?
+Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie </p>
+                            <a class="btn btn-default" href="/Naturamat/accueil/_categorie/encore-un-article">Read more</a>
+                        </div><!-- /.card-info -->
+                        <div class="utility-info">
+                            <ul class="utility-list">
+                                <li class="comments">12</li>
+                                <li class="date">28/10/2018</li>
+                            </ul>
+                        </div><!-- /.utility-info -->
+                        <!-- overlays -->
+                        <div class="gradient-overlay"></div>
+                        <div class="color-overlay"></div>
+                    </div><!-- /.blog-card -->
+                </div>
+                    </div>
+    </div>
+</div>
+
+";s:12:"content_meta";N;}
