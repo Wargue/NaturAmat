@@ -22,37 +22,37 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
         // line 3
         if (($this->getAttribute($this->getAttribute(($context["site"] ?? null), "share", array()), "facebook", array()) || $this->getAttribute($this->getAttribute(($context["site"] ?? null), "share", array()), "twitter", array()))) {
             // line 4
-            echo "    <script type=\"text/javascript\">
-    ";
+            echo "        <script type=\"text/javascript\">
+            ";
             // line 5
             if ($this->getAttribute($this->getAttribute(($context["site"] ?? null), "share", array()), "twitter", array())) {
                 // line 6
-                echo "    jQuery.getJSON('https://cdn.api.twitter.com/1/urls/count.json?url=";
+                echo "            jQuery.getJSON('https://cdn.api.twitter.com/1/urls/count.json?url=";
                 echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true), "method");
                 echo "/&callback=?', function (data) {
-        jQuery('#so-url-shares";
+                jQuery('#so-url-shares";
                 // line 7
                 echo $this->getAttribute(($context["loop"] ?? null), "index", array());
                 echo "').text(data.count);
-    });
-    ";
+            });
+            ";
             }
             // line 10
-            echo "    ";
+            echo "            ";
             if ($this->getAttribute($this->getAttribute(($context["site"] ?? null), "share", array()), "facebook", array())) {
                 // line 11
-                echo "    jQuery.getJSON('http://graph.facebook.com/?id=";
+                echo "            jQuery.getJSON('http://graph.facebook.com/?id=";
                 echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true), "method");
                 echo "', function (data) {
-        jQuery('#so-fburl-shares";
+                jQuery('#so-fburl-shares";
                 // line 12
                 echo $this->getAttribute(($context["loop"] ?? null), "index", array());
                 echo "').text(data.shares);
-    });
-    ";
+            });
+            ";
             }
             // line 15
-            echo "    </script>
+            echo "        </script>
     ";
         }
         // line 17
@@ -78,7 +78,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             echo $this->getAttribute(($context["page"] ?? null), "title", array());
             echo "</a>
             </h2>
-            ";
+        ";
         } else {
             // line 26
             echo "            <h2><a href=\"";
@@ -92,7 +92,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
         echo "        ";
         if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "description", array())) {
             // line 29
-            echo "        <p>";
+            echo "            <p>";
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "description", array());
             echo "</p>
         ";
@@ -105,13 +105,13 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             <span class=\"month\">";
         // line 35
         echo twig_date_format_filter($this->env, $this->getAttribute(($context["page"] ?? null), "date", array()), "M");
-        echo "</span> 
+        echo "</span>
             <span class=\"day\">";
         // line 36
         echo twig_date_format_filter($this->env, $this->getAttribute(($context["page"] ?? null), "date", array()), "d");
         echo "</span>
-        </span>    
-            ";
+        </span>
+        ";
         // line 38
         if (($this->getAttribute($this->getAttribute(($context["site"] ?? null), "share", array()), "facebook", array()) || $this->getAttribute($this->getAttribute(($context["site"] ?? null), "share", array()), "twitter", array()))) {
             // line 39
@@ -120,7 +120,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             // line 40
             if ($this->getAttribute($this->getAttribute(($context["site"] ?? null), "share", array()), "twitter", array())) {
                 // line 41
-                echo "                <li><a href=\"https://twitter.com/share\" data-url=\"";
+                echo "                    <li><a href=\"https://twitter.com/share\" data-url=\"";
                 echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true), "method");
                 echo "\" data-text=\"";
                 echo $this->getAttribute(($context["page"] ?? null), "title", array());
@@ -133,7 +133,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             echo "                ";
             if ($this->getAttribute($this->getAttribute(($context["site"] ?? null), "share", array()), "facebook", array())) {
                 // line 44
-                echo "                <li><a href=\"http://www.facebook.com/sharer.php?u=";
+                echo "                    <li><a href=\"http://www.facebook.com/sharer.php?u=";
                 echo $this->getAttribute(($context["page"] ?? null), "url", array(0 => true), "method");
                 echo "\" class=\"icon fa-facebook\"><span id=\"so-fburl-shares";
                 echo $this->getAttribute(($context["loop"] ?? null), "index", array());
@@ -142,29 +142,29 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             }
             // line 46
             echo "            </ul>
-            ";
+        ";
         }
         // line 48
-        echo "        </div>
+        echo "    </div>
 
-        ";
+    ";
         // line 50
         if (($context["big_header"] ?? null)) {
             // line 51
-            echo "            ";
+            echo "        ";
             echo $this->getAttribute($this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array())), "cropResize", array(0 => 1038, 1 => 437), "method"), "html", array(0 => $this->getAttribute(($context["page"] ?? null), "title", array()), 1 => $this->getAttribute(($context["page"] ?? null), "title", array()), 2 => "image featured"), "method");
             echo "
-        ";
+    ";
         } else {
             // line 53
-            echo "            ";
+            echo "        ";
             echo $this->getAttribute($this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array())), "cropZoom", array(0 => 1038, 1 => 437), "method"), "html", array(0 => $this->getAttribute(($context["page"] ?? null), "title", array()), 1 => $this->getAttribute(($context["page"] ?? null), "title", array()), 2 => "image featured"), "method");
             echo "
-        ";
+    ";
         }
         // line 55
         echo "
-        ";
+    ";
         // line 56
         if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "author", array())) {
             // line 57
@@ -175,11 +175,11 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "author", array());
             echo "
         </span>
-        ";
+    ";
         }
         // line 62
-        echo "       
-       ";
+        echo "
+    ";
         // line 63
         if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "taxonomy", array()), "tag", array())) {
             // line 64
@@ -191,7 +191,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "taxonomy", array()), "tag", array()));
             foreach ($context['_seq'] as $context["_key"] => $context["tag"]) {
                 // line 67
-                echo "            <li><a href=\"";
+                echo "                <li><a href=\"";
                 echo ($context["base_url"] ?? null);
                 echo "/tag";
                 echo $this->getAttribute($this->getAttribute(($context["config"] ?? null), "system", array()), "param_sep", array());
@@ -206,11 +206,11 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             $context = array_intersect_key($context, $_parent) + $_parent;
             // line 69
             echo "        </ul>
-        ";
+    ";
         }
         // line 71
-        echo "        
- 
+        echo "
+
     ";
         // line 73
         if (($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "continue_link", array()) === false)) {
@@ -222,7 +222,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             // line 75
             if ( !($context["truncate"] ?? null)) {
                 // line 76
-                echo "        ";
+                echo "            ";
                 $context["show_prev_next"] = true;
                 // line 77
                 echo "        ";
@@ -234,7 +234,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             echo "        <p>";
             echo $this->getAttribute(($context["page"] ?? null), "summary", array());
             echo "</p>
-        <p><a class=\"button\" href=\"";
+        <p><a class=\"button btn btn-default\" href=\"";
             // line 80
             echo $this->getAttribute(($context["page"] ?? null), "url", array());
             echo "\">Continue Reading...</a></p>
@@ -245,7 +245,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             echo "        <p>";
             echo \Grav\Common\Utils::truncate($this->getAttribute(($context["page"] ?? null), "content", array()), 550);
             echo "</p>
-        <p><a class=\"button\" href=\"";
+        <p><a class=\"button btn btn-default\" href=\"";
             // line 83
             echo $this->getAttribute(($context["page"] ?? null), "url", array());
             echo "\">Continue Reading...</a></p>
@@ -295,8 +295,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
         }
         // line 101
         echo "
-</article>
-";
+</article>";
     }
 
     public function getTemplateName()
@@ -327,18 +326,18 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
         return new Twig_Source("<article class=\"box post post-excerpt\">
 
     {% if site.share.facebook or site.share.twitter %}
-    <script type=\"text/javascript\">
-    {% if site.share.twitter %}
-    jQuery.getJSON('https://cdn.api.twitter.com/1/urls/count.json?url={{ page.url(true) }}/&callback=?', function (data) {
-        jQuery('#so-url-shares{{ loop.index }}').text(data.count);
-    });
-    {% endif %}
-    {% if site.share.facebook %}
-    jQuery.getJSON('http://graph.facebook.com/?id={{ page.url(true) }}', function (data) {
-        jQuery('#so-fburl-shares{{ loop.index }}').text(data.shares);
-    });
-    {% endif %}
-    </script>
+        <script type=\"text/javascript\">
+            {% if site.share.twitter %}
+            jQuery.getJSON('https://cdn.api.twitter.com/1/urls/count.json?url={{ page.url(true) }}/&callback=?', function (data) {
+                jQuery('#so-url-shares{{ loop.index }}').text(data.count);
+            });
+            {% endif %}
+            {% if site.share.facebook %}
+            jQuery.getJSON('http://graph.facebook.com/?id={{ page.url(true) }}', function (data) {
+                jQuery('#so-fburl-shares{{ loop.index }}').text(data.shares);
+            });
+            {% endif %}
+        </script>
     {% endif %}
     <header>
         {% if page.header.link %}
@@ -348,65 +347,65 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
                 {% endif %}
                 <a href=\"{{ page.header.link }}\">{{ page.title }}</a>
             </h2>
-            {% else %}
+        {% else %}
             <h2><a href=\"{{ page.url }}\">{{ page.title }}</a></h2>
         {% endif %}
         {% if page.header.description %}
-        <p>{{ page.header.description }}</p>
+            <p>{{ page.header.description }}</p>
         {% endif %}
     </header>
 
     <div class=\"info\">
         <span class=\"date\">
-            <span class=\"month\">{{ page.date|date(\"M\") }}</span> 
+            <span class=\"month\">{{ page.date|date(\"M\") }}</span>
             <span class=\"day\">{{ page.date|date(\"d\") }}</span>
-        </span>    
-            {% if site.share.facebook or site.share.twitter %}
+        </span>
+        {% if site.share.facebook or site.share.twitter %}
             <ul class=\"stats\">
                 {% if site.share.twitter %}
-                <li><a href=\"https://twitter.com/share\" data-url=\"{{ page.url(true) }}\" data-text=\"{{ page.title }}\" class=\"icon fa-twitter\"><span id=\"so-url-shares{{ loop.index }}\"><i class=\"fa fa-circle-o-notch fa-spin\"></i></span></a></li>
+                    <li><a href=\"https://twitter.com/share\" data-url=\"{{ page.url(true) }}\" data-text=\"{{ page.title }}\" class=\"icon fa-twitter\"><span id=\"so-url-shares{{ loop.index }}\"><i class=\"fa fa-circle-o-notch fa-spin\"></i></span></a></li>
                 {% endif %}
                 {% if site.share.facebook %}
-                <li><a href=\"http://www.facebook.com/sharer.php?u={{ page.url(true) }}\" class=\"icon fa-facebook\"><span id=\"so-fburl-shares{{ loop.index }}\">0</span></a></li>
+                    <li><a href=\"http://www.facebook.com/sharer.php?u={{ page.url(true) }}\" class=\"icon fa-facebook\"><span id=\"so-fburl-shares{{ loop.index }}\">0</span></a></li>
                 {% endif %}
             </ul>
-            {% endif %}
-        </div>
-
-        {% if big_header %}
-            {{ page.media.images|first.cropResize(1038,437).html(page.title, page.title, 'image featured') }}
-        {% else %}
-            {{ page.media.images|first.cropZoom(1038,437).html(page.title, page.title, 'image featured') }}
         {% endif %}
+    </div>
 
-        {% if page.header.author %}
+    {% if big_header %}
+        {{ page.media.images|first.cropResize(1038,437).html(page.title, page.title, 'image featured') }}
+    {% else %}
+        {{ page.media.images|first.cropZoom(1038,437).html(page.title, page.title, 'image featured') }}
+    {% endif %}
+
+    {% if page.header.author %}
         <span class=\"list-blog-author\">
             <i class=\"fa fa-user\"></i>
             {{ page.header.author }}
         </span>
-        {% endif %}
-       
-       {% if page.taxonomy.tag %}
+    {% endif %}
+
+    {% if page.taxonomy.tag %}
         <ul class=\"tags\">
             <i class=\"fa fa-tag\"></i>
             {% for tag in page.taxonomy.tag %}
-            <li><a href=\"{{ base_url }}/tag{{ config.system.param_sep }}{{ tag }}\">{{ tag }}</a></li>
+                <li><a href=\"{{ base_url }}/tag{{ config.system.param_sep }}{{ tag }}\">{{ tag }}</a></li>
             {% endfor %}
         </ul>
-        {% endif %}
-        
- 
+    {% endif %}
+
+
     {% if page.header.continue_link is sameas(false) %}
         <p>{{ page.content }}</p>
         {% if not truncate %}
-        {% set show_prev_next = true %}
+            {% set show_prev_next = true %}
         {% endif %}
     {% elseif truncate and page.summary != page.content %}
         <p>{{ page.summary }}</p>
-        <p><a class=\"button\" href=\"{{ page.url }}\">Continue Reading...</a></p>
+        <p><a class=\"button btn btn-default\" href=\"{{ page.url }}\">Continue Reading...</a></p>
     {% elseif truncate %}
         <p>{{ page.content|truncate(550) }}</p>
-        <p><a class=\"button\" href=\"{{ page.url }}\">Continue Reading...</a></p>
+        <p><a class=\"button btn btn-default\" href=\"{{ page.url }}\">Continue Reading...</a></p>
     {% else %}
         <p>{{ page.content }}</p>
         {% set show_prev_next = true %}
@@ -425,7 +424,6 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
         </p>
     {% endif %}
 
-</article>
-", "partials/blog_item.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\partials\\blog_item.html.twig");
+</article>", "partials/blog_item.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\partials\\blog_item.html.twig");
     }
 }

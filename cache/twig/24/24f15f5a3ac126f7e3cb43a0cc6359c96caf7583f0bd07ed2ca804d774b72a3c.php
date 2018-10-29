@@ -18,88 +18,91 @@ class __TwigTemplate_022c559eadfdf1a3fea7fa1330123b027055e613d4f239975e4ff50fe78
         // line 1
         if ((twig_length_filter($this->env, ($context["pagination"] ?? null)) > 1)) {
             // line 2
+            echo "    ";
             if ((($context["base_url"] ?? null) == "")) {
                 // line 3
-                echo "    ";
+                echo "        ";
                 $context["base_url"] = "/";
+                // line 4
+                echo "    ";
             }
             // line 5
-            echo "<div class=\"pagination\">
-    <div class=\"pages\">
-      ";
+            echo "    <div class=\"pagination\">
+        <div class=\"pages\">
+            ";
             // line 7
             if ($this->getAttribute(($context["pagination"] ?? null), "hasPrev", array())) {
                 // line 8
-                echo "        ";
+                echo "                ";
                 $context["url"] = twig_replace_filter(((($context["base_url"] ?? null) . $this->getAttribute(($context["pagination"] ?? null), "params", array())) . $this->getAttribute(($context["pagination"] ?? null), "prevUrl", array())), array("//" => "/"));
                 // line 9
-                echo "        <a rel=\"prev\" href=\"";
+                echo "                <a rel=\"prev\" href=\"";
                 echo ($context["url"] ?? null);
                 echo "\">&laquo;</a>
-    ";
+            ";
             } else {
                 // line 11
-                echo "        <span>&laquo;</span>
-    ";
+                echo "                <span>&laquo;</span>
+            ";
             }
             // line 13
             echo "
-    ";
+            ";
             // line 14
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable(($context["pagination"] ?? null));
             foreach ($context['_seq'] as $context["_key"] => $context["paginate"]) {
                 // line 15
-                echo "        ";
+                echo "                ";
                 if ($this->getAttribute($context["paginate"], "isCurrent", array())) {
                     // line 16
-                    echo "            <span>";
+                    echo "                    <span>";
                     echo $this->getAttribute($context["paginate"], "number", array());
                     echo "</span>
-        ";
+                ";
                 } elseif ($this->getAttribute(                // line 17
 $context["paginate"], "isInDelta", array())) {
                     // line 18
-                    echo "        ";
+                    echo "                    ";
                     $context["url"] = twig_replace_filter(((($context["base_url"] ?? null) . $this->getAttribute(($context["pagination"] ?? null), "params", array())) . $this->getAttribute($context["paginate"], "url", array())), array("//" => "/"));
                     // line 19
-                    echo "      <a href=\"";
+                    echo "                    <a href=\"";
                     echo ($context["url"] ?? null);
                     echo "\">";
                     echo $this->getAttribute($context["paginate"], "number", array());
                     echo "</a>
-        ";
+                ";
                 } elseif ($this->getAttribute(                // line 20
 $context["paginate"], "isDeltaBorder", array())) {
                     // line 21
-                    echo "            <span>&hellip;</span>
-        ";
+                    echo "                    <span>&hellip;</span>
+                ";
                 }
                 // line 23
-                echo "    ";
+                echo "            ";
             }
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['paginate'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
             // line 24
-            echo "    ";
+            echo "            ";
             if ($this->getAttribute(($context["pagination"] ?? null), "hasNext", array())) {
                 // line 25
-                echo "        ";
+                echo "                ";
                 $context["url"] = twig_replace_filter(((($context["base_url"] ?? null) . $this->getAttribute(($context["pagination"] ?? null), "params", array())) . $this->getAttribute(($context["pagination"] ?? null), "nextUrl", array())), array("//" => "/"));
                 // line 26
-                echo "        <a rel=\"next\" href=\"";
+                echo "                <a rel=\"next\" href=\"";
                 echo ($context["url"] ?? null);
                 echo "\">&raquo;</a>
-    ";
+            ";
             } else {
                 // line 28
-                echo "        <span>&raquo;</span>
-    ";
+                echo "                <span>&raquo;</span>
+            ";
             }
             // line 30
-            echo "    </div>
-</div>
+            echo "        </div>
+    </div>
 ";
         }
     }
@@ -116,7 +119,7 @@ $context["paginate"], "isDeltaBorder", array())) {
 
     public function getDebugInfo()
     {
-        return array (  101 => 30,  97 => 28,  91 => 26,  88 => 25,  85 => 24,  79 => 23,  75 => 21,  73 => 20,  66 => 19,  63 => 18,  61 => 17,  56 => 16,  53 => 15,  49 => 14,  46 => 13,  42 => 11,  36 => 9,  33 => 8,  31 => 7,  27 => 5,  23 => 3,  21 => 2,  19 => 1,);
+        return array (  104 => 30,  100 => 28,  94 => 26,  91 => 25,  88 => 24,  82 => 23,  78 => 21,  76 => 20,  69 => 19,  66 => 18,  64 => 17,  59 => 16,  56 => 15,  52 => 14,  49 => 13,  45 => 11,  39 => 9,  36 => 8,  34 => 7,  30 => 5,  27 => 4,  24 => 3,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -130,37 +133,36 @@ $context["paginate"], "isDeltaBorder", array())) {
     public function getSourceContext()
     {
         return new Twig_Source("{% if pagination|length > 1 %}
-{% if base_url == '' %}
-    {% set base_url = '/' %}
-{% endif %}
-<div class=\"pagination\">
-    <div class=\"pages\">
-      {% if pagination.hasPrev %}
-        {% set url =  (base_url ~ pagination.params ~ pagination.prevUrl)|replace({'//':'/'}) %}
-        <a rel=\"prev\" href=\"{{ url }}\">&laquo;</a>
-    {% else %}
-        <span>&laquo;</span>
+    {% if base_url == '' %}
+        {% set base_url = '/' %}
     {% endif %}
+    <div class=\"pagination\">
+        <div class=\"pages\">
+            {% if pagination.hasPrev %}
+                {% set url =  (base_url ~ pagination.params ~ pagination.prevUrl)|replace({'//':'/'}) %}
+                <a rel=\"prev\" href=\"{{ url }}\">&laquo;</a>
+            {% else %}
+                <span>&laquo;</span>
+            {% endif %}
 
-    {% for paginate in pagination %}
-        {% if paginate.isCurrent %}
-            <span>{{ paginate.number }}</span>
-        {% elseif paginate.isInDelta %}
-        {% set url =  (base_url ~ pagination.params ~ paginate.url)|replace({'//':'/'}) %}
-      <a href=\"{{ url }}\">{{ paginate.number }}</a>
-        {% elseif paginate.isDeltaBorder %}
-            <span>&hellip;</span>
-        {% endif %}
-    {% endfor %}
-    {% if pagination.hasNext %}
-        {% set url =  (base_url ~ pagination.params ~ pagination.nextUrl)|replace({'//':'/'}) %}
-        <a rel=\"next\" href=\"{{ url }}\">&raquo;</a>
-    {% else %}
-        <span>&raquo;</span>
-    {% endif %}
+            {% for paginate in pagination %}
+                {% if paginate.isCurrent %}
+                    <span>{{ paginate.number }}</span>
+                {% elseif paginate.isInDelta %}
+                    {% set url =  (base_url ~ pagination.params ~ paginate.url)|replace({'//':'/'}) %}
+                    <a href=\"{{ url }}\">{{ paginate.number }}</a>
+                {% elseif paginate.isDeltaBorder %}
+                    <span>&hellip;</span>
+                {% endif %}
+            {% endfor %}
+            {% if pagination.hasNext %}
+                {% set url =  (base_url ~ pagination.params ~ pagination.nextUrl)|replace({'//':'/'}) %}
+                <a rel=\"next\" href=\"{{ url }}\">&raquo;</a>
+            {% else %}
+                <span>&raquo;</span>
+            {% endif %}
+        </div>
     </div>
-</div>
-{% endif %}
-", "partials/pagination.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\partials\\pagination.html.twig");
+{% endif %}", "partials/pagination.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\partials\\pagination.html.twig");
     }
 }
