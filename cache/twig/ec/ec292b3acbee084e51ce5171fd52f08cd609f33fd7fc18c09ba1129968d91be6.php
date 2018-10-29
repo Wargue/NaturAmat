@@ -1,6 +1,6 @@
 <?php
 
-/* @Page:C:/wamp/www/Naturamat/user/pages/01.accueil/_categorie/encore-un-article */
+/* @Page:C:/wamp/www/Naturamat/user/pages/01.accueil/_lastnews/encore-un-article */
 class __TwigTemplate_94a39624273fc616765e7cc577daf99b3404eb713d72cc89c33c2b7954f40e90 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -29,7 +29,7 @@ Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la 
 
     public function getTemplateName()
     {
-        return "@Page:C:/wamp/www/Naturamat/user/pages/01.accueil/_categorie/encore-un-article";
+        return "@Page:C:/wamp/www/Naturamat/user/pages/01.accueil/_lastnews/encore-un-article";
     }
 
     public function getDebugInfo()
@@ -55,6 +55,6 @@ On sait depuis longtemps que travailler avec du texte lisible et contenant du se
 Contrairement à une opinion répandue, le Lorem Ipsum n'est pas simplement du texte aléatoire. Il trouve ses racines dans une oeuvre de la littérature latine classique datant de 45 av. J.-C., le rendant vieux de 2000 ans. Un professeur du Hampden-Sydney College, en Virginie, s'est intéressé à un des mots latins les plus obscurs, consectetur, extrait d'un passage du Lorem Ipsum, et en étudiant tous les usages de ce mot dans la littérature classique, découvrit la source incontestable du Lorem Ipsum. Il provient en fait des sections 1.10.32 et 1.10.33 du \"De Finibus Bonorum et Malorum\" (Des Suprêmes Biens et des Suprêmes Maux) de Cicéron. Cet ouvrage, très populaire pendant la Renaissance, est un traité sur la théorie de l'éthique. Les premières lignes du Lorem Ipsum, \"Lorem ipsum dolor sit amet...\", proviennent de la section 1.10.32.</p>
 <p>L'extrait standard de Lorem Ipsum utilisé depuis le XVIè siècle est reproduit ci-dessous pour les curieux. Les sections 1.10.32 et 1.10.33 du \"De Finibus Bonorum et Malorum\" de Cicéron sont aussi reproduites dans leur version originale, accompagnée de la traduction anglaise de H. Rackham (1914).</p>
 <p>Où puis-je m'en procurer?
-Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable. Le Lorem Ipsum ainsi obtenu ne contient auc</p>", "@Page:C:/wamp/www/Naturamat/user/pages/01.accueil/_categorie/encore-un-article", "");
+Plusieurs variations de Lorem Ipsum peuvent être trouvées ici ou là, mais la majeure partie d'entre elles a été altérée par l'addition d'humour ou de mots aléatoires qui ne ressemblent pas une seconde à du texte standard. Si vous voulez utiliser un passage du Lorem Ipsum, vous devez être sûr qu'il n'y a rien d'embarrassant caché dans le texte. Tous les générateurs de Lorem Ipsum sur Internet tendent à reproduire le même extrait sans fin, ce qui fait de lipsum.com le seul vrai générateur de Lorem Ipsum. Iil utilise un dictionnaire de plus de 200 mots latins, en combinaison de plusieurs structures de phrases, pour générer un Lorem Ipsum irréprochable. Le Lorem Ipsum ainsi obtenu ne contient auc</p>", "@Page:C:/wamp/www/Naturamat/user/pages/01.accueil/_lastnews/encore-un-article", "");
     }
 }

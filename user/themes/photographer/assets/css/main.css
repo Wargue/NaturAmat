@@ -818,7 +818,8 @@
 		/* Content */
 
 			#content {
-				padding: 3em 5em 8em 5em;
+				padding: 30px;
+                margin: 30px;
 			}
 
 	}

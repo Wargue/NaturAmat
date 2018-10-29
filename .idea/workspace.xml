@@ -2,67 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b0fdda-29a5-4081-9e67-56e1f0b0e81d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/user/pages/02.blog/london-industry/item.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/pages/02.blog/london-industry/unsplash_martin_wessely.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/item.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/partials/blog_item.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/partials/pagination.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/CHANGELOG.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/blueprints.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/classes/paginationhelper.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/classes/paginationpage.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/css/pagination.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/pagination.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/pagination.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/templates/partials/pagination.html.twig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/twig/PaginationTwigExtension.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/css/ie8.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/css/images/bg01.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/css/images/bg02.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/fonts/fontawesome-webfont.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/js/ie/PIE.htc" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/js/ie/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/js/ie/respond.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/js/jquery.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/js/skel.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/js/util.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/sass/ie8.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/sass/libs/_functions.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/sass/libs/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/sass/libs/_skel.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/sass/libs/_vars.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/user/themes/photographer/assets/sass/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/03/03d3fd3ae8d2b1ab7d31df443ec7ea7fce5ef0ee9fb1f6dc9976a48a15fa85e7.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/03/03d3fd3ae8d2b1ab7d31df443ec7ea7fce5ef0ee9fb1f6dc9976a48a15fa85e7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/24/24f15f5a3ac126f7e3cb43a0cc6359c96caf7583f0bd07ed2ca804d774b72a3c.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/24/24f15f5a3ac126f7e3cb43a0cc6359c96caf7583f0bd07ed2ca804d774b72a3c.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/29/2981c5adcde3112ab657c4781289021337961572898113e2f5ac8410d781b81b.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/29/2981c5adcde3112ab657c4781289021337961572898113e2f5ac8410d781b81b.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/53/53a1b8f0a732cabff737dad77041a4e08ca01dc37a6f280340621c919d0208a7.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/53/53a1b8f0a732cabff737dad77041a4e08ca01dc37a6f280340621c919d0208a7.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/ec/ec292b3acbee084e51ce5171fd52f08cd609f33fd7fc18c09ba1129968d91be6.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/ec/ec292b3acbee084e51ce5171fd52f08cd609f33fd7fc18c09ba1129968d91be6.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/grav.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/grav.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/daily.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/totals.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.accueil/_categorie/01.mon-dernier-article/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/02.blog/mon-dernier-article/item.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.accueil/_categorie/02.mon-avant-dernier-article/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/02.blog/mon-avant-dernier-article/item.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.accueil/_categorie/02.mon-avant-dernier-article/header-vieux-tram-01.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/02.blog/mon-avant-dernier-article/header-vieux-tram-01.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.accueil/_categorie/03.encore-un-article/36b7ab3b.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/02.blog/encore-un-article/blup.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.accueil/_categorie/03.encore-un-article/default.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/02.blog/encore-un-article/item.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.accueil/_categorie/categories.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/01.accueil/_categorie/categories.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/02.blog/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/02.blog/blog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/customtheme/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/customtheme/css/custom.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/customtheme/templates/blog.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/blog.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/photographer/assets/readme_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/photographer/assets/readme_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/themes/photographer/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/photographer/assets/css/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -87,21 +32,21 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="515" />
+          <entry key="css" value="534" />
           <entry key="md" value="827" />
           <entry key="php" value="27" />
           <entry key="scss" value="2" />
           <entry key="twig" value="1172" />
-          <entry key="txt" value="494" />
+          <entry key="txt" value="512" />
           <entry key="yaml" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="515" />
+          <entry key="CSS" value="534" />
           <entry key="Markdown" value="827" />
           <entry key="PHP" value="27" />
-          <entry key="PLAIN_TEXT" value="494" />
+          <entry key="PLAIN_TEXT" value="512" />
           <entry key="SCSS" value="2" />
           <entry key="Twig" value="1172" />
           <entry key="YAML" value="91" />
@@ -175,11 +120,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/customtheme/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+            <state relative-caret-position="173">
+              <caret line="147" column="20" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -187,17 +132,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/photographer/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="197" column="61" selection-start-line="197" selection-start-column="4" selection-end-line="197" selection-end-column="61" />
+            <state relative-caret-position="173">
+              <caret line="511" column="23" selection-start-line="511" selection-start-column="19" selection-end-line="511" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/user/themes/photographer/assets/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="1156" column="46" selection-start-line="1156" selection-start-column="43" selection-end-line="1156" selection-end-column="46" />
+            <state relative-caret-position="224">
+              <caret line="820" column="29" selection-start-line="820" selection-start-column="29" selection-end-line="820" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -218,9 +163,11 @@
       <find>butt</find>
       <find>cont</find>
       <find>contai</find>
-      <find>header</find>
       <find>container</find>
       <find>bod</find>
+      <find>header</find>
+      <find>30px</find>
+      <find>content</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -262,8 +209,8 @@
         <option value="$PROJECT_DIR$/user/pages/02.blog/mon-avant-dernier-article/item.md" />
         <option value="$PROJECT_DIR$/user/pages/01.accueil/_categorie/categories.md" />
         <option value="$PROJECT_DIR$/user/themes/customtheme/templates/partials/blog_item.html.twig" />
-        <option value="$PROJECT_DIR$/user/themes/photographer/assets/css/main.css" />
         <option value="$PROJECT_DIR$/user/themes/customtheme/css/custom.css" />
+        <option value="$PROJECT_DIR$/user/themes/photographer/assets/css/main.css" />
       </list>
     </option>
   </component>
@@ -461,14 +408,6 @@
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="photographer" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="photographer" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -525,7 +464,7 @@
       <workItem from="1540489831308" duration="10568000" />
       <workItem from="1540569003336" duration="646000" />
       <workItem from="1540741968617" duration="11104000" />
-      <workItem from="1540833716805" duration="9464000" />
+      <workItem from="1540833716805" duration="9924000" />
     </task>
     <task id="LOCAL-00001" summary="Grav basic install">
       <created>1540490844572</created>
@@ -618,11 +557,18 @@
       <option name="project" value="LOCAL" />
       <updated>1540837244562</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="set up of the blog">
+      <created>1540844483240</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1540844483240</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33301000" />
+    <option name="totallyTimeSpent" value="33761000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,7 +583,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.26012793" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.26012793" />
       <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.25266525" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -650,8 +596,8 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.4968017" weight="0.33481646" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50159913" side_tool="true" visible="true" weight="0.33481646" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49626866" visible="true" weight="0.33481646" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50373137" side_tool="true" visible="true" weight="0.33481646" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -677,7 +623,8 @@
     <MESSAGE value="set up of the navbar logo" />
     <MESSAGE value="set up last com system" />
     <MESSAGE value="trying to put background image...not reach for now" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to put background image...not reach for now" />
+    <MESSAGE value="set up of the blog" />
+    <option name="LAST_COMMIT_MESSAGE" value="set up of the blog" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/modular/slider.html.twig">
@@ -930,22 +877,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/photographer/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="197" column="61" selection-start-line="197" selection-start-column="4" selection-end-line="197" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/photographer/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="173">
-          <caret line="1156" column="46" selection-start-line="1156" selection-start-column="43" selection-end-line="1156" selection-end-column="46" />
+          <caret line="511" column="23" selection-start-line="511" selection-start-column="19" selection-end-line="511" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/customtheme/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
+        <state relative-caret-position="173">
+          <caret line="147" column="20" selection-start-line="147" selection-start-column="16" selection-end-line="147" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/photographer/assets/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="820" column="29" selection-start-line="820" selection-start-column="29" selection-end-line="820" selection-end-column="29" />
         </state>
       </provider>
     </entry>
