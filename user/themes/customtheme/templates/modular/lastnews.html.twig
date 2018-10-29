@@ -1,0 +1,15 @@
+<div class="row_1">
+    <div class="container">
+        <p class="title1">{{ page.header.title }}</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="last-news-item">
+                {% for child in page.find('/blog').collection %}
+                    {% include 'partials/lastnews_item.html.twig' with  {'categories':page, 'page': child,'img': image, 'truncate':true} %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+

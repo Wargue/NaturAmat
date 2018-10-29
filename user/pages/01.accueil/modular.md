@@ -11,5 +11,5 @@ content:
         custom:
             - _slider
             - _welcome
-            - _categories
+            - _lastnews
 ---

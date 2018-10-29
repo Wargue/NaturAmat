@@ -1,7 +1,7 @@
 <?php
 
 /* partials/lastnews_item.html.twig */
-class __TwigTemplate_b9805a4dc41aec12980921c998b5e457985693812e3f4ffe4b8dc291ff8ad309 extends Twig_Template
+class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e97c844 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {

@@ -1,7 +1,7 @@
 <?php
 
-/* modular/lastnews_item.html.twig */
-class __TwigTemplate_d1b7ee502ac6e331d6af1d97847a97fe5a4ad7373c21d6f082374896e069783d extends Twig_Template
+/* modular/lastnews.html.twig */
+class __TwigTemplate_2ecc1a1a8e449acfc2a5a1815f03f19bf6988b3e8698fff74f269ab54b310605 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -28,13 +28,8 @@ class __TwigTemplate_d1b7ee502ac6e331d6af1d97847a97fe5a4ad7373c21d6f082374896e06
             <div id=\"last-news-item\">
                 ";
         // line 8
-        $context["collection"] = $this->getAttribute(($context["page"] ?? null), "collection", array(), "method");
-        // line 9
-        echo "
-                ";
-        // line 10
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable(($context["collection"] ?? null));
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", array(0 => "/blog"), "method"), "collection", array()));
         $context['loop'] = array(
           'parent' => $context['_parent'],
           'index0' => 0,
@@ -49,15 +44,10 @@ class __TwigTemplate_d1b7ee502ac6e331d6af1d97847a97fe5a4ad7373c21d6f082374896e06
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 11
+            // line 9
             echo "                    ";
-            $context["image"] = twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array()));
-            // line 12
-            echo "
-                    ";
-            // line 13
-            $this->loadTemplate("partials/lastnews_item.html.twig", "modular/lastnews_item.html.twig", 13)->display(array_merge($context, array("categories" => ($context["page"] ?? null), "page" => $context["child"], "img" => ($context["image"] ?? null), "truncate" => true)));
-            // line 14
+            $this->loadTemplate("partials/lastnews_item.html.twig", "modular/lastnews.html.twig", 9)->display(array_merge($context, array("categories" => ($context["page"] ?? null), "page" => $context["child"], "img" => ($context["image"] ?? null), "truncate" => true)));
+            // line 10
             echo "                ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -71,7 +61,7 @@ class __TwigTemplate_d1b7ee502ac6e331d6af1d97847a97fe5a4ad7373c21d6f082374896e06
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 15
+        // line 11
         echo "            </div>
         </div>
     </div>
@@ -82,7 +72,7 @@ class __TwigTemplate_d1b7ee502ac6e331d6af1d97847a97fe5a4ad7373c21d6f082374896e06
 
     public function getTemplateName()
     {
-        return "modular/lastnews_item.html.twig";
+        return "modular/lastnews.html.twig";
     }
 
     public function isTraitable()
@@ -92,7 +82,7 @@ class __TwigTemplate_d1b7ee502ac6e331d6af1d97847a97fe5a4ad7373c21d6f082374896e06
 
     public function getDebugInfo()
     {
-        return array (  75 => 15,  61 => 14,  59 => 13,  56 => 12,  53 => 11,  36 => 10,  33 => 9,  31 => 8,  23 => 3,  19 => 1,);
+        return array (  65 => 11,  51 => 10,  48 => 9,  31 => 8,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -112,11 +102,7 @@ class __TwigTemplate_d1b7ee502ac6e331d6af1d97847a97fe5a4ad7373c21d6f082374896e06
     <div class=\"container\">
         <div class=\"row\">
             <div id=\"last-news-item\">
-                {% set collection = page.collection() %}
-
-                {% for child in collection %}
-                    {% set image = page.media.images|first %}
-
+                {% for child in page.find('/blog').collection %}
                     {% include 'partials/lastnews_item.html.twig' with  {'categories':page, 'page': child,'img': image, 'truncate':true} %}
                 {% endfor %}
             </div>
@@ -124,6 +110,6 @@ class __TwigTemplate_d1b7ee502ac6e331d6af1d97847a97fe5a4ad7373c21d6f082374896e06
     </div>
 </div>
 
-", "modular/lastnews_item.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\modular\\lastnews_item.html.twig");
+", "modular/lastnews.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\modular\\lastnews.html.twig");
     }
 }

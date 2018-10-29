@@ -1,6 +1,6 @@
 <?php
 
-/* modular/categories.html.twig */
+/* modular/lastnews_item.html.twig */
 class __TwigTemplate_4187d083c82395499822dd2d1ed27b6368a7151573cb944291cd33fea8b71899 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
@@ -83,7 +83,7 @@ class __TwigTemplate_4187d083c82395499822dd2d1ed27b6368a7151573cb944291cd33fea8b
 
     public function getTemplateName()
     {
-        return "modular/categories.html.twig";
+        return "modular/lastnews_item.html.twig";
     }
 
     public function isTraitable()
@@ -140,6 +140,6 @@ class __TwigTemplate_4187d083c82395499822dd2d1ed27b6368a7151573cb944291cd33fea8b
     </div>
 </div>
 
-", "modular/categories.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\modular\\categories.html.twig");
+", "modular/lastnews_item.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\modular\\lastnews_item.html.twig");
     }
 }
