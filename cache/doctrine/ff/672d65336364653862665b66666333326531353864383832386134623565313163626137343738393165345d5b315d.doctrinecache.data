@@ -1,0 +1,89 @@
+1541440733
+a:2:{s:7:"content";s:2920:"<div class="row_1">
+    <div class="container">
+        <p class="title1">Les derniers articles</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="last-news-item">
+                                                    
+
+
+<div class="news col-lg-4">
+    <div class="blog-card spring-fever" style="background-image: ">
+        <div class="title-content">
+            <h3>mon avant dernier article</h3>
+            <hr />
+            <div class="intro">Yllamco laboris nisi ut aliquip ex ea commodo.</div>
+        </div><!-- /.title-content -->
+        <div class="card-info">
+            <p></p>
+            <a class="btn btn-default" href="">Read more</a>
+        </div><!-- /.card-info -->
+        <div class="utility-info">
+            <ul class="utility-list">
+                <li class="comments">12</li>
+                <li class="date">29/10/2018</li>
+            </ul>
+        </div><!-- /.utility-info -->
+        <!-- overlays -->
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+    </div><!-- /.blog-card -->
+</div>
+                                    
+
+
+<div class="news col-lg-4">
+    <div class="blog-card spring-fever" style="background-image: ">
+        <div class="title-content">
+            <h3>Mon dernier article</h3>
+            <hr />
+            <div class="intro">Yllamco laboris nisi ut aliquip ex ea commodo.</div>
+        </div><!-- /.title-content -->
+        <div class="card-info">
+            <p></p>
+            <a class="btn btn-default" href="">Read more</a>
+        </div><!-- /.card-info -->
+        <div class="utility-info">
+            <ul class="utility-list">
+                <li class="comments">12</li>
+                <li class="date">29/10/2018</li>
+            </ul>
+        </div><!-- /.utility-info -->
+        <!-- overlays -->
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+    </div><!-- /.blog-card -->
+</div>
+                                    
+
+
+<div class="news col-lg-4">
+    <div class="blog-card spring-fever" style="background-image: ">
+        <div class="title-content">
+            <h3>Encore un article</h3>
+            <hr />
+            <div class="intro">Yllamco laboris nisi ut aliquip ex ea commodo.</div>
+        </div><!-- /.title-content -->
+        <div class="card-info">
+            <p></p>
+            <a class="btn btn-default" href="">Read more</a>
+        </div><!-- /.card-info -->
+        <div class="utility-info">
+            <ul class="utility-list">
+                <li class="comments">12</li>
+                <li class="date">29/10/2018</li>
+            </ul>
+        </div><!-- /.utility-info -->
+        <!-- overlays -->
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+    </div><!-- /.blog-card -->
+</div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+";s:12:"content_meta";N;}

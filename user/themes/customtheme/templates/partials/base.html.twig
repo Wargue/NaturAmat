@@ -13,6 +13,7 @@
                 {% do assets.addCss('theme://css/style.css') %}
                 {% do assets.addCss('theme://css/camera.css') %}
                 {% do assets.addCss('theme://css/custom.css') %}
+                {% do assets.addCss('theme://assets/css/main.css') %}
 
                 {% if browser.getBrowser == 'msie' and browser.getVersion < 9 %}
                {% do assets.addCss('theme://assets/tm/css/tm_docs.css') %}
@@ -31,6 +32,11 @@
             {% do assets.addJs('theme://js/jquery.touchSwipe.min.js') %}
             {% do assets.addJs('theme://js/jquery.equalheights.js') %}
             {% do assets.addJs('theme://js/camera.js') %}
+            {% do assets.add('jquery',101) %}
+            {% do assets.addJs('theme://assets/js/skel.min.js') %}
+            {% do assets.addJs('theme://assets/js/util.js') %}
+            {% do assets.addJs('theme://assets/js/main.js') %}
+
 
             {% if browser.getBrowser == 'msie' and browser.getVersion > 9 or browser.getBrowser != 'msie' %}
                  {% do assets.addJs('theme://js/jquery.mobile.customized.min.js') %}

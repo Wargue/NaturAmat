@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1540492013,
-    'checksum' => '34de6ad20dc47968711a7783eada35cc',
+    'timestamp' => 1540752209,
+    'checksum' => '0c1af86fc13fb3e633fcd7f73b5c8d88',
     'files' => [
         'user/config' => [
             'media' => [
@@ -73,9 +73,17 @@ return [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
                 'modified' => 1538999174
             ],
+            'plugins/pagination' => [
+                'file' => 'user/plugins/pagination/pagination.yaml',
+                'modified' => 1538999244
+            ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/problems.yaml',
                 'modified' => 1538999174
+            ],
+            'plugins/random' => [
+                'file' => 'user/plugins/random/random.yaml',
+                'modified' => 1538999246
             ]
         ]
     ],
@@ -251,9 +259,23 @@ return [
                     3 => 'green'
                 ]
             ],
+            'pagination' => [
+                'enabled' => true,
+                'built_in_css' => true,
+                'delta' => 0
+            ],
             'problems' => [
                 'enabled' => true,
                 'built_in_css' => true
+            ],
+            'random' => [
+                'enabled' => true,
+                'route' => '/random',
+                'redirect' => true,
+                'filters' => [
+                    'category' => 'blog'
+                ],
+                'filter_combinator' => 'and'
             ]
         ],
         'media' => [

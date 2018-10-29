@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1540492013,
-    'checksum' => '2851bbf34401d9cdcb878d0d96a29fde',
+    'timestamp' => 1540752209,
+    'checksum' => 'd63066c5013d7bb0873ed7677ea8f798',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -51,9 +51,17 @@ return [
                 'file' => 'user/plugins/markdown-notices/blueprints.yaml',
                 'modified' => 1538999174
             ],
+            'plugins/pagination' => [
+                'file' => 'user/plugins/pagination/blueprints.yaml',
+                'modified' => 1538999244
+            ],
             'plugins/problems' => [
                 'file' => 'user/plugins/problems/blueprints.yaml',
                 'modified' => 1538999174
+            ],
+            'plugins/random' => [
+                'file' => 'user/plugins/random/blueprints.yaml',
+                'modified' => 1538999246
             ]
         ]
     ],
@@ -3549,6 +3557,55 @@ return [
                 'name' => 'plugins.markdown-notices.level_classes',
                 'validation' => 'strict'
             ],
+            'plugins.pagination' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.pagination.enabled' => [
+                'type' => 'toggle',
+                'label' => 'PLUGIN_ADMIN.PLUGIN_STATUS',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.pagination.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.pagination.delta' => [
+                'type' => 'number',
+                'size' => 'x-small',
+                'label' => 'Delta',
+                'default' => 0,
+                'validate' => [
+                    'type' => 'number',
+                    'min' => 0
+                ],
+                'name' => 'plugins.pagination.delta',
+                'validation' => 'strict'
+            ],
+            'plugins.pagination.built_in_css' => [
+                'type' => 'toggle',
+                'label' => 'Use built in CSS',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'PLUGIN_ADMIN.ENABLED',
+                    0 => 'PLUGIN_ADMIN.DISABLED'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.pagination.built_in_css',
+                'validation' => 'strict'
+            ],
             'plugins.problems' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -3584,6 +3641,78 @@ return [
                     'type' => 'bool'
                 ],
                 'name' => 'plugins.problems.built_in_css',
+                'validation' => 'strict'
+            ],
+            'plugins.random' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'strict'
+                ]
+            ],
+            'plugins.random.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin status',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.random.enabled',
+                'validation' => 'strict'
+            ],
+            'plugins.random.route' => [
+                'type' => 'text',
+                'size' => 'medium',
+                'label' => 'Route',
+                'default' => '/random',
+                'name' => 'plugins.random.route',
+                'validation' => 'strict'
+            ],
+            'plugins.random.redirect' => [
+                'type' => 'toggle',
+                'label' => 'Redirect',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.random.redirect',
+                'validation' => 'strict'
+            ],
+            'plugins.random.filters' => [
+                'type' => '_parent',
+                'name' => 'plugins.random.filters',
+                'form_field' => false
+            ],
+            'plugins.random.filters.category' => [
+                'type' => 'selectize',
+                'label' => 'Category filter',
+                'validate' => [
+                    'type' => 'commalist'
+                ],
+                'name' => 'plugins.random.filters.category',
+                'validation' => 'strict'
+            ],
+            'plugins.random.filter_combinator' => [
+                'type' => 'select',
+                'size' => 'medium',
+                'classes' => 'fancy',
+                'label' => 'Filter Combinator',
+                'default' => 'and',
+                'options' => [
+                    'and' => 'And - Boolean &&',
+                    'or' => 'Or - Boolean ||'
+                ],
+                'name' => 'plugins.random.filter_combinator',
                 'validation' => 'strict'
             ]
         ],
@@ -3985,9 +4114,23 @@ return [
                     'built_in_css' => 'plugins.markdown-notices.built_in_css',
                     'level_classes' => 'plugins.markdown-notices.level_classes'
                 ],
+                'pagination' => [
+                    'enabled' => 'plugins.pagination.enabled',
+                    'delta' => 'plugins.pagination.delta',
+                    'built_in_css' => 'plugins.pagination.built_in_css'
+                ],
                 'problems' => [
                     'enabled' => 'plugins.problems.enabled',
                     'built_in_css' => 'plugins.problems.built_in_css'
+                ],
+                'random' => [
+                    'enabled' => 'plugins.random.enabled',
+                    'route' => 'plugins.random.route',
+                    'redirect' => 'plugins.random.redirect',
+                    'filters' => [
+                        'category' => 'plugins.random.filters.category'
+                    ],
+                    'filter_combinator' => 'plugins.random.filter_combinator'
                 ]
             ]
         ],

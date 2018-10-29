@@ -4,6 +4,7 @@ date: '28-10-2018 18:11'
 process:
     markdown: true
     twig: true
+image: 36b7ab3b.jpg     
 ---
 
 Qu'est-ce que le Lorem Ipsum?

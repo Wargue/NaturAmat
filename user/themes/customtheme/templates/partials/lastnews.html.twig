@@ -1,0 +1,22 @@
+<div class="news col-lg-4">
+    <div class="blog-card spring-fever" style="background-image: {{ page.media.images.url }}">
+        <div class="title-content">
+            <h3>{{ page.title }}</h3>
+            <hr />
+            <div class="intro">Yllamco laboris nisi ut aliquip ex ea commodo.</div>
+        </div><!-- /.title-content -->
+        <div class="card-info">
+            <p>{{ page.content|slice(0,200)}}</p>
+            <a class="btn btn-default" href="{{ page.url }}">Read more</a>
+        </div><!-- /.card-info -->
+        <div class="utility-info">
+            <ul class="utility-list">
+                <li class="comments">12</li>
+                <li class="date">{{ page.date|date("d/m/Y") }}</li>
+            </ul>
+        </div><!-- /.utility-info -->
+        <!-- overlays -->
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+    </div><!-- /.blog-card -->
+</div>
