@@ -49,6 +49,7 @@ body {
     border-radius: 10px;
     box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .blog-card .color-overlay {
@@ -163,6 +164,11 @@ hr {
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/1765/icon-calendar.svg) no-repeat 0 0.1em;
 }
 
+@media (min-width: 1500px) {
+    .row_1 .container {
+        max-width: 1500px;
+    }
+}
 
 
 
