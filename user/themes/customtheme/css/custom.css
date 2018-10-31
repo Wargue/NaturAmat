@@ -11,12 +11,14 @@
 
 .logo_header
 {
+    background-color: white;
     border-radius: 350px;
-    width: 200px;
+    width: 100%;
+    height: auto;
     position: absolute;
     z-index: 100;
     overflow: visible;
-    top: -50px;
+    top: 0px;
     left: 20px;
 }
 
@@ -168,6 +170,10 @@ hr {
     .row_1 .container {
         max-width: 1500px;
     }
+}
+
+.bg-card{
+width: max-content;
 }
 
 

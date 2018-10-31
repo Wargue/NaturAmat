@@ -6,8 +6,8 @@ content:
     order:
         by: date
         dir: asc
-        limit: 10
-        pagination: true
+    limit: 3
+    pagination: true
 ---
-fdfhgsddss
-fdfhgsddssssgsdkfffcsss
+fdfhgsddsss
+sssssssssss

@@ -1,9 +1,10 @@
-<div class="news col-lg-3">
-    <div class="blog-card spring-fever" style="background-image: {{ page.media.images.url }}">
+<div class="news col-lg-4">
+    <div class="blog-card spring-fever">
+        <div class="bg-card">{{ page.media.images|first }}
         <div class="title-content">
             <h3>{{ page.title }}</h3>
             <hr />
-            <div class="intro">Yllamco laboris nisi ut aliquip ex ea commodo.</div>
+            <div class="intro"></div>
         </div><!-- /.title-content -->
         <div class="card-info">
             <p>{{ page.content|slice(0,200)}}</p>
@@ -18,5 +19,6 @@
         <!-- overlays -->
         <div class="gradient-overlay"></div>
         <div class="color-overlay"></div>
+        </div>
     </div><!-- /.blog-card -->
 </div>

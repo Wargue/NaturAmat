@@ -16,8 +16,8 @@ class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b3
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "531898567")->display($context);
-        // line 36
+        $this->loadTemplate("blog.html.twig", "blog.html.twig", 1, "1247911057")->display($context);
+        // line 31
         echo "
 
 ";
@@ -35,7 +35,7 @@ class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b3
 
     public function getDebugInfo()
     {
-        return array (  21 => 36,  19 => 1,);
+        return array (  21 => 31,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -49,11 +49,6 @@ class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b3
     public function getSourceContext()
     {
         return new Twig_Source("{% embed 'partials/base.html.twig' %}
-    {% block javascripts %}
-    {% do assets.addJs('theme://assets/js/skel.min.js') %}
-    {% do assets.addJs('theme://assets/js/util.js') %}
-    {% do assets.addJs('theme://assets/js/main.js') %}
-    {% endblock %}
 
 
   {% set collection = page.collection() %}
@@ -91,7 +86,7 @@ class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b3
 
 
 /* blog.html.twig */
-class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b313ca7_531898567 extends Twig_Template
+class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b313ca7_1247911057 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -100,7 +95,6 @@ class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b3
         // line 1
         $this->parent = $this->loadTemplate("partials/base.html.twig", "blog.html.twig", 1);
         $this->blocks = array(
-            'javascripts' => array($this, 'block_javascripts'),
             'content' => array($this, 'block_content'),
         );
     }
@@ -112,58 +106,42 @@ class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b3
 
     protected function doDisplay(array $context, array $blocks = array())
     {
-        // line 9
+        // line 4
         $context["collection"] = $this->getAttribute(($context["page"] ?? null), "collection", array(), "method");
-        // line 10
+        // line 5
         $context["base_url"] = $this->getAttribute(($context["page"] ?? null), "url", array());
-        // line 11
+        // line 6
         $context["feed_url"] = ($context["base_url"] ?? null);
-        // line 13
+        // line 8
         if ((($context["base_url"] ?? null) == "/")) {
-            // line 14
+            // line 9
             $context["base_url"] = "";
         }
-        // line 17
+        // line 12
         if ((($context["base_url"] ?? null) == ($context["base_url_relative"] ?? null))) {
-            // line 18
+            // line 13
             $context["feed_url"] = ((($context["base_url"] ?? null) . "/") . $this->getAttribute(($context["page"] ?? null), "slug", array()));
         }
         // line 1
         $this->parent->display($context, array_merge($this->blocks, $blocks));
     }
 
-    // line 2
-    public function block_javascripts($context, array $blocks = array())
-    {
-        // line 3
-        echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://assets/js/skel.min.js"), "method");
-        // line 4
-        echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://assets/js/util.js"), "method");
-        // line 5
-        echo "    ";
-        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://assets/js/main.js"), "method");
-        // line 6
-        echo "    ";
-    }
-
-    // line 21
+    // line 16
     public function block_content($context, array $blocks = array())
     {
-        // line 22
+        // line 17
         echo "    ";
         if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "breadcrumbs", array()), "enabled", array())) {
-            // line 23
+            // line 18
             echo "      ";
-            $this->loadTemplate("partials/breadcrumbs.html.twig", "blog.html.twig", 23)->display($context);
-            // line 24
+            $this->loadTemplate("partials/breadcrumbs.html.twig", "blog.html.twig", 18)->display($context);
+            // line 19
             echo "    ";
         }
-        // line 25
+        // line 20
         echo "
     ";
-        // line 26
+        // line 21
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["collection"] ?? null));
         $context['loop'] = array(
@@ -180,10 +158,10 @@ class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b3
             $context['loop']['last'] = 1 === $length;
         }
         foreach ($context['_seq'] as $context["_key"] => $context["child"]) {
-            // line 27
+            // line 22
             echo "      ";
-            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 27)->display(array_merge($context, array("page" => $context["child"], "truncate" => true)));
-            // line 28
+            $this->loadTemplate("partials/blog_item.html.twig", "blog.html.twig", 22)->display(array_merge($context, array("page" => $context["child"], "truncate" => true)));
+            // line 23
             echo "    ";
             ++$context['loop']['index0'];
             ++$context['loop']['index'];
@@ -197,18 +175,18 @@ class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b3
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['child'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 29
+        // line 24
         echo "
     ";
-        // line 30
+        // line 25
         if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "pagination", array()), "enabled", array()) && $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", array()), "pagination", array()))) {
-            // line 31
+            // line 26
             echo "      ";
-            $this->loadTemplate("partials/pagination.html.twig", "blog.html.twig", 31)->display(array_merge($context, array("pagination" => $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", array()), "pagination", array()))));
-            // line 32
+            $this->loadTemplate("partials/pagination.html.twig", "blog.html.twig", 26)->display(array_merge($context, array("pagination" => $this->getAttribute($this->getAttribute(($context["collection"] ?? null), "params", array()), "pagination", array()))));
+            // line 27
             echo "    ";
         }
-        // line 33
+        // line 28
         echo "  ";
     }
 
@@ -224,7 +202,7 @@ class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b3
 
     public function getDebugInfo()
     {
-        return array (  212 => 33,  209 => 32,  206 => 31,  204 => 30,  201 => 29,  187 => 28,  184 => 27,  167 => 26,  164 => 25,  161 => 24,  158 => 23,  155 => 22,  152 => 21,  148 => 6,  145 => 5,  142 => 4,  139 => 3,  136 => 2,  132 => 1,  129 => 18,  127 => 17,  124 => 14,  122 => 13,  120 => 11,  118 => 10,  116 => 9,  101 => 1,  21 => 36,  19 => 1,);
+        return array (  190 => 28,  187 => 27,  184 => 26,  182 => 25,  179 => 24,  165 => 23,  162 => 22,  145 => 21,  142 => 20,  139 => 19,  136 => 18,  133 => 17,  130 => 16,  126 => 1,  123 => 13,  121 => 12,  118 => 9,  116 => 8,  114 => 6,  112 => 5,  110 => 4,  96 => 1,  21 => 31,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -238,11 +216,6 @@ class __TwigTemplate_a41cbc018645dd72d1b6ea00018ca97ed2a327bf0979cf4915511fa64b3
     public function getSourceContext()
     {
         return new Twig_Source("{% embed 'partials/base.html.twig' %}
-    {% block javascripts %}
-    {% do assets.addJs('theme://assets/js/skel.min.js') %}
-    {% do assets.addJs('theme://assets/js/util.js') %}
-    {% do assets.addJs('theme://assets/js/main.js') %}
-    {% endblock %}
 
 
   {% set collection = page.collection() %}

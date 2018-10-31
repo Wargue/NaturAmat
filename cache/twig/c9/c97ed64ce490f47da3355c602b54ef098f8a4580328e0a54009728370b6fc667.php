@@ -16,26 +16,27 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"news col-lg-3\">
-    <div class=\"blog-card spring-fever\" style=\"background-image: ";
-        // line 2
-        echo $this->getAttribute($this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array()), "url", array());
-        echo "\">
+        echo "<div class=\"news col-lg-4\">
+    <div class=\"blog-card spring-fever\">
+        <div class=\"bg-card\">";
+        // line 3
+        echo twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array()));
+        echo "
         <div class=\"title-content\">
             <h3>";
-        // line 4
+        // line 5
         echo $this->getAttribute(($context["page"] ?? null), "title", array());
         echo "</h3>
             <hr />
-            <div class=\"intro\">Yllamco laboris nisi ut aliquip ex ea commodo.</div>
+            <div class=\"intro\"></div>
         </div><!-- /.title-content -->
         <div class=\"card-info\">
             <p>";
-        // line 9
+        // line 10
         echo twig_slice($this->env, $this->getAttribute(($context["page"] ?? null), "content", array()), 0, 200);
         echo "</p>
             <a class=\"btn btn-default\" href=\"";
-        // line 10
+        // line 11
         echo $this->getAttribute(($context["page"] ?? null), "url", array());
         echo "\">Read more</a>
         </div><!-- /.card-info -->
@@ -43,7 +44,7 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
             <ul class=\"utility-list\">
                 <li class=\"comments\">12</li>
                 <li class=\"date\">";
-        // line 15
+        // line 16
         echo twig_date_format_filter($this->env, $this->getAttribute(($context["page"] ?? null), "date", array()), "d/m/Y");
         echo "</li>
             </ul>
@@ -51,6 +52,7 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
         <!-- overlays -->
         <div class=\"gradient-overlay\"></div>
         <div class=\"color-overlay\"></div>
+        </div>
     </div><!-- /.blog-card -->
 </div>
 ";
@@ -68,7 +70,7 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
 
     public function getDebugInfo()
     {
-        return array (  47 => 15,  39 => 10,  35 => 9,  27 => 4,  22 => 2,  19 => 1,);
+        return array (  48 => 16,  40 => 11,  36 => 10,  28 => 5,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -81,12 +83,13 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
 
     public function getSourceContext()
     {
-        return new Twig_Source("<div class=\"news col-lg-3\">
-    <div class=\"blog-card spring-fever\" style=\"background-image: {{ page.media.images.url }}\">
+        return new Twig_Source("<div class=\"news col-lg-4\">
+    <div class=\"blog-card spring-fever\">
+        <div class=\"bg-card\">{{ page.media.images|first }}
         <div class=\"title-content\">
             <h3>{{ page.title }}</h3>
             <hr />
-            <div class=\"intro\">Yllamco laboris nisi ut aliquip ex ea commodo.</div>
+            <div class=\"intro\"></div>
         </div><!-- /.title-content -->
         <div class=\"card-info\">
             <p>{{ page.content|slice(0,200)}}</p>
@@ -101,6 +104,7 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
         <!-- overlays -->
         <div class=\"gradient-overlay\"></div>
         <div class=\"color-overlay\"></div>
+        </div>
     </div><!-- /.blog-card -->
 </div>
 ", "partials/lastnews_item.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\partials\\lastnews_item.html.twig");

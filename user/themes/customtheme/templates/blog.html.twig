@@ -1,9 +1,4 @@
 {% embed 'partials/base.html.twig' %}
-    {% block javascripts %}
-    {% do assets.addJs('theme://assets/js/skel.min.js') %}
-    {% do assets.addJs('theme://assets/js/util.js') %}
-    {% do assets.addJs('theme://assets/js/main.js') %}
-    {% endblock %}
 
 
   {% set collection = page.collection() %}

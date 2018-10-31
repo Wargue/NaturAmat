@@ -26,13 +26,13 @@ class __TwigTemplate_3c04bc97faa422de44882b70ce02db411adefeefb5be8708e936d583b2d
       <div class=\"menuheader\">
           <div class=\"container\">
               <div class=\"row\">
-                  <div class=\"logo_menubar col-lg-2\">
+                  <div class=\"logo_menubar col-lg-3\">
                       <img class=\"logo_header\" alt=\"logo NaturAmat\" src=\"";
         // line 9
         echo ($context["theme_url"] ?? null);
-        echo "/img/logo/logo.jpg\">
+        echo "/img/logo/logo.png\">
                   </div>
-                  <div class=\"nav_header col-lg-10\">
+                  <div class=\"nav_header col-lg-9\">
                       <nav class=\"navbar navbar-default navbar-static-top tm_navbar\" role=\"navigation\">
                           ";
         // line 13
@@ -78,10 +78,10 @@ class __TwigTemplate_3c04bc97faa422de44882b70ce02db411adefeefb5be8708e936d583b2d
       <div class=\"menuheader\">
           <div class=\"container\">
               <div class=\"row\">
-                  <div class=\"logo_menubar col-lg-2\">
-                      <img class=\"logo_header\" alt=\"logo NaturAmat\" src=\"{{ theme_url }}/img/logo/logo.jpg\">
+                  <div class=\"logo_menubar col-lg-3\">
+                      <img class=\"logo_header\" alt=\"logo NaturAmat\" src=\"{{ theme_url }}/img/logo/logo.png\">
                   </div>
-                  <div class=\"nav_header col-lg-10\">
+                  <div class=\"nav_header col-lg-9\">
                       <nav class=\"navbar navbar-default navbar-static-top tm_navbar\" role=\"navigation\">
                           {% include 'partials/navigation.html.twig' %}
                       </nav>

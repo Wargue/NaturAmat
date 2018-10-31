@@ -1,0 +1,113 @@
+1541453606
+a:2:{s:7:"content";s:4720:"<div class="row_1">
+    <div class="container">
+        <p class="title1">Les derniers articles</p>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div id="last-news-item">
+                                    <div class="news col-lg-3">
+    <div class="blog-card spring-fever">
+        <div class="bg-card"><img alt="" src="/Naturamat/user/pages/02.blog/encore-un-article/blup.jpg" />
+        <div class="title-content">
+            <h3>Premier article</h3>
+            <hr />
+            <div class="intro"></div>
+        </div><!-- /.title-content -->
+        <div class="card-info">
+            <p><p>Qu'est-ce que le Lorem Ipsum?
+Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie </p>
+            <a class="btn btn-default" href="/Naturamat/blog/encore-un-article">Read more</a>
+        </div><!-- /.card-info -->
+        <div class="utility-info">
+            <ul class="utility-list">
+                <li class="comments">12</li>
+                <li class="date">29/10/2018</li>
+            </ul>
+        </div><!-- /.utility-info -->
+        <!-- overlays -->
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+        </div>
+    </div><!-- /.blog-card -->
+</div>
+                                    <div class="news col-lg-3">
+    <div class="blog-card spring-fever">
+        <div class="bg-card"><img alt="" src="/Naturamat/user/pages/02.blog/mon-avant-dernier-article/header-vieux-tram-01.jpg" />
+        <div class="title-content">
+            <h3>Article pour greg</h3>
+            <hr />
+            <div class="intro"></div>
+        </div><!-- /.title-content -->
+        <div class="card-info">
+            <p><p>Salut je m'appelle greg
+Bla bla bla bla bla</p></p>
+            <a class="btn btn-default" href="/Naturamat/blog/mon-avant-dernier-article">Read more</a>
+        </div><!-- /.card-info -->
+        <div class="utility-info">
+            <ul class="utility-list">
+                <li class="comments">12</li>
+                <li class="date">28/10/2018</li>
+            </ul>
+        </div><!-- /.utility-info -->
+        <!-- overlays -->
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+        </div>
+    </div><!-- /.blog-card -->
+</div>
+                                    <div class="news col-lg-3">
+    <div class="blog-card spring-fever">
+        <div class="bg-card">
+        <div class="title-content">
+            <h3>London Industry at Night</h3>
+            <hr />
+            <div class="intro"></div>
+        </div><!-- /.title-content -->
+        <div class="card-info">
+            <p><p>Qu'est-ce que le Lorem Ipsum?
+Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression. Le Lorem Ipsum est le faux texte standard de l'imprimerie </p>
+            <a class="btn btn-default" href="/Naturamat/blog/mon-dernier-article">Read more</a>
+        </div><!-- /.card-info -->
+        <div class="utility-info">
+            <ul class="utility-list">
+                <li class="comments">12</li>
+                <li class="date">07/06/2014</li>
+            </ul>
+        </div><!-- /.utility-info -->
+        <!-- overlays -->
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+        </div>
+    </div><!-- /.blog-card -->
+</div>
+                                    <div class="news col-lg-3">
+    <div class="blog-card spring-fever">
+        <div class="bg-card"><img alt="" src="/Naturamat/user/pages/02.blog/london-industry/unsplash_martin_wessely.jpg" />
+        <div class="title-content">
+            <h3>London Industry at Night</h3>
+            <hr />
+            <div class="intro"></div>
+        </div><!-- /.title-content -->
+        <div class="card-info">
+            <p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies tristique nulla et mattis. Phasellus id massa eget nisl congue blandit sit amet id ligula. Praesent et nulla eu augue tempus</p>
+            <a class="btn btn-default" href="/Naturamat/blog/london-industry">Read more</a>
+        </div><!-- /.card-info -->
+        <div class="utility-info">
+            <ul class="utility-list">
+                <li class="comments">12</li>
+                <li class="date">07/06/2014</li>
+            </ul>
+        </div><!-- /.utility-info -->
+        <!-- overlays -->
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+        </div>
+    </div><!-- /.blog-card -->
+</div>
+                            </div>
+        </div>
+    </div>
+</div>
+
+";s:12:"content_meta";N;}
