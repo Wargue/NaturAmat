@@ -16,7 +16,7 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"news col-lg-4\">
+        echo "<div class=\"news col-lg-3\">
     <div class=\"blog-card spring-fever\">
         <div class=\"bg-card\">";
         // line 3
@@ -83,7 +83,7 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
 
     public function getSourceContext()
     {
-        return new Twig_Source("<div class=\"news col-lg-4\">
+        return new Twig_Source("<div class=\"news col-lg-3\">
     <div class=\"blog-card spring-fever\">
         <div class=\"bg-card\">{{ page.media.images|first }}
         <div class=\"title-content\">

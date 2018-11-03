@@ -29,7 +29,7 @@ class __TwigTemplate_2ecc1a1a8e449acfc2a5a1815f03f19bf6988b3e8698fff74f269ab54b3
                 ";
         // line 8
         $context['_parent'] = $context;
-        $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", array(0 => "/blog"), "method"), "collection", array()));
+        $context['_seq'] = twig_ensure_traversable(twig_slice($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "find", array(0 => "/blog"), "method"), "collection", array()), 0, 4));
         $context['loop'] = array(
           'parent' => $context['_parent'],
           'index0' => 0,
@@ -102,7 +102,7 @@ class __TwigTemplate_2ecc1a1a8e449acfc2a5a1815f03f19bf6988b3e8698fff74f269ab54b3
     <div class=\"container\">
         <div class=\"row\">
             <div id=\"last-news-item\">
-                {% for child in page.find('/blog').collection %}
+                {% for child in page.find('/blog').collection |slice(0, 4) %}
                     {% include 'partials/lastnews_item.html.twig' with  {'categories':page, 'page': child,'img': image, 'truncate':true} %}
                 {% endfor %}
             </div>
