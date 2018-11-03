@@ -58,7 +58,7 @@
 	}
 
 		header > p {
-			font-family: 'Open Sans Condensed', sans-serif;
+			font-family: 'Oswald', sans-serif;
 			font-weight: 300;
 			display: block;
 			margin-top: 1em;
@@ -166,7 +166,7 @@
 
 	.pagination .pages {
 		display: inline-block;
-		font-family: 'Open Sans Condensed', sans-serif;
+		font-family: 'Oswald', sans-serif;
 		font-weight: 700;
 	}
 
@@ -401,7 +401,7 @@
 			color: #fff;
 			line-height: 44px;
 			font-size: 1.25em;
-			font-family: 'Open Sans Condensed', sans-serif;
+			font-family: 'Oswald', sans-serif;
 			font-weight: 700;
 			letter-spacing: 0.1em;
 			text-shadow: -1px -1px 0px rgba(0, 0, 0, 0.5);

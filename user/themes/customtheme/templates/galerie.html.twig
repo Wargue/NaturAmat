@@ -1,0 +1,10 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+    <div class="case-study-gallery">
+        <h1 class="title">Notre Galerie Photo</h1>
+    {% for child in page.collection %}
+        {% include 'partials/galery_category.html.twig' with {'page':child, 'img': image, 'truncate':true} %}
+    {% endfor %}
+    </div>
+{% endblock %}
