@@ -11,14 +11,13 @@
 
 .logo_header
 {
-    background-color: white;
-    border-radius: 350px;
+
     width: 100%;
     height: auto;
     position: absolute;
     z-index: 100;
     overflow: visible;
-    top: 0px;
+    top: -25px;
     left: 20px;
 }
 
