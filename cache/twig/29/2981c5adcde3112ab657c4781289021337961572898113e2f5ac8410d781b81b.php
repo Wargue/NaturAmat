@@ -152,45 +152,46 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
         if (($context["big_header"] ?? null)) {
             // line 51
             echo "        ";
-            echo $this->getAttribute($this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array())), "cropResize", array(0 => 1038, 1 => 437), "method"), "html", array(0 => $this->getAttribute(($context["page"] ?? null), "title", array()), 1 => $this->getAttribute(($context["page"] ?? null), "title", array()), 2 => "image featured"), "method");
+            echo $this->getAttribute($this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array())), "cropResize", array(0 => 920, 1 => 437), "method"), "html", array(0 => $this->getAttribute(($context["page"] ?? null), "title", array()), 1 => $this->getAttribute(($context["page"] ?? null), "title", array()), 2 => "image blog"), "method");
             echo "
     ";
         } else {
             // line 53
             echo "        ";
-            echo $this->getAttribute($this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array())), "cropZoom", array(0 => 1038, 1 => 437), "method"), "html", array(0 => $this->getAttribute(($context["page"] ?? null), "title", array()), 1 => $this->getAttribute(($context["page"] ?? null), "title", array()), 2 => "image featured"), "method");
+            echo $this->getAttribute($this->getAttribute(twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array())), "cropZoom", array(0 => 920, 1 => 437), "method"), "html", array(0 => $this->getAttribute(($context["page"] ?? null), "title", array()), 1 => $this->getAttribute(($context["page"] ?? null), "title", array()), 2 => "image featured"), "method");
             echo "
     ";
         }
         // line 55
         echo "
+    <div class=\"blog_content_header\">
     ";
-        // line 56
+        // line 57
         if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "author", array())) {
-            // line 57
+            // line 58
             echo "        <span class=\"list-blog-author\">
             <i class=\"fa fa-user\"></i>
             ";
-            // line 59
+            // line 60
             echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "author", array());
             echo "
         </span>
     ";
         }
-        // line 62
+        // line 63
         echo "
     ";
-        // line 63
+        // line 64
         if ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "taxonomy", array()), "tag", array())) {
-            // line 64
+            // line 65
             echo "        <ul class=\"tags\">
             <i class=\"fa fa-tag\"></i>
             ";
-            // line 66
+            // line 67
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute(($context["page"] ?? null), "taxonomy", array()), "tag", array()));
             foreach ($context['_seq'] as $context["_key"] => $context["tag"]) {
-                // line 67
+                // line 68
                 echo "                <li><a href=\"";
                 echo ($context["base_url"] ?? null);
                 echo "/tag";
@@ -204,96 +205,97 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['tag'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 69
+            // line 70
             echo "        </ul>
     ";
         }
-        // line 71
-        echo "
+        // line 72
+        echo "    </div>
+
 
     ";
-        // line 73
+        // line 75
         if (($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "continue_link", array()) === false)) {
-            // line 74
+            // line 76
             echo "        <p>";
             echo $this->getAttribute(($context["page"] ?? null), "content", array());
             echo "</p>
         ";
-            // line 75
+            // line 77
             if ( !($context["truncate"] ?? null)) {
-                // line 76
+                // line 78
                 echo "            ";
                 $context["show_prev_next"] = true;
-                // line 77
+                // line 79
                 echo "        ";
             }
-            // line 78
+            // line 80
             echo "    ";
         } elseif ((($context["truncate"] ?? null) && ($this->getAttribute(($context["page"] ?? null), "summary", array()) != $this->getAttribute(($context["page"] ?? null), "content", array())))) {
-            // line 79
+            // line 81
             echo "        <p>";
             echo $this->getAttribute(($context["page"] ?? null), "summary", array());
             echo "</p>
         <p><a class=\"button btn btn-default\" href=\"";
-            // line 80
-            echo $this->getAttribute(($context["page"] ?? null), "url", array());
-            echo "\">Continue Reading...</a></p>
-    ";
-        } elseif (        // line 81
-($context["truncate"] ?? null)) {
             // line 82
+            echo $this->getAttribute(($context["page"] ?? null), "url", array());
+            echo "\">En Savoir plus...</a></p>
+    ";
+        } elseif (        // line 83
+($context["truncate"] ?? null)) {
+            // line 84
             echo "        <p>";
             echo \Grav\Common\Utils::truncate($this->getAttribute(($context["page"] ?? null), "content", array()), 550);
             echo "</p>
         <p><a class=\"button btn btn-default\" href=\"";
-            // line 83
+            // line 85
             echo $this->getAttribute(($context["page"] ?? null), "url", array());
-            echo "\">Continue Reading...</a></p>
+            echo "\">En Savoir plus...</a></p>
     ";
         } else {
-            // line 85
+            // line 87
             echo "        <p>";
             echo $this->getAttribute(($context["page"] ?? null), "content", array());
             echo "</p>
         ";
-            // line 86
+            // line 88
             $context["show_prev_next"] = true;
-            // line 87
+            // line 89
             echo "    ";
         }
-        // line 88
+        // line 90
         echo "
     ";
-        // line 89
+        // line 91
         if (($context["show_prev_next"] ?? null)) {
-            // line 90
+            // line 92
             echo "
         <p class=\"prev-next\">
             ";
-            // line 92
+            // line 94
             if ( !$this->getAttribute(($context["page"] ?? null), "isFirst", array())) {
-                // line 93
+                // line 95
                 echo "                <a class=\"button\" href=\"";
                 echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "nextSibling", array()), "url", array());
-                echo "\"><i class=\"fa fa-chevron-left\"></i> Next Post</a>
+                echo "\"><i class=\"fa fa-chevron-left\"></i> Article précédent </a>
             ";
             }
-            // line 95
+            // line 97
             echo "
             ";
-            // line 96
+            // line 98
             if ( !$this->getAttribute(($context["page"] ?? null), "isLast", array())) {
-                // line 97
+                // line 99
                 echo "                <a class=\"button\" href=\"";
                 echo $this->getAttribute($this->getAttribute(($context["page"] ?? null), "prevSibling", array()), "url", array());
-                echo "\">Previous Post <i class=\"fa fa-chevron-right\"></i></a>
+                echo "\">Article Suivant <i class=\"fa fa-chevron-right\"></i></a>
             ";
             }
-            // line 99
+            // line 101
             echo "        </p>
     ";
         }
-        // line 101
+        // line 103
         echo "
 </article>";
     }
@@ -310,7 +312,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
 
     public function getDebugInfo()
     {
-        return array (  297 => 101,  293 => 99,  287 => 97,  285 => 96,  282 => 95,  276 => 93,  274 => 92,  270 => 90,  268 => 89,  265 => 88,  262 => 87,  260 => 86,  255 => 85,  250 => 83,  245 => 82,  243 => 81,  239 => 80,  234 => 79,  231 => 78,  228 => 77,  225 => 76,  223 => 75,  218 => 74,  216 => 73,  212 => 71,  208 => 69,  194 => 67,  190 => 66,  186 => 64,  184 => 63,  181 => 62,  175 => 59,  171 => 57,  169 => 56,  166 => 55,  160 => 53,  154 => 51,  152 => 50,  148 => 48,  144 => 46,  136 => 44,  133 => 43,  123 => 41,  121 => 40,  118 => 39,  116 => 38,  111 => 36,  107 => 35,  101 => 31,  95 => 29,  92 => 28,  84 => 26,  75 => 23,  69 => 21,  67 => 20,  64 => 19,  62 => 18,  59 => 17,  55 => 15,  49 => 12,  44 => 11,  41 => 10,  35 => 7,  30 => 6,  28 => 5,  25 => 4,  23 => 3,  19 => 1,);
+        return array (  299 => 103,  295 => 101,  289 => 99,  287 => 98,  284 => 97,  278 => 95,  276 => 94,  272 => 92,  270 => 91,  267 => 90,  264 => 89,  262 => 88,  257 => 87,  252 => 85,  247 => 84,  245 => 83,  241 => 82,  236 => 81,  233 => 80,  230 => 79,  227 => 78,  225 => 77,  220 => 76,  218 => 75,  213 => 72,  209 => 70,  195 => 68,  191 => 67,  187 => 65,  185 => 64,  182 => 63,  176 => 60,  172 => 58,  170 => 57,  166 => 55,  160 => 53,  154 => 51,  152 => 50,  148 => 48,  144 => 46,  136 => 44,  133 => 43,  123 => 41,  121 => 40,  118 => 39,  116 => 38,  111 => 36,  107 => 35,  101 => 31,  95 => 29,  92 => 28,  84 => 26,  75 => 23,  69 => 21,  67 => 20,  64 => 19,  62 => 18,  59 => 17,  55 => 15,  49 => 12,  44 => 11,  41 => 10,  35 => 7,  30 => 6,  28 => 5,  25 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -373,11 +375,12 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
     </div>
 
     {% if big_header %}
-        {{ page.media.images|first.cropResize(1038,437).html(page.title, page.title, 'image featured') }}
+        {{ page.media.images|first.cropResize(920,437).html(page.title, page.title, 'image blog') }}
     {% else %}
-        {{ page.media.images|first.cropZoom(1038,437).html(page.title, page.title, 'image featured') }}
+        {{ page.media.images|first.cropZoom(920,437).html(page.title, page.title, 'image featured') }}
     {% endif %}
 
+    <div class=\"blog_content_header\">
     {% if page.header.author %}
         <span class=\"list-blog-author\">
             <i class=\"fa fa-user\"></i>
@@ -393,6 +396,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
             {% endfor %}
         </ul>
     {% endif %}
+    </div>
 
 
     {% if page.header.continue_link is sameas(false) %}
@@ -402,10 +406,10 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
         {% endif %}
     {% elseif truncate and page.summary != page.content %}
         <p>{{ page.summary }}</p>
-        <p><a class=\"button btn btn-default\" href=\"{{ page.url }}\">Continue Reading...</a></p>
+        <p><a class=\"button btn btn-default\" href=\"{{ page.url }}\">En Savoir plus...</a></p>
     {% elseif truncate %}
         <p>{{ page.content|truncate(550) }}</p>
-        <p><a class=\"button btn btn-default\" href=\"{{ page.url }}\">Continue Reading...</a></p>
+        <p><a class=\"button btn btn-default\" href=\"{{ page.url }}\">En Savoir plus...</a></p>
     {% else %}
         <p>{{ page.content }}</p>
         {% set show_prev_next = true %}
@@ -415,11 +419,11 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
 
         <p class=\"prev-next\">
             {% if not page.isFirst %}
-                <a class=\"button\" href=\"{{ page.nextSibling.url }}\"><i class=\"fa fa-chevron-left\"></i> Next Post</a>
+                <a class=\"button\" href=\"{{ page.nextSibling.url }}\"><i class=\"fa fa-chevron-left\"></i> Article précédent </a>
             {% endif %}
 
             {% if not page.isLast %}
-                <a class=\"button\" href=\"{{ page.prevSibling.url }}\">Previous Post <i class=\"fa fa-chevron-right\"></i></a>
+                <a class=\"button\" href=\"{{ page.prevSibling.url }}\">Article Suivant <i class=\"fa fa-chevron-right\"></i></a>
             {% endif %}
         </p>
     {% endif %}

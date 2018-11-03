@@ -48,11 +48,12 @@
     </div>
 
     {% if big_header %}
-        {{ page.media.images|first.cropResize(1038,437).html(page.title, page.title, 'image featured') }}
+        {{ page.media.images|first.cropResize(920,437).html(page.title, page.title, 'image blog') }}
     {% else %}
-        {{ page.media.images|first.cropZoom(1038,437).html(page.title, page.title, 'image featured') }}
+        {{ page.media.images|first.cropZoom(920,437).html(page.title, page.title, 'image featured') }}
     {% endif %}
 
+    <div class="blog_content_header">
     {% if page.header.author %}
         <span class="list-blog-author">
             <i class="fa fa-user"></i>
@@ -68,6 +69,7 @@
             {% endfor %}
         </ul>
     {% endif %}
+    </div>
 
 
     {% if page.header.continue_link is sameas(false) %}
@@ -77,10 +79,10 @@
         {% endif %}
     {% elseif truncate and page.summary != page.content %}
         <p>{{ page.summary }}</p>
-        <p><a class="button btn btn-default" href="{{ page.url }}">Continue Reading...</a></p>
+        <p><a class="button btn btn-default" href="{{ page.url }}">En Savoir plus...</a></p>
     {% elseif truncate %}
         <p>{{ page.content|truncate(550) }}</p>
-        <p><a class="button btn btn-default" href="{{ page.url }}">Continue Reading...</a></p>
+        <p><a class="button btn btn-default" href="{{ page.url }}">En Savoir plus...</a></p>
     {% else %}
         <p>{{ page.content }}</p>
         {% set show_prev_next = true %}
@@ -90,11 +92,11 @@
 
         <p class="prev-next">
             {% if not page.isFirst %}
-                <a class="button" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> Next Post</a>
+                <a class="button" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> Article précédent </a>
             {% endif %}
 
             {% if not page.isLast %}
-                <a class="button" href="{{ page.prevSibling.url }}">Previous Post <i class="fa fa-chevron-right"></i></a>
+                <a class="button" href="{{ page.prevSibling.url }}">Article Suivant <i class="fa fa-chevron-right"></i></a>
             {% endif %}
         </p>
     {% endif %}

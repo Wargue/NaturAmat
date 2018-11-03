@@ -179,5 +179,25 @@ width: max-content;
 
 }
 
+.tags{
+    width: auto;
+}
+
+.blog_content_header{
+    width: auto;
+    margin-bottom: 15px;
+}
+
+.image.blog{
+    display: block;
+    width: 100%;
+    overflow: visible;
+}
+
+.image{
+    height: 500px;
+}
+
+
 
 
