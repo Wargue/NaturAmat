@@ -1,10 +1,11 @@
-
 <div class="case-study study1">
     <figure class="case-study__img">
-{{ page.media.images|first }}
+        {% for first in page.collection %}
+            <li>{{ first.media.images|first }}</li>
+        {% endfor %}
     </figure>
     <div class="case-study__overlay">
         <h2 class="case-study__title">{{ page.title }}</h2>
-        <a class="case-study__link" href="#">En voir plus</a>
+        <a class="case-study__link" href="{{ page.url }}">En voir plus</a>
     </div>
 </div>
