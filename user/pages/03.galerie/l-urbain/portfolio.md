@@ -9,8 +9,12 @@ images:
         title: Martin
         description: 'Un beau martin pecheur'
         thumbnail: martin.png
+    -
+        title: Philippe
+        description: Portrait
+        thumbnail: martin.png
 content:
     items:
-        '@page.self': /galerie/l-urbain/second
+        '@self.children'
 ---
 

@@ -32,33 +32,33 @@ class __TwigTemplate_2a040777bbcf20797b02ada5530953d1da803195cc86a15be466709af1e
     ";
         // line 4
         $this->displayBlock('head', $context, $blocks);
-        // line 66
+        // line 68
         echo "    </head>
     <body>
         ";
-        // line 68
+        // line 70
         $this->displayBlock('header', $context, $blocks);
-        // line 71
+        // line 73
         echo "
         ";
-        // line 72
+        // line 74
         $this->displayBlock('body', $context, $blocks);
-        // line 75
+        // line 77
         echo "
 
         <script src=\"";
-        // line 77
+        // line 79
         echo ($context["theme_url"] ?? null);
         echo "/js/bootstrap.min.js\" type=\"text/javascript\" ></script>
         <script src=\"";
-        // line 78
+        // line 80
         echo ($context["theme_url"] ?? null);
         echo "/js/tm-scripts.js\" type=\"text/javascript\" ></script>
 
         ";
-        // line 80
+        // line 82
         $this->displayBlock('footer', $context, $blocks);
-        // line 83
+        // line 85
         echo "
     </body>
 </html>
@@ -99,7 +99,7 @@ class __TwigTemplate_2a040777bbcf20797b02ada5530953d1da803195cc86a15be466709af1e
         ";
         // line 25
         $this->displayBlock('javascripts', $context, $blocks);
-        // line 51
+        // line 53
         echo "        ";
         echo $this->getAttribute(($context["assets"] ?? null), "js", array(), "method");
         echo "
@@ -113,13 +113,13 @@ class __TwigTemplate_2a040777bbcf20797b02ada5530953d1da803195cc86a15be466709af1e
         </script>
 
         ";
-        // line 61
+        // line 63
         if ((($this->getAttribute(($context["browser"] ?? null), "getBrowser", array()) == "msie") && ($this->getAttribute(($context["browser"] ?? null), "getVersion", array()) < 9))) {
-            // line 62
+            // line 64
             echo "                 <div style='text-align:center'><a href=\"http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode\"><img src=\"http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg\" border=\"0\" height=\"42\" width=\"820\" alt=\"You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today.\" /></a></div>
          ";
         }
-        // line 64
+        // line 66
         echo "
         ";
     }
@@ -201,68 +201,72 @@ class __TwigTemplate_2a040777bbcf20797b02ada5530953d1da803195cc86a15be466709af1e
         echo "            ";
         $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://assets/js/main.js"), "method");
         // line 39
+        echo "            ";
+        $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/galery.js"), "method");
+        // line 40
         echo "
 
+
             ";
-        // line 41
+        // line 43
         if (((($this->getAttribute(($context["browser"] ?? null), "getBrowser", array()) == "msie") && ($this->getAttribute(($context["browser"] ?? null), "getVersion", array()) > 9)) || ($this->getAttribute(($context["browser"] ?? null), "getBrowser", array()) != "msie"))) {
-            // line 42
+            // line 44
             echo "                 ";
             $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://js/jquery.mobile.customized.min.js"), "method");
-            // line 43
+            // line 45
             echo "            ";
         }
-        // line 44
+        // line 46
         echo "
             ";
-        // line 45
+        // line 47
         if ((($this->getAttribute(($context["browser"] ?? null), "getBrowser", array()) == "msie") && ($this->getAttribute(($context["browser"] ?? null), "getVersion", array()) < 9))) {
-            // line 46
+            // line 48
             echo "                ";
             $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://assets/assets/js/html5shiv.js"), "method");
-            // line 47
+            // line 49
             echo "                ";
             $this->getAttribute(($context["assets"] ?? null), "addJs", array(0 => "theme://assets/assets/js/respond.min.js"), "method");
-            // line 48
+            // line 50
             echo "            ";
         }
-        // line 49
+        // line 51
         echo "
         ";
     }
 
-    // line 68
+    // line 70
     public function block_header($context, array $blocks = array())
     {
-        // line 69
+        // line 71
         echo "             ";
-        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 69)->display($context);
-        // line 70
+        $this->loadTemplate("partials/header.html.twig", "partials/base.html.twig", 71)->display($context);
+        // line 72
         echo "        ";
     }
 
-    // line 72
+    // line 74
     public function block_body($context, array $blocks = array())
     {
-        // line 73
+        // line 75
         echo "            ";
         $this->displayBlock('content', $context, $blocks);
-        // line 74
+        // line 76
         echo "        ";
     }
 
-    // line 73
+    // line 75
     public function block_content($context, array $blocks = array())
     {
     }
 
-    // line 80
+    // line 82
     public function block_footer($context, array $blocks = array())
     {
-        // line 81
+        // line 83
         echo "             ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 81)->display($context);
-        // line 82
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 83)->display($context);
+        // line 84
         echo "        ";
     }
 
@@ -278,7 +282,7 @@ class __TwigTemplate_2a040777bbcf20797b02ada5530953d1da803195cc86a15be466709af1e
 
     public function getDebugInfo()
     {
-        return array (  266 => 82,  263 => 81,  260 => 80,  255 => 73,  251 => 74,  248 => 73,  245 => 72,  241 => 70,  238 => 69,  235 => 68,  230 => 49,  227 => 48,  224 => 47,  221 => 46,  219 => 45,  216 => 44,  213 => 43,  210 => 42,  208 => 41,  204 => 39,  201 => 38,  198 => 37,  195 => 36,  192 => 35,  189 => 34,  186 => 33,  183 => 32,  180 => 31,  177 => 30,  174 => 29,  171 => 28,  168 => 27,  165 => 26,  162 => 25,  157 => 21,  154 => 20,  151 => 19,  149 => 18,  146 => 17,  143 => 16,  140 => 15,  137 => 14,  134 => 13,  131 => 12,  128 => 11,  123 => 64,  119 => 62,  117 => 61,  103 => 51,  101 => 25,  95 => 23,  93 => 11,  88 => 9,  85 => 8,  83 => 7,  75 => 6,  72 => 5,  69 => 4,  62 => 83,  60 => 80,  55 => 78,  51 => 77,  47 => 75,  45 => 72,  42 => 71,  40 => 68,  36 => 66,  34 => 4,  29 => 2,  26 => 1,);
+        return array (  270 => 84,  267 => 83,  264 => 82,  259 => 75,  255 => 76,  252 => 75,  249 => 74,  245 => 72,  242 => 71,  239 => 70,  234 => 51,  231 => 50,  228 => 49,  225 => 48,  223 => 47,  220 => 46,  217 => 45,  214 => 44,  212 => 43,  207 => 40,  204 => 39,  201 => 38,  198 => 37,  195 => 36,  192 => 35,  189 => 34,  186 => 33,  183 => 32,  180 => 31,  177 => 30,  174 => 29,  171 => 28,  168 => 27,  165 => 26,  162 => 25,  157 => 21,  154 => 20,  151 => 19,  149 => 18,  146 => 17,  143 => 16,  140 => 15,  137 => 14,  134 => 13,  131 => 12,  128 => 11,  123 => 66,  119 => 64,  117 => 63,  103 => 53,  101 => 25,  95 => 23,  93 => 11,  88 => 9,  85 => 8,  83 => 7,  75 => 6,  72 => 5,  69 => 4,  62 => 85,  60 => 82,  55 => 80,  51 => 79,  47 => 77,  45 => 74,  42 => 73,  40 => 70,  36 => 68,  34 => 4,  29 => 2,  26 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -329,6 +333,8 @@ class __TwigTemplate_2a040777bbcf20797b02ada5530953d1da803195cc86a15be466709af1e
             {% do assets.addJs('theme://assets/js/skel.min.js') %}
             {% do assets.addJs('theme://assets/js/util.js') %}
             {% do assets.addJs('theme://assets/js/main.js') %}
+            {% do assets.addJs('theme://js/galery.js') %}
+
 
 
             {% if browser.getBrowser == 'msie' and browser.getVersion > 9 or browser.getBrowser != 'msie' %}

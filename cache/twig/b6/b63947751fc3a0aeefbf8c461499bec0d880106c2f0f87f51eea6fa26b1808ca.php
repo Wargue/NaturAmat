@@ -22,15 +22,15 @@ class __TwigTemplate_4f963778a1ea7e6ab1c22514c948c35b9e810880146d771c0cd172d5709
         // line 3
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["page"] ?? null), "collection", array()));
-        foreach ($context['_seq'] as $context["_key"] => $context["first"]) {
+        foreach ($context['_seq'] as $context["_key"] => $context["image"]) {
             // line 4
             echo "            <li>";
-            echo twig_first($this->env, $this->getAttribute($this->getAttribute($context["first"], "media", array()), "images", array()));
+            echo twig_first($this->env, $this->getAttribute($this->getAttribute($context["image"], "media", array()), "images", array()));
             echo "</li>
         ";
         }
         $_parent = $context['_parent'];
-        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['first'], $context['_parent'], $context['loop']);
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
         // line 6
         echo "    </figure>
@@ -75,8 +75,8 @@ class __TwigTemplate_4f963778a1ea7e6ab1c22514c948c35b9e810880146d771c0cd172d5709
     {
         return new Twig_Source("<div class=\"case-study study1\">
     <figure class=\"case-study__img\">
-        {% for first in page.collection %}
-            <li>{{ first.media.images|first }}</li>
+        {% for image in page.collection %}
+            <li>{{ image.media.images|first }}</li>
         {% endfor %}
     </figure>
     <div class=\"case-study__overlay\">

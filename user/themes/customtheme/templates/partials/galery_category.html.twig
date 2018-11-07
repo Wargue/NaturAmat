@@ -1,7 +1,7 @@
 <div class="case-study study1">
     <figure class="case-study__img">
-        {% for first in page.collection %}
-            <li>{{ first.media.images|first }}</li>
+        {% for image in page.collection %}
+            <li>{{ image.media.images|first }}</li>
         {% endfor %}
     </figure>
     <div class="case-study__overlay">

@@ -319,6 +319,8 @@ width: max-content;
 }
 
 
+/* CSS GALERIE*/
+
 html:not(.touch) .gallery-image figcaption, .touch .gallery-image figcaption, .mfp-with-zoom .mfp-title {
     position: absolute;
     top: 50%;
@@ -371,20 +373,13 @@ html:not(.touch) .gallery-image figcaption.visible:after, html:not(.touch) .gall
     top: -1.5em;
 }
 
-html {
-    -moz-osx-font-smoothing: grayscale;
-    -webkit-font-smoothing: antialiased;
-    text-rendering: optimizelegibility;
-}
-
-body {
-    font-family: "Montserrat", sans-serif;
-}
 
 .gallery {
     -webkit-column-gap: 0;
     column-gap: 0;
+    padding: 0px;
 }
+
 @media (min-width: 480px) {
     .gallery {
         -webkit-column-count: 2;
@@ -478,7 +473,7 @@ html:not(.touch) .gallery-image:hover:after {
 }
 
 .mfp-arrow {
-    opacity: 1;
+    opacity: 10;
     margin-top: 0 !important;
     width: 20%;
     height: 30%;
