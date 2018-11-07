@@ -19,6 +19,7 @@
             <h2>
                 {% if page.header.continue_link is not sameas(false) %}
                     <a href="{{ page.url }}"></a>
+
                 {% endif %}
                 <a href="{{ page.header.link }}">{{ page.title }}</a>
             </h2>
@@ -79,7 +80,7 @@
         {% endif %}
     {% elseif truncate and page.summary != page.content %}
         <p>{{ page.summary }}</p>
-        <p><a class="button btn btn-default" href="{{ page.url }}">En Savoir plus...</a></p>
+        <p><a class="button btn btn-default" href="{{ page.url }}">En Savoir plus...)</a></p>
     {% elseif truncate %}
         <p>{{ page.content|truncate(550) }}</p>
         <p><a class="button btn btn-default" href="{{ page.url }}">En Savoir plus...</a></p>

@@ -44,7 +44,8 @@ class __TwigTemplate_4f963778a1ea7e6ab1c22514c948c35b9e810880146d771c0cd172d5709
         echo $this->getAttribute(($context["page"] ?? null), "url", array());
         echo "\">En voir plus</a>
     </div>
-</div>";
+</div>
+";
     }
 
     public function getTemplateName()
@@ -82,6 +83,7 @@ class __TwigTemplate_4f963778a1ea7e6ab1c22514c948c35b9e810880146d771c0cd172d5709
         <h2 class=\"case-study__title\">{{ page.title }}</h2>
         <a class=\"case-study__link\" href=\"{{ page.url }}\">En voir plus</a>
     </div>
-</div>", "partials/galery_category.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\partials\\galery_category.html.twig");
+</div>
+", "partials/galery_category.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\partials\\galery_category.html.twig");
     }
 }

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/plugins/admin/blueprints/admin/pages/new_folder.yaml',
-    'modified' => 1538999174,
+    'modified' => 1541454084,
     'data' => [
         'rules' => [
             'slug' => [

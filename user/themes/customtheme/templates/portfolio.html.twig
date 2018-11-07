@@ -1,0 +1,24 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+
+    {% for image in page.header.images %}
+<article class='gallery'>
+    <a class='gallery-link' href='{{ page.media[image.thumbnail].url }}'>
+        <figure class='gallery-image'>
+            <img height='1200' src='{{ page.media[image.thumbnail].url }}' width='1400'>
+            <figcaption>{{ image.description }}</figcaption>
+        </figure>
+    </a>
+</article>
+    {% endfor %}
+    <script>
+        var elem = document.querySelector('.m-p-g');
+
+        document.addEventListener('DOMContentLoaded', function() {
+            var gallery = new MaterialPhotoGallery(elem);
+        });
+    </script>
+{% endblock %}
+
+

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/plugins/admin/admin.yaml',
-    'modified' => 1538999174,
+    'modified' => 1541454084,
     'data' => [
         'enabled' => true,
         'route' => '/admin',

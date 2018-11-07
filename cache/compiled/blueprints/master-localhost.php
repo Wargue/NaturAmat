@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledBlueprints',
-    'timestamp' => 1540752209,
-    'checksum' => 'd63066c5013d7bb0873ed7677ea8f798',
+    'timestamp' => 1541454104,
+    'checksum' => '7503f48eb49ecde4312072034f82db16',
     'files' => [
         'system/blueprints/config' => [
             'media' => [
@@ -29,7 +29,7 @@ return [
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/blueprints.yaml',
-                'modified' => 1538999174
+                'modified' => 1541454084
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/blueprints.yaml',
@@ -42,6 +42,10 @@ return [
             'plugins/form' => [
                 'file' => 'user/plugins/form/blueprints.yaml',
                 'modified' => 1538999174
+            ],
+            'plugins/gantry5' => [
+                'file' => 'user/plugins/gantry5/blueprints.yaml',
+                'modified' => 1541454100
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/blueprints.yaml',
@@ -3087,6 +3091,163 @@ return [
                 'name' => 'plugins.form.recaptcha.secret_key',
                 'validation' => 'strict'
             ],
+            'plugins.gantry5' => [
+                'type' => '_root',
+                'form_field' => false,
+                'form' => [
+                    'validation' => 'loose'
+                ]
+            ],
+            'plugins.gantry5.enabled' => [
+                'type' => 'toggle',
+                'label' => 'Plugin Status',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.gantry5.enabled',
+                'validation' => 'loose'
+            ],
+            'plugins.gantry5.production' => [
+                'type' => 'toggle',
+                'label' => 'Production Mode',
+                'description' => 'Production mode makes Gantry faster by more aggressive caching and ignoring changed files in the filesystem. Most changes made from admin should still be detected.',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.gantry5.production',
+                'validation' => 'loose'
+            ],
+            'plugins.gantry5.use_media_folder' => [
+                'type' => 'toggle',
+                'label' => 'Use Grav Images Folder',
+                'description' => 'By default Gantry media picker saves all files under the <strong>data://gantry5/themes/[theme]/images</strong> folder. If you want to save files into <strong>user://images</strong> folder instead, please select this option. Files in the old location can still be used, but are overridden by the files in the selected folder.',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.gantry5.use_media_folder',
+                'validation' => 'loose'
+            ],
+            'plugins.gantry5.offline' => [
+                'type' => 'toggle',
+                'label' => 'Offline',
+                'description' => 'Set site to maintenance mode. When site is offline, it\'s only visible for logged in users.',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'Yes',
+                    0 => 'No'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.gantry5.offline',
+                'validation' => 'loose'
+            ],
+            'plugins.gantry5.offline_message' => [
+                'type' => 'textarea',
+                'label' => 'Offline Message',
+                'description' => 'Set your own offline message explaining why the site is offline. Field accepts Markdown and HTML.',
+                'name' => 'plugins.gantry5.offline_message',
+                'validation' => 'loose'
+            ],
+            'plugins.gantry5.asset_timestamps' => [
+                'type' => 'toggle',
+                'label' => 'Asset Timestamps',
+                'description' => 'Adds timestamps on changed asset files, like images, css and js. The option makes browser to get fresh assets without forcing reload on the page. NOTE: Timestamps are always enabled in development mode.',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.gantry5.asset_timestamps',
+                'validation' => 'loose'
+            ],
+            'plugins.gantry5.asset_timestamps_period' => [
+                'type' => 'text',
+                'label' => 'Timestamp Period',
+                'description' => 'Number of days which timestamp is kept after updating the file. Accepts also decimal numbers, eg. 0.5 = 12 hours. Set to 0 to add timestamps on every single asset file.',
+                'default' => 7,
+                'validate' => [
+                    'type' => 'float'
+                ],
+                'name' => 'plugins.gantry5.asset_timestamps_period',
+                'validation' => 'loose'
+            ],
+            'plugins.gantry5.debug' => [
+                'type' => 'toggle',
+                'label' => 'Debug Mode',
+                'description' => 'By enabling debugging mode, you will get more information what\'s going on inside Gantry.',
+                'highlight' => 1,
+                'default' => 0,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.gantry5.debug',
+                'validation' => 'loose'
+            ],
+            'plugins.gantry5.compile_yaml' => [
+                'type' => 'toggle',
+                'label' => 'Compile YAML',
+                'description' => 'Compile YAML configuration files into PHP, making page loads significantly faster.',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.gantry5.compile_yaml',
+                'validation' => 'loose'
+            ],
+            'plugins.gantry5.compile_twig' => [
+                'type' => 'toggle',
+                'label' => 'Compile Twig',
+                'description' => 'Compile Twig template files into PHP, making page loads significantly faster.',
+                'highlight' => 1,
+                'default' => 1,
+                'options' => [
+                    1 => 'Enabled',
+                    0 => 'Disabled'
+                ],
+                'validate' => [
+                    'type' => 'bool'
+                ],
+                'name' => 'plugins.gantry5.compile_twig',
+                'validation' => 'loose'
+            ],
+            'plugins.gantry5._redirect' => [
+                'type' => 'hidden',
+                'name' => 'plugins.gantry5._redirect',
+                'validation' => 'loose'
+            ],
             'plugins.login' => [
                 'type' => '_root',
                 'form_field' => false,
@@ -4057,6 +4218,19 @@ return [
                         'site_key' => 'plugins.form.recaptcha.site_key',
                         'secret_key' => 'plugins.form.recaptcha.secret_key'
                     ]
+                ],
+                'gantry5' => [
+                    'enabled' => 'plugins.gantry5.enabled',
+                    'production' => 'plugins.gantry5.production',
+                    'use_media_folder' => 'plugins.gantry5.use_media_folder',
+                    'offline' => 'plugins.gantry5.offline',
+                    'offline_message' => 'plugins.gantry5.offline_message',
+                    'asset_timestamps' => 'plugins.gantry5.asset_timestamps',
+                    'asset_timestamps_period' => 'plugins.gantry5.asset_timestamps_period',
+                    'debug' => 'plugins.gantry5.debug',
+                    'compile_yaml' => 'plugins.gantry5.compile_yaml',
+                    'compile_twig' => 'plugins.gantry5.compile_twig',
+                    '_redirect' => 'plugins.gantry5._redirect'
                 ],
                 'login' => [
                     'tabs' => 'plugins.login.tabs',

@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1540752209,
-    'checksum' => '0c1af86fc13fb3e633fcd7f73b5c8d88',
+    'timestamp' => 1541454104,
+    'checksum' => 'e060b26a921052b6ffcf6c27e9d185dd',
     'files' => [
         'user/config' => [
             'media' => [
@@ -51,7 +51,7 @@ return [
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1538999174
+                'modified' => 1541454084
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
@@ -64,6 +64,10 @@ return [
             'plugins/form' => [
                 'file' => 'user/plugins/form/form.yaml',
                 'modified' => 1538999174
+            ],
+            'plugins/gantry5' => [
+                'file' => 'user/plugins/gantry5/gantry5.yaml',
+                'modified' => 1541454101
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
@@ -194,6 +198,18 @@ return [
                         0 => 'image/*'
                     ]
                 ]
+            ],
+            'gantry5' => [
+                'enabled' => true,
+                'production' => true,
+                'use_media_folder' => false,
+                'offline' => false,
+                'offline_message' => NULL,
+                'asset_timestamps' => true,
+                'asset_timestamps_period' => 7,
+                'debug' => false,
+                'compile_yaml' => true,
+                'compile_twig' => true
             ],
             'login' => [
                 'enabled' => true,
