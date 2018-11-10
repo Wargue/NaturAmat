@@ -222,8 +222,8 @@ width: max-content;
 .case-study {
     position: relative;
     display: block;
-    width: 80%;
-    height: 200px;
+    width: 100%;
+    height: 500px;
     margin: 0 auto 2rem;
     background-size: cover;
     border-radius: 10px;
@@ -245,10 +245,9 @@ width: max-content;
 }
 
 .case-study__img {
-    height: max-content;
+    height: min-content;
     display: block;
     text-align: center;
-
 }
 
 .case-study__overlay {
@@ -316,6 +315,11 @@ width: max-content;
 }
 .case-study:hover .case-study__overlay:after {
     opacity: .75;
+}
+
+.case-study li{
+    margin-top: -30px;
+    height: 100%;
 }
 
 
