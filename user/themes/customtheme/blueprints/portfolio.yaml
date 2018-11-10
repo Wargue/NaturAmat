@@ -30,3 +30,11 @@ form:
                   folder: '@self'
                   preview_images: true
                   label: thumbnail
+                .size:
+                  type: text
+                  label: Dimension(hxL)
+                  help: Dimension de la photo
+                .hv:
+                  type: text
+                  label: hor or ver
+                  help: horizontal ou vertical
