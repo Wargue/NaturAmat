@@ -240,7 +240,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
         <p><a class=\"button btn btn-default\" href=\"";
             // line 83
             echo $this->getAttribute(($context["page"] ?? null), "url", array());
-            echo "\">En Savoir plus...)</a></p>
+            echo "\">En Savoir plus...</a></p>
     ";
         } elseif (        // line 84
 ($context["truncate"] ?? null)) {
@@ -408,7 +408,7 @@ class __TwigTemplate_aa8865a690c2cb8717b9d0994bb9e05a0b9f7dc3332f9549affc8fb8d17
         {% endif %}
     {% elseif truncate and page.summary != page.content %}
         <p>{{ page.summary }}</p>
-        <p><a class=\"button btn btn-default\" href=\"{{ page.url }}\">En Savoir plus...)</a></p>
+        <p><a class=\"button btn btn-default\" href=\"{{ page.url }}\">En Savoir plus...</a></p>
     {% elseif truncate %}
         <p>{{ page.content|truncate(550) }}</p>
         <p><a class=\"button btn btn-default\" href=\"{{ page.url }}\">En Savoir plus...</a></p>

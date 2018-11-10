@@ -80,7 +80,7 @@
         {% endif %}
     {% elseif truncate and page.summary != page.content %}
         <p>{{ page.summary }}</p>
-        <p><a class="button btn btn-default" href="{{ page.url }}">En Savoir plus...)</a></p>
+        <p><a class="button btn btn-default" href="{{ page.url }}">En Savoir plus...</a></p>
     {% elseif truncate %}
         <p>{{ page.content|truncate(550) }}</p>
         <p><a class="button btn btn-default" href="{{ page.url }}">En Savoir plus...</a></p>
