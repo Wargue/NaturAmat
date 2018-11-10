@@ -12,7 +12,7 @@ class __TwigTemplate_5ac4093be60be9a4bcaac16e939be6dee7d094f16dbb4b4db275f9bcf9e
         $this->blocks = array(
             'contents' => array($this, 'block_contents'),
             'global_attributes' => array($this, 'block_global_attributes'),
-            '__internal_e408f6e41354bae6411f4fb2bf2e9ca816e0821165964d2e30246de2e260224d' => array($this, 'block___internal_e408f6e41354bae6411f4fb2bf2e9ca816e0821165964d2e30246de2e260224d'),
+            '__internal_1427507fd3aab9790afd17ab74bfa607d09e884f09a0f9223f7141450c1489a2' => array($this, 'block___internal_1427507fd3aab9790afd17ab74bfa607d09e884f09a0f9223f7141450c1489a2'),
         );
     }
 
@@ -309,7 +309,7 @@ $context["childName"]) && is_string($__internal_3e28b7f596c58d7729642bcf2acc6efc
                         $context["childKey"] = twig_trim_filter($context["childName"], ".");
                         // line 80
                         echo "                                ";
-                        $context["childValue"] = $this->getAttribute($context["val"], twig_slice($this->env, $context["childName"], 1, null), array(), "array");
+                        $context["childValue"] = $this->env->getExtension('Grav\Plugin\Admin\Twig\AdminTwigExtension')->nestedFilter($context["val"], $context["childName"]);
                         // line 81
                         echo "                                ";
                         $context["childName"] = (($context["itemName"] ?? null) . $context["childName"]);
@@ -485,7 +485,7 @@ $context["child"], "value" => ($context["childValue"] ?? null))));
         $context["itemName"] = ((($context["name"] ?? null)) ? ((($context["name"] ?? null) . ".*")) : ("*"));
         // line 139
         echo "<div style=\"display: none;\" data-collection-template=\"new\" data-collection-template-html=\"";
-        echo twig_escape_filter($this->env, twig_replace_filter(        $this->renderBlock("__internal_e408f6e41354bae6411f4fb2bf2e9ca816e0821165964d2e30246de2e260224d", $context, $blocks), array("   " => " ", "
+        echo twig_escape_filter($this->env, twig_replace_filter(        $this->renderBlock("__internal_1427507fd3aab9790afd17ab74bfa607d09e884f09a0f9223f7141450c1489a2", $context, $blocks), array("   " => " ", "
 " => " ")), "html_attr");
         // line 188
         echo "\"></div>
@@ -518,7 +518,7 @@ $context["child"], "value" => ($context["childValue"] ?? null))));
     }
 
     // line 139
-    public function block___internal_e408f6e41354bae6411f4fb2bf2e9ca816e0821165964d2e30246de2e260224d($context, array $blocks = array())
+    public function block___internal_1427507fd3aab9790afd17ab74bfa607d09e884f09a0f9223f7141450c1489a2($context, array $blocks = array())
     {
         // line 140
         echo "<li data-collection-item=\"";
@@ -722,7 +722,7 @@ $context["child"], "value" => null)));
                                 {% set childName = itemName -%}
                             {%- elseif childName starts with '.' -%}
                                 {% set childKey = childName|trim('.') %}
-                                {% set childValue = val[childName[1:]] %}
+                                {% set childValue = val|nested(childName) %}
                                 {% set childName = itemName ~ childName %}
                             {% else %}
                                 {% set childKey = childName %}

@@ -321,3 +321,49 @@ width: max-content;
     margin-top: -50px;
     height: max-content;
 }
+
+
+/*! CSS Contact */
+
+#listing-contact .inline{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.modular-row.contact{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#sidebar-contact h2{
+     color: white;
+     margin-top: 10px;
+ }
+
+.row.contact-row{
+    background-color: #fff;
+    background-image: url(images/bg02.png);
+    padding: 30px;
+}
+
+#listing-contact{
+    background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
+    padding-bottom: 20px;
+    height: 600px;
+}
+
+#sidebar-contact{
+    background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
+    padding-bottom: 20px;
+    height: 600px;
+}
+
+textarea.form-control {
+}
+
+@media screen and (min-width: 37.5em) {
+    #sidebar-contact p {
+        height: 15%;
+    }
+}

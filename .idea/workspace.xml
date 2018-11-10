@@ -2,29 +2,80 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b0fdda-29a5-4081-9e67-56e1f0b0e81d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/user/pages/04.contact/_main/form.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/pages/04.contact/blog-header.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/pages/04.contact/modular_alt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/pages/04.contact/thankyou/formdata.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/modular/bottom.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/modular/form.html.twig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/modular_alt.html.twig" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/twig/29/2981c5adcde3112ab657c4781289021337961572898113e2f5ac8410d781b81b.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/29/2981c5adcde3112ab657c4781289021337961572898113e2f5ac8410d781b81b.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/blueprints/master-localhost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/03df863718b32876fc8b2f4b824183a6.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/03df863718b32876fc8b2f4b824183a6.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/0622173bee938c52196878e4b5f9b19a.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/0622173bee938c52196878e4b5f9b19a.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/0f2a7a81155c939e99a6a07e5e5bd52f.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/0f2a7a81155c939e99a6a07e5e5bd52f.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/28de86b6e020a5ef978deb855423fe5b.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/28de86b6e020a5ef978deb855423fe5b.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/2fb4a01cbd4162ba067f437e19052630.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/2fb4a01cbd4162ba067f437e19052630.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/34c6ac06e84e89bfbc98fb79dd6031b5.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/34c6ac06e84e89bfbc98fb79dd6031b5.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/354fde5302260ce6b5b02a6c932dbcb0.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/354fde5302260ce6b5b02a6c932dbcb0.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/36c6b572c58e2295760b23d4df2df13b.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/36c6b572c58e2295760b23d4df2df13b.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/396627751a9bef4b8f1a5ae8cce78c30.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/396627751a9bef4b8f1a5ae8cce78c30.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/39aedc34505d53448810d28d6839482b.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/39aedc34505d53448810d28d6839482b.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/3d32b8cd8b080eb2a56de6b88da333fa.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/3d32b8cd8b080eb2a56de6b88da333fa.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/402ffec602ef07e93421c42e16a3e0ee.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/402ffec602ef07e93421c42e16a3e0ee.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/407543cbbb08dfd5002b729c15cfa3db.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/407543cbbb08dfd5002b729c15cfa3db.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/416eb7c8ef414928337bb425b2a1bd9c.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/416eb7c8ef414928337bb425b2a1bd9c.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/46fe318cc257510b0e255f170c7a9824.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/46fe318cc257510b0e255f170c7a9824.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/4ccee78a636db940e187f75174f2c78f.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/4ccee78a636db940e187f75174f2c78f.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/5c388c60d3d0fd3e7734e4cbd517b5e0.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/5c388c60d3d0fd3e7734e4cbd517b5e0.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/61f8d9203f2ab371f5dc90100327652b.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/61f8d9203f2ab371f5dc90100327652b.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/622c63eec652ff7ceb0bfa80f1e6b828.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/622c63eec652ff7ceb0bfa80f1e6b828.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/67b4057f427dcbeceae70175a2382ce0.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/67b4057f427dcbeceae70175a2382ce0.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/6cf1e1bb2877859f7d5da622c1e37f87.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/6cf1e1bb2877859f7d5da622c1e37f87.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/6e2a7e33a59725928d1c2c5dc8b9e7c7.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/6e2a7e33a59725928d1c2c5dc8b9e7c7.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/788410021b325bf97034de3c4219250e.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/788410021b325bf97034de3c4219250e.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/791c631ae7106b6ac0526fb575018304.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/791c631ae7106b6ac0526fb575018304.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/7abdb0e2683b6c9f95ce5811f39d1669.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/7abdb0e2683b6c9f95ce5811f39d1669.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/821a76713086339e3b3070fe14f5ebba.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/821a76713086339e3b3070fe14f5ebba.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/835add1942dfd4f7ccf7a496f36b7777.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/835add1942dfd4f7ccf7a496f36b7777.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/9217b345a7e4b2bd5367611038a42c9e.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/9217b345a7e4b2bd5367611038a42c9e.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/931cb76e9107a7afe7a763717a8ed2f4.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/931cb76e9107a7afe7a763717a8ed2f4.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/9e6070ddc788324023c8ee4cc63d0ca3.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/9e6070ddc788324023c8ee4cc63d0ca3.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b80423d69729e6dc4dacbf0aa7958c7b.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/b80423d69729e6dc4dacbf0aa7958c7b.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b9eb53f8c1f45081691aa707613a49ea.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/b9eb53f8c1f45081691aa707613a49ea.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bc131db98d533c6538c0d6914171234d.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/bc131db98d533c6538c0d6914171234d.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bd64039ab7ee62e28b92b78cd226575a.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/bd64039ab7ee62e28b92b78cd226575a.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bfb6440ad53a4ebf9081e4a01992f81c.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/bfb6440ad53a4ebf9081e4a01992f81c.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/c60148411e1b858326ee6f85522da940.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/c60148411e1b858326ee6f85522da940.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/c7a958f7a5dcd0ac399ae39b7c8a9488.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/c7a958f7a5dcd0ac399ae39b7c8a9488.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cc9b0ee6092ffaaf6107b7df0e95a387.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/cc9b0ee6092ffaaf6107b7df0e95a387.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/d081d5af65f04179058aef12f0d72882.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/d081d5af65f04179058aef12f0d72882.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/d8415d09aab9a0791fe5c8097f18fe69.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/d8415d09aab9a0791fe5c8097f18fe69.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/d960ce95a82e4f379fefc4205d6c69be.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/d960ce95a82e4f379fefc4205d6c69be.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/df863084d1fb8004636f01e94dfd0e9e.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/df863084d1fb8004636f01e94dfd0e9e.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/e206bad9b74e9b6fbd4a918d4ac0e86f.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/e206bad9b74e9b6fbd4a918d4ac0e86f.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/ef209df4112defb6d8795cf2399250eb.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/ef209df4112defb6d8795cf2399250eb.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/f154966abe2e872c25e1b8be192d3ea9.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/f154966abe2e872c25e1b8be192d3ea9.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/f88aa368cf0275218ed35a405e86f3c0.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/f88aa368cf0275218ed35a405e86f3c0.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/f96917ab70f2e58327bb340d51f74d28.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/f96917ab70f2e58327bb340d51f74d28.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/ffb929b9a18c7953a21a6453ee637ff8.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/ffb929b9a18c7953a21a6453ee637ff8.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/problem-check-g-983ea27d.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/twig/2f/2f388ef34c33c739f90d0f3d14aa2eb02b5a345a64d664342de2d2262df826ca.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/2f/2f388ef34c33c739f90d0f3d14aa2eb02b5a345a64d664342de2d2262df826ca.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/twig/4c/4cd1698ae84797a6a39d1bedf426cf12d6d7a4acd72c3afa77c217f995b31957.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/4c/4cd1698ae84797a6a39d1bedf426cf12d6d7a4acd72c3afa77c217f995b31957.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/grav.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/grav.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/daily.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/totals.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.accueil/_slider/maison.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.accueil/_slider/maison2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/01.accueil/_slider/slider.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/01.accueil/_slider/slider.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/02.blog/blog.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/02.blog/blog.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/blop.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/03.galerie/l-urbain/blop.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/blup.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/03.galerie/l-urbain/blup.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/cerf.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/03.galerie/l-urbain/cerf.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/chevreuil.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/03.galerie/l-urbain/chevreuil.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/first/first.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/pif.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/03.galerie/l-urbain/pif.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/snow.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/03.galerie/l-urbain/snow.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/la-faune/lafaune.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/03.galerie/la-faune/portfolio.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/la-flore/laflore.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/03.galerie/la-flore/portfolio.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/les-paysages/lespaysages.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/03.galerie/les-paysages/portfolio.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/pages/03.galerie/les-portraits/lesportraits.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/pages/03.galerie/les-portraits/portfolio.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/customtheme/templates/partials/blog_item.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/partials/blog_item.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/pages/04.location/location.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/plugins/admin/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/user/plugins/admin/CHANGELOG.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/plugins/admin/blueprints.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user/plugins/admin/blueprints.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/plugins/admin/classes/Twig/AdminTwigExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/user/plugins/admin/classes/Twig/AdminTwigExtension.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/list/list.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/list/list.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/themes/customtheme/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/customtheme/css/custom.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/themes/customtheme/templates/location.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/location.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -51,67 +102,97 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1328" />
+          <entry key="css" value="1633" />
           <entry key="js" value="14" />
-          <entry key="md" value="2087" />
+          <entry key="md" value="2257" />
           <entry key="php" value="27" />
           <entry key="scss" value="4" />
-          <entry key="twig" value="3737" />
+          <entry key="twig" value="3850" />
           <entry key="txt" value="850" />
           <entry key="yaml" value="363" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1328" />
+          <entry key="CSS" value="1633" />
           <entry key="JavaScript" value="14" />
-          <entry key="Markdown" value="2087" />
+          <entry key="Markdown" value="2257" />
           <entry key="PHP" value="27" />
           <entry key="PLAIN_TEXT" value="850" />
           <entry key="SCSS" value="4" />
-          <entry key="Twig" value="3737" />
+          <entry key="Twig" value="3850" />
           <entry key="YAML" value="363" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="36" />
+          <entry key="css" value="38" />
           <entry key="htc" value="1" />
           <entry key="jpg" value="5" />
           <entry key="js" value="3" />
-          <entry key="md" value="159" />
+          <entry key="md" value="170" />
           <entry key="php" value="3" />
           <entry key="plugin" value="1" />
           <entry key="png" value="8" />
           <entry key="scss" value="4" />
-          <entry key="twig" value="177" />
-          <entry key="yaml" value="46" />
+          <entry key="twig" value="189" />
+          <entry key="yaml" value="57" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="36" />
+          <entry key="CSS" value="38" />
           <entry key="Image" value="13" />
           <entry key="JavaScript" value="3" />
-          <entry key="Markdown" value="159" />
+          <entry key="Markdown" value="170" />
           <entry key="PHP" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="4" />
-          <entry key="Twig" value="177" />
-          <entry key="YAML" value="47" />
+          <entry key="Twig" value="189" />
+          <entry key="YAML" value="58" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/modular_alt.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/pages/03.galerie/la-faune/portfolio.md">
+        <entry file="file://$PROJECT_DIR$/user/themes/customtheme/css/custom.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="188">
+              <caret line="335" column="23" selection-start-line="335" selection-start-column="23" selection-end-line="335" selection-end-column="23" />
+              <folding>
+                <element signature="e#524#586#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/modular/form.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/pages/04.contact/_main/form.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="85">
-                <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+              <first_editor relative-caret-position="374">
+                <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               </first_editor>
               <second_editor />
             </state>
@@ -119,13 +200,29 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/pages/03.galerie/l-urbain/portfolio.md">
+        <entry file="file://$PROJECT_DIR$/user/pages/04.contact/modular_alt.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+              <first_editor relative-caret-position="339">
+                <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/email/blueprints.yaml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-561" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/modular/bottom.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -172,15 +269,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/blog.html.twig" />
-        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/partials/header.html.twig" />
-        <option value="$PROJECT_DIR$/user/pages/02.blog/london-industry/item.md" />
-        <option value="$PROJECT_DIR$/user/pages/02.blog/mon-dernier-article/item.md" />
-        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/modular/lastnews.html.twig" />
-        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/partials/lastnews_item.html.twig" />
-        <option value="$PROJECT_DIR$/user/pages/02.blog/encore-un-article/item.md" />
-        <option value="$PROJECT_DIR$/user/pages/03.galerie/default.md" />
-        <option value="$PROJECT_DIR$/user/pages/03.galerie/La Faune/lafaune.md" />
         <option value="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/first/first.md" />
         <option value="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/lurbain.md" />
         <option value="$PROJECT_DIR$/user/pages/03.galerie/galerie.md" />
@@ -213,8 +301,6 @@
         <option value="$PROJECT_DIR$/user/themes/customtheme/templates/partials/galery_category.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/customtheme/css/yooylz.css" />
         <option value="$PROJECT_DIR$/user/themes/customtheme/js/galery.js" />
-        <option value="$PROJECT_DIR$/user/themes/customtheme/css/custom.css" />
-        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/partials/base.html.twig" />
         <option value="$PROJECT_DIR$/user/pages/03.galerie/l-urbain/portfolio.md" />
         <option value="$PROJECT_DIR$/user/themes/customtheme/templates/portfolio.html.twig" />
         <option value="$PROJECT_DIR$/user/themes/customtheme/blueprints/portfolio.yaml" />
@@ -223,6 +309,17 @@
         <option value="$PROJECT_DIR$/user/themes/customtheme/templates/partials/blog_item.html.twig" />
         <option value="$PROJECT_DIR$/user/pages/03.galerie/la-faune/lafaune.md" />
         <option value="$PROJECT_DIR$/user/pages/03.galerie/la-faune/portfolio.md" />
+        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/partials/location.html.twig" />
+        <option value="$PROJECT_DIR$/user/pages/04.location/location.md" />
+        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/location.html.twig" />
+        <option value="$PROJECT_DIR$/user/pages/04.contact/contact.md" />
+        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/partials/base.html.twig" />
+        <option value="$PROJECT_DIR$/user/pages/04.contact/_intro/bottom.md" />
+        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/modular_alt.html.twig" />
+        <option value="$PROJECT_DIR$/user/pages/04.contact/modular_alt.md" />
+        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/modular/form.html.twig" />
+        <option value="$PROJECT_DIR$/user/pages/04.contact/_main/form.md" />
+        <option value="$PROJECT_DIR$/user/themes/customtheme/css/custom.css" />
       </list>
     </option>
   </component>
@@ -326,55 +423,14 @@
               <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
               <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="03.galerie" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
               <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="03.galerie" type="462c0819:PsiDirectoryNode" />
-              <item name="l-urbain" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="03.galerie" type="462c0819:PsiDirectoryNode" />
-              <item name="la-faune" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="03.galerie" type="462c0819:PsiDirectoryNode" />
-              <item name="la-flore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="03.galerie" type="462c0819:PsiDirectoryNode" />
-              <item name="les-paysages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="03.galerie" type="462c0819:PsiDirectoryNode" />
-              <item name="les-portraits" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="email" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
@@ -395,16 +451,7 @@
               <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="customtheme" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="themes" type="462c0819:PsiDirectoryNode" />
-              <item name="customtheme" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="modular" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -421,18 +468,18 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Naturamat\user\themes\customtheme\templates\modular" />
+      <recent name="C:\wamp\www\Naturamat\user\themes\customtheme\templates" />
+      <recent name="C:\wamp\www\Naturamat\user\themes\customtheme\templates\partials" />
       <recent name="C:\wamp\www\Naturamat\user\pages\03.galerie\l-urbain\first" />
       <recent name="C:\wamp\www\Naturamat\user\pages\03.galerie\l-urbain" />
-      <recent name="C:\wamp\www\Naturamat\user\themes\photographer\js" />
-      <recent name="C:\wamp\www\Naturamat\user\pages\03.galerie\l-urbain\second" />
-      <recent name="C:\wamp\www\Naturamat\user\pages\03.galerie\l-urbain\expo" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\Naturamat\user\themes\customtheme\css" />
+      <recent name="C:\wamp\www\Naturamat\user\themes\customtheme\templates\modular" />
+      <recent name="C:\wamp\www\Naturamat\user\pages\04.contact" />
+      <recent name="C:\wamp\www\Naturamat\user\themes\customtheme\templates" />
       <recent name="C:\wamp\www\Naturamat\user\pages\03.galerie\l-urbain" />
-      <recent name="C:\wamp\www\Naturamat\user\pages\03.galerie\les-portraits" />
-      <recent name="C:\wamp\www\Naturamat\user\pages\03.galerie\les-paysages" />
-      <recent name="C:\wamp\www\Naturamat\user\pages\03.galerie\la-flore" />
-      <recent name="C:\wamp\www\Naturamat\user\pages\03.galerie\la-faune" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -469,7 +516,7 @@
       <workItem from="1541521672391" duration="12725000" />
       <workItem from="1541608044435" duration="6300000" />
       <workItem from="1541706698720" duration="623000" />
-      <workItem from="1541836259023" duration="13253000" />
+      <workItem from="1541836259023" duration="20454000" />
     </task>
     <task id="LOCAL-00001" summary="Grav basic install">
       <created>1540490844572</created>
@@ -660,11 +707,18 @@
       <option name="project" value="LOCAL" />
       <updated>1541851199942</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="set up of the gallery images">
+      <created>1541851748966</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1541851748966</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="107711000" />
+    <option name="totallyTimeSpent" value="114912000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -677,6 +731,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.28304905" />
       <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.25266525" />
@@ -691,7 +746,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49253732" visible="true" weight="0.33481646" />
+      <window_info anchor="bottom" id="Terminal" order="10" sideWeight="0.49253732" weight="0.33481646" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.5074627" side_tool="true" weight="0.33481646" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -755,156 +810,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="set up of the gallery images" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/location.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/plugins/pagination/templates/partials/pagination.html.twig">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/pages/03.galerie/l-urbain/second/second.md" />
-    <entry file="file://$PROJECT_DIR$/bin/plugin">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/config/media.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2821" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/config/site.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/system/blueprints/pages/modular.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/pages/admin/pages.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/pages/admin/pages-filter.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/pages/admin/register.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/pages/admin/reset.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/pages/admin/site.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/pages/admin/plugins.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/pages/admin/config.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/modular_new.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-135" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/blueprints/config/media.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/assets/admin-dashboard.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13158" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/admin.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/codeception.yml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/blueprints.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/photographer/assets/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1496">
-          <caret line="88" lean-forward="true" selection-start-line="88" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/admin/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="189">
-            <caret line="55" column="27" selection-start-line="55" selection-start-column="27" selection-end-line="55" selection-end-column="27" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/photographer/templates/partials/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="31" column="57" lean-forward="true" selection-start-line="31" selection-start-column="57" selection-end-line="31" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/photographer/assets/sass/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="421">
-          <caret line="1446" lean-forward="true" selection-start-line="1446" selection-end-line="1446" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/photographer/assets/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="485">
-          <caret line="1470" column="1" selection-start-line="1470" selection-start-column="1" selection-end-line="1470" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/photographer/js/galery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="50" lean-forward="true" selection-start-line="13" selection-start-column="50" selection-end-line="13" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/photographer/blueprints.yaml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/03.galerie/galerie.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -956,16 +861,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/css/custom.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="749">
-          <caret line="323" lean-forward="true" selection-start-line="323" selection-end-line="323" />
-          <folding>
-            <element signature="e#524#586#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/portfolio.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="221">
@@ -980,13 +875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="663">
           <caret line="39" column="46" selection-start-line="39" selection-start-column="46" selection-end-line="39" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/partials/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1564">
-          <caret line="92" column="112" lean-forward="true" selection-start-line="92" selection-start-column="112" selection-end-line="92" selection-end-column="112" />
         </state>
       </provider>
     </entry>
@@ -1057,19 +945,201 @@
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor>
-            <caret column="3" lean-forward="true" selection-start-column="3" selection-end-column="3" />
+            <caret column="3" selection-start-column="3" selection-end-column="3" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/links.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/03.galerie/la-faune/portfolio.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="85">
-            <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <first_editor relative-caret-position="238">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/04.contact/location.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="221">
+            <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/plugins/simple_form/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/plugins/simple_form/hire.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/media.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/security.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/site.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/streams.yaml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/config/system.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="5" column="26" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/photographer/templates/plugins/simple_form/contact.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/photographer/templates/plugins/simple_form/hire.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/form/blueprints.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-697">
+          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/photographer/blueprints.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/config/system.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2150" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/system/config/site.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/location.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="53" selection-start-line="16" selection-start-column="53" selection-end-line="16" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/modular.html.twig">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/04.contact/contact.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="17">
+            <caret line="1" column="21" selection-start-line="1" selection-start-column="21" selection-end-line="1" selection-end-column="21" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/css/slidebars.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/partials/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="69" selection-start-line="18" selection-start-column="69" selection-end-line="18" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/04.contact/_outro/bottom.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="119">
+            <caret line="7" selection-start-line="7" selection-end-line="7" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/04.contact/_intro/bottom.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/01.accueil/modular.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="68">
+            <caret line="4" selection-start-line="4" selection-end-line="4" selection-end-column="47" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/modular/bottom.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="6" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/email/blueprints.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-561" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/04.contact/modular_alt.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="339">
+            <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/modular/form.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="6" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/modular_alt.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/pages/04.contact/_main/form.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="374">
+            <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/css/custom.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="335" column="23" selection-start-line="335" selection-start-column="23" selection-end-line="335" selection-end-column="23" />
+          <folding>
+            <element signature="e#524#586#0" />
+          </folding>
         </state>
       </provider>
     </entry>

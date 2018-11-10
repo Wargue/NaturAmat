@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/plugins/admin/blueprints.yaml',
-    'modified' => 1541454084,
+    'modified' => 1541853124,
     'data' => [
         'name' => 'Admin Panel',
-        'version' => '1.8.12',
+        'version' => '1.8.13',
         'description' => 'Adds an advanced administration panel to manage your site',
         'icon' => 'empire',
         'author' => [

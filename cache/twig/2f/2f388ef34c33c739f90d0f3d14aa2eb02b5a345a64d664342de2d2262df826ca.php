@@ -53,13 +53,13 @@ class __TwigTemplate_8f67df707c36fae9abc7472fbead155691eedd71852b0d915103e27a0cf
         echo "</h2>
                     ";
         // line 18
-        if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "simple_form", array()), "enabled", array())) {
+        if ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "form", array()), "enabled", array())) {
             // line 19
             echo "                        ";
-            $context["simple_form_config"] = (($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "simple_form", array())) ? ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "simple_form", array())) : ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "themes", array()), "photographer", array()), "simple_form", array())));
+            $context["form_config"] = (($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "form", array())) ? ($this->getAttribute($this->getAttribute(($context["page"] ?? null), "header", array()), "form", array())) : ($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "themes", array()), "photographer", array()), "form", array())));
             // line 20
             echo "                        ";
-            echo call_user_func_array($this->env->getFunction('simple_form')->getCallable(), array(($context["simple_form_config"] ?? null)));
+            echo call_user_func_array($this->env->getFunction('form')->getCallable(), array(($context["form_config"] ?? null)));
             echo "
                     ";
         }
@@ -114,9 +114,9 @@ class __TwigTemplate_8f67df707c36fae9abc7472fbead155691eedd71852b0d915103e27a0cf
                 </div>
                 <div class=\"col-lg-8 col-md-8 col-sm-8 address\">
                     <h2>{{ page.header.title2 }}</h2>
-                    {% if config.plugins.simple_form.enabled %}
-                        {% set simple_form_config = page.header.simple_form ?: config.themes.photographer.simple_form %}
-                        {{ simple_form(simple_form_config) }}
+                    {% if config.plugins.form.enabled %}
+                        {% set form_config = page.header.form ?: config.themes.photographer.form %}
+                        {{ form(form_config) }}
                     {% endif %}
             </div>
         </div> 
