@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/system/languages/pt.yaml',
-    'modified' => 1542045988,
+    'modified' => 1538999174,
     'data' => [
         'FRONTMATTER_ERROR_PAGE' => '---
 título: %1$s

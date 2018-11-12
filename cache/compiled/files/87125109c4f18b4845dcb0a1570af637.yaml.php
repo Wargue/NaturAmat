@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/system/config/security.yaml',
-    'modified' => 1542045988,
+    'modified' => 1538999174,
     'data' => [
         'xss_whitelist' => [
             0 => 'admin.super'

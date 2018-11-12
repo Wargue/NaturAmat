@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1542046007,
-    'checksum' => '986b3fd0facdc14bd7d42648e83aa510',
+    'timestamp' => 1541853129,
+    'checksum' => '52902926b1a18f39f0750c1c1a5f4a94',
     'files' => [
         'user/config' => [
             'media' => [
@@ -23,39 +23,35 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1542045377
+                'modified' => 1540491841
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1542045988
+                'modified' => 1538999174
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1542045988
+                'modified' => 1538999174
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1542045988
+                'modified' => 1538999174
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1542045988
+                'modified' => 1538999174
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1542045988
+                'modified' => 1538999174
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
                 'modified' => 1541853124
-            ],
-            'plugins/comments' => [
-                'file' => 'user/plugins/comments/comments.yaml',
-                'modified' => 1542045373
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
@@ -153,94 +149,6 @@ return [
                         'daily' => 30,
                         'monthly' => 12,
                         'visitors' => 20
-                    ]
-                ]
-            ],
-            'comments' => [
-                'enabled' => true,
-                'enable_on_routes' => [
-                    0 => '/blog'
-                ],
-                'disable_on_routes' => [
-                    0 => '/blog/blog-post-to-ignore',
-                    1 => '/ignore-this-route'
-                ],
-                'form' => [
-                    'name' => 'comments',
-                    'fields' => [
-                        0 => [
-                            'name' => 'name',
-                            'label' => 'PLUGIN_COMMENTS.NAME_LABEL',
-                            'placeholder' => 'PLUGIN_COMMENTS.NAME_PLACEHOLDER',
-                            'autocomplete' => 'on',
-                            'type' => 'text',
-                            'validate' => [
-                                'required' => true
-                            ]
-                        ],
-                        1 => [
-                            'name' => 'email',
-                            'label' => 'PLUGIN_COMMENTS.EMAIL_LABEL',
-                            'placeholder' => 'PLUGIN_COMMENTS.EMAIL_PLACEHOLDER',
-                            'type' => 'email',
-                            'validate' => [
-                                'required' => true
-                            ]
-                        ],
-                        2 => [
-                            'name' => 'text',
-                            'label' => 'PLUGIN_COMMENTS.MESSAGE_LABEL',
-                            'placeholder' => 'PLUGIN_COMMENTS.MESSAGE_PLACEHOLDER',
-                            'type' => 'textarea',
-                            'validate' => [
-                                'required' => true
-                            ]
-                        ],
-                        3 => [
-                            'name' => 'date',
-                            'type' => 'hidden',
-                            'process' => [
-                                'fillWithCurrentDateTime' => true
-                            ]
-                        ],
-                        4 => [
-                            'name' => 'title',
-                            'type' => 'hidden',
-                            'evaluateDefault' => 'grav.page.header.title'
-                        ],
-                        5 => [
-                            'name' => 'lang',
-                            'type' => 'hidden',
-                            'evaluateDefault' => 'grav.language.getLanguage'
-                        ],
-                        6 => [
-                            'name' => 'path',
-                            'type' => 'hidden',
-                            'evaluateDefault' => 'grav.uri.path'
-                        ]
-                    ],
-                    'buttons' => [
-                        0 => [
-                            'type' => 'submit',
-                            'value' => 'PLUGIN_COMMENTS.SUBMIT_COMMENT_BUTTON_TEXT'
-                        ]
-                    ],
-                    'process' => [
-                        0 => [
-                            'email' => [
-                                'subject' => 'PLUGIN_COMMENTS.EMAIL_NEW_COMMENT_SUBJECT',
-                                'body' => '{% include \'forms/data.html.twig\' %}'
-                            ]
-                        ],
-                        1 => [
-                            'addComment' => NULL
-                        ],
-                        2 => [
-                            'message' => 'PLUGIN_COMMENTS.THANK_YOU_MESSAGE'
-                        ],
-                        3 => [
-                            'reset' => true
-                        ]
                     ]
                 ]
             ],
@@ -456,7 +364,7 @@ return [
                     'mime' => 'video/x-flv'
                 ],
                 'webm' => [
-                    'type' => 'video',
+                    'type' => 'file',
                     'thumb' => 'media/thumb-webm.png',
                     'mime' => 'video/webm'
                 ],

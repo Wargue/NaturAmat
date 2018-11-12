@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/system/config/site.yaml',
-    'modified' => 1542045988,
+    'modified' => 1538999174,
     'data' => [
         'title' => 'Grav',
         'default_lang' => 'en',
