@@ -15,12 +15,6 @@ images:
         size: 4514x2953
         hv: horizontal
     -
-        title: Snow
-        description: 'Un pas dans la neige'
-        thumbnail: snow.jpg
-        size: 400x600
-        hv: vertical
-    -
         title: qsdf
         description: qsdf
         thumbnail: blop.jpg
@@ -32,6 +26,12 @@ images:
         thumbnail: blup.jpg
         size: 4715x3115
         hv: horizontal
+    -
+        title: Snow
+        description: 'Un pas dans la neige'
+        thumbnail: snow.jpg
+        size: 400x600
+        hv: vertical
     -
         title: dfghjk
         description: fghjk
