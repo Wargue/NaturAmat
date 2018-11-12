@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1541853129,
-    'checksum' => '52902926b1a18f39f0750c1c1a5f4a94',
+    'timestamp' => 1542048054,
+    'checksum' => 'd0ca66e6d48f94ffbad5e75d4fb4a511',
     'files' => [
         'user/config' => [
             'media' => [
@@ -23,29 +23,29 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1540491841
+                'modified' => 1542048054
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ]
         ],
         'user/plugins' => [
@@ -53,9 +53,13 @@ return [
                 'file' => 'user/plugins/admin/admin.yaml',
                 'modified' => 1541853124
             ],
+            'plugins/comments' => [
+                'file' => 'user/plugins/comments/comments.yaml',
+                'modified' => 1542045373
+            ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1538999174
+                'modified' => 1542047173
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -152,12 +156,100 @@ return [
                     ]
                 ]
             ],
+            'comments' => [
+                'enabled' => true,
+                'enable_on_routes' => [
+                    0 => '/blog'
+                ],
+                'disable_on_routes' => [
+                    0 => '/blog/blog-post-to-ignore',
+                    1 => '/ignore-this-route'
+                ],
+                'form' => [
+                    'name' => 'comments',
+                    'fields' => [
+                        0 => [
+                            'name' => 'name',
+                            'label' => 'PLUGIN_COMMENTS.NAME_LABEL',
+                            'placeholder' => 'PLUGIN_COMMENTS.NAME_PLACEHOLDER',
+                            'autocomplete' => 'on',
+                            'type' => 'text',
+                            'validate' => [
+                                'required' => true
+                            ]
+                        ],
+                        1 => [
+                            'name' => 'email',
+                            'label' => 'PLUGIN_COMMENTS.EMAIL_LABEL',
+                            'placeholder' => 'PLUGIN_COMMENTS.EMAIL_PLACEHOLDER',
+                            'type' => 'email',
+                            'validate' => [
+                                'required' => true
+                            ]
+                        ],
+                        2 => [
+                            'name' => 'text',
+                            'label' => 'PLUGIN_COMMENTS.MESSAGE_LABEL',
+                            'placeholder' => 'PLUGIN_COMMENTS.MESSAGE_PLACEHOLDER',
+                            'type' => 'textarea',
+                            'validate' => [
+                                'required' => true
+                            ]
+                        ],
+                        3 => [
+                            'name' => 'date',
+                            'type' => 'hidden',
+                            'process' => [
+                                'fillWithCurrentDateTime' => true
+                            ]
+                        ],
+                        4 => [
+                            'name' => 'title',
+                            'type' => 'hidden',
+                            'evaluateDefault' => 'grav.page.header.title'
+                        ],
+                        5 => [
+                            'name' => 'lang',
+                            'type' => 'hidden',
+                            'evaluateDefault' => 'grav.language.getLanguage'
+                        ],
+                        6 => [
+                            'name' => 'path',
+                            'type' => 'hidden',
+                            'evaluateDefault' => 'grav.uri.path'
+                        ]
+                    ],
+                    'buttons' => [
+                        0 => [
+                            'type' => 'submit',
+                            'value' => 'PLUGIN_COMMENTS.SUBMIT_COMMENT_BUTTON_TEXT'
+                        ]
+                    ],
+                    'process' => [
+                        0 => [
+                            'email' => [
+                                'subject' => 'PLUGIN_COMMENTS.EMAIL_NEW_COMMENT_SUBJECT',
+                                'body' => '{% include \'forms/data.html.twig\' %}'
+                            ]
+                        ],
+                        1 => [
+                            'addComment' => NULL
+                        ],
+                        2 => [
+                            'message' => 'PLUGIN_COMMENTS.THANK_YOU_MESSAGE'
+                        ],
+                        3 => [
+                            'reset' => true
+                        ]
+                    ]
+                ]
+            ],
             'email' => [
                 'enabled' => true,
-                'from' => NULL,
-                'from_name' => NULL,
-                'to' => NULL,
-                'to_name' => NULL,
+                'from' => 'naturamat@hotmail.com',
+                'from_name' => 'Naturamat',
+                'to' => 'naturamat@hotmail.com',
+                'to_name' => 'Naturamat',
                 'mailer' => [
                     'engine' => 'sendmail',
                     'smtp' => [
@@ -364,7 +456,7 @@ return [
                     'mime' => 'video/x-flv'
                 ],
                 'webm' => [
-                    'type' => 'file',
+                    'type' => 'video',
                     'thumb' => 'media/thumb-webm.png',
                     'mime' => 'video/webm'
                 ],
@@ -663,7 +755,7 @@ return [
             'intl_enabled' => true,
             'languages' => [
                 'supported' => [
-                    
+                    0 => 'fr'
                 ],
                 'include_default_lang' => true,
                 'translations' => true,
@@ -673,7 +765,7 @@ return [
                 'override_locale' => false
             ],
             'home' => [
-                'alias' => '/home',
+                'alias' => '/accueil',
                 'hide_in_urls' => false
             ],
             'pages' => [
@@ -727,7 +819,7 @@ return [
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -788,7 +880,7 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => 1,
                 'log' => true
             ],
             'debugger' => [

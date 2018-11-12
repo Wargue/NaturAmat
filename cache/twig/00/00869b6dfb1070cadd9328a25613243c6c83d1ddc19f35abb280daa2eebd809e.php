@@ -21,27 +21,28 @@ class __TwigTemplate_e4466d4663effccfb1c46225b4eaf0d6cee1c132d4854ea8cb24050da03
             echo "    ";
             $context["scope"] = ((($context["scope"] ?? null)) ? (($context["scope"] ?? null)) : ("data."));
             // line 3
-            echo "
-    <h3>";
-            // line 4
+            echo "<div class=\"container container-comment\" >
+    <div class=\"row\">
+    <h3 class=\"title-comment\">";
+            // line 5
             echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("PLUGIN_COMMENTS.ADD_COMMENT");
             echo "</h3>
 
-    <form name=\"";
-            // line 6
+    <form class=\"col-lg-10\" name=\"";
+            // line 7
             echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "config", array()), "plugins", array()), "comments", array()), "form", array()), "name", array());
             echo "\"
           action=\"";
-            // line 7
+            // line 8
             echo (($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "config", array()), "plugins", array()), "comments", array()), "form", array()), "action", array())) ? ((($context["base_url"] ?? null) . $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "config", array()), "plugins", array()), "comments", array()), "form", array()), "action", array()))) : ($this->getAttribute(($context["page"] ?? null), "url", array())));
             echo "\"
           method=\"";
-            // line 8
+            // line 9
             echo _twig_default_filter(twig_upper_filter($this->env, $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "config", array()), "plugins", array()), "comments", array()), "form", array()), "method", array())), "POST");
             echo "\">
 
         ";
-            // line 10
+            // line 11
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "config", array()), "plugins", array()), "comments", array()), "form", array()), "fields", array()));
             $context['loop'] = array(
@@ -58,34 +59,34 @@ class __TwigTemplate_e4466d4663effccfb1c46225b4eaf0d6cee1c132d4854ea8cb24050da03
                 $context['loop']['last'] = 1 === $length;
             }
             foreach ($context['_seq'] as $context["_key"] => $context["field"]) {
-                // line 11
-                echo "            ";
-                $context["value"] = $this->getAttribute(($context["form"] ?? null), "value", array(0 => $this->getAttribute($context["field"], "name", array())), "method");
                 // line 12
                 echo "            ";
+                $context["value"] = $this->getAttribute(($context["form"] ?? null), "value", array(0 => $this->getAttribute($context["field"], "name", array())), "method");
+                // line 13
+                echo "            ";
                 if ($this->getAttribute($context["field"], "evaluateDefault", array())) {
-                    // line 13
+                    // line 14
                     echo "                ";
                     $context["value"] = $this->env->getExtension('Grav\Common\Twig\TwigExtension')->evaluateStringFunc($context, $this->getAttribute($context["field"], "evaluateDefault", array()));
-                    // line 14
+                    // line 15
                     echo "            ";
                 }
-                // line 15
+                // line 16
                 echo "            ";
                 if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "login", array()), "enabled", array()) && $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "authenticated", array()))) {
-                    // line 16
+                    // line 17
                     echo "                ";
                     if (($this->getAttribute($context["field"], "name", array()) == "name")) {
-                        // line 17
+                        // line 18
                         echo "                    <input type=\"hidden\" name=\"";
                         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->fieldNameFilter((($context["scope"] ?? null) . $this->getAttribute($context["field"], "name", array())));
                         echo "\" value=\"";
                         echo $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "user", array()), "fullname", array());
                         echo "\">
                 ";
-                    } elseif (($this->getAttribute(                    // line 18
+                    } elseif (($this->getAttribute(                    // line 19
 $context["field"], "name", array()) == "email")) {
-                        // line 19
+                        // line 20
                         echo "                    <input type=\"hidden\" name=\"";
                         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->fieldNameFilter((($context["scope"] ?? null) . $this->getAttribute($context["field"], "name", array())));
                         echo "\" value=\"";
@@ -93,28 +94,28 @@ $context["field"], "name", array()) == "email")) {
                         echo "\">
                 ";
                     } else {
-                        // line 21
-                        echo "                    <div>
-                        ";
                         // line 22
-                        $this->loadTemplate((((("forms/fields/" . $this->getAttribute($context["field"], "type", array())) . "/") . $this->getAttribute($context["field"], "type", array())) . ".html.twig"), "partials/comments.html.twig", 22)->display($context);
+                        echo "                    <div class=\"row\">
+                        ";
                         // line 23
+                        $this->loadTemplate((((("forms/fields/" . $this->getAttribute($context["field"], "type", array())) . "/") . $this->getAttribute($context["field"], "type", array())) . ".html.twig"), "partials/comments.html.twig", 23)->display($context);
+                        // line 24
                         echo "                    </div>
                 ";
                     }
-                    // line 25
+                    // line 26
                     echo "            ";
                 } else {
-                    // line 26
+                    // line 27
                     echo "                <div>
                     ";
-                    // line 27
-                    $this->loadTemplate((((("forms/fields/" . $this->getAttribute($context["field"], "type", array())) . "/") . $this->getAttribute($context["field"], "type", array())) . ".html.twig"), "partials/comments.html.twig", 27)->display($context);
                     // line 28
+                    $this->loadTemplate((((("forms/fields/" . $this->getAttribute($context["field"], "type", array())) . "/") . $this->getAttribute($context["field"], "type", array())) . ".html.twig"), "partials/comments.html.twig", 28)->display($context);
+                    // line 29
                     echo "                </div>
             ";
                 }
-                // line 30
+                // line 31
                 echo "        ";
                 ++$context['loop']['index0'];
                 ++$context['loop']['index'];
@@ -128,18 +129,18 @@ $context["field"], "name", array()) == "email")) {
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['field'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 31
-            echo "        ";
-            $this->loadTemplate("forms/fields/formname/formname.html.twig", "partials/comments.html.twig", 31)->display($context);
             // line 32
+            echo "        ";
+            $this->loadTemplate("forms/fields/formname/formname.html.twig", "partials/comments.html.twig", 32)->display($context);
+            // line 33
             echo "
         <div class=\"buttons\">
         ";
-            // line 34
+            // line 35
             $context['_parent'] = $context;
             $context['_seq'] = twig_ensure_traversable($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "config", array()), "plugins", array()), "comments", array()), "form", array()), "buttons", array()));
             foreach ($context['_seq'] as $context["_key"] => $context["button"]) {
-                // line 35
+                // line 36
                 echo "            <button class=\"button\" type=\"";
                 echo (($this->getAttribute($context["button"], "type", array(), "any", true, true)) ? (_twig_default_filter($this->getAttribute($context["button"], "type", array()), "submit")) : ("submit"));
                 echo "\">";
@@ -150,46 +151,46 @@ $context["field"], "name", array()) == "email")) {
             $_parent = $context['_parent'];
             unset($context['_seq'], $context['_iterated'], $context['_key'], $context['button'], $context['_parent'], $context['loop']);
             $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 37
+            // line 38
             echo "        </div>
 
         ";
-            // line 39
+            // line 40
             echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->nonceFieldFunc("form", "form-nonce");
             echo "
     </form>
 
     <div class=\"alert\">";
-            // line 42
+            // line 43
             echo $this->getAttribute(($context["form"] ?? null), "message", array());
             echo "</div>
 
     ";
-            // line 44
+            // line 45
             if (twig_length_filter($this->env, $this->getAttribute($this->getAttribute(($context["grav"] ?? null), "twig", array()), "comments", array()))) {
-                // line 45
+                // line 46
                 echo "
         <h3>";
-                // line 46
+                // line 47
                 echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("PLUGIN_COMMENTS.COMMENTS");
                 echo "</h3>
 
         <table>
             ";
-                // line 49
+                // line 50
                 $context['_parent'] = $context;
                 $context['_seq'] = twig_ensure_traversable(array_reverse($this->getAttribute($this->getAttribute(($context["grav"] ?? null), "twig", array()), "comments", array())));
                 foreach ($context['_seq'] as $context["_key"] => $context["comment"]) {
-                    // line 50
+                    // line 51
                     echo "            <tr>
                 <td>
                     ";
-                    // line 52
+                    // line 53
                     echo $this->getAttribute($context["comment"], "text", array());
                     echo "
                     <br />
                     ";
-                    // line 54
+                    // line 55
                     echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("PLUGIN_COMMENTS.WRITTEN_ON");
                     echo " ";
                     echo twig_escape_filter($this->env, $this->getAttribute($context["comment"], "date", array()));
@@ -205,11 +206,21 @@ $context["field"], "name", array()) == "email")) {
                 $_parent = $context['_parent'];
                 unset($context['_seq'], $context['_iterated'], $context['_key'], $context['comment'], $context['_parent'], $context['loop']);
                 $context = array_intersect_key($context, $_parent) + $_parent;
-                // line 58
+                // line 59
                 echo "        </table>
     ";
             }
         }
+        // line 62
+        echo "    </div>
+</div>
+<style>
+    .container-comment{
+        margin-top: 50px;
+
+    }
+
+</style>";
     }
 
     public function getTemplateName()
@@ -224,7 +235,7 @@ $context["field"], "name", array()) == "email")) {
 
     public function getDebugInfo()
     {
-        return array (  209 => 58,  193 => 54,  188 => 52,  184 => 50,  180 => 49,  174 => 46,  171 => 45,  169 => 44,  164 => 42,  158 => 39,  154 => 37,  143 => 35,  139 => 34,  135 => 32,  132 => 31,  118 => 30,  114 => 28,  112 => 27,  109 => 26,  106 => 25,  102 => 23,  100 => 22,  97 => 21,  89 => 19,  87 => 18,  80 => 17,  77 => 16,  74 => 15,  71 => 14,  68 => 13,  65 => 12,  62 => 11,  45 => 10,  40 => 8,  36 => 7,  32 => 6,  27 => 4,  24 => 3,  21 => 2,  19 => 1,);
+        return array (  215 => 62,  210 => 59,  194 => 55,  189 => 53,  185 => 51,  181 => 50,  175 => 47,  172 => 46,  170 => 45,  165 => 43,  159 => 40,  155 => 38,  144 => 36,  140 => 35,  136 => 33,  133 => 32,  119 => 31,  115 => 29,  113 => 28,  110 => 27,  107 => 26,  103 => 24,  101 => 23,  98 => 22,  90 => 20,  88 => 19,  81 => 18,  78 => 17,  75 => 16,  72 => 15,  69 => 14,  66 => 13,  63 => 12,  46 => 11,  41 => 9,  37 => 8,  33 => 7,  28 => 5,  24 => 3,  21 => 2,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -239,10 +250,11 @@ $context["field"], "name", array()) == "email")) {
     {
         return new Twig_Source("{% if grav.twig.enable_comments_plugin %}
     {% set scope = scope ?: 'data.' %}
+<div class=\"container container-comment\" >
+    <div class=\"row\">
+    <h3 class=\"title-comment\">{{'PLUGIN_COMMENTS.ADD_COMMENT'|t}}</h3>
 
-    <h3>{{'PLUGIN_COMMENTS.ADD_COMMENT'|t}}</h3>
-
-    <form name=\"{{ grav.config.plugins.comments.form.name }}\"
+    <form class=\"col-lg-10\" name=\"{{ grav.config.plugins.comments.form.name }}\"
           action=\"{{ grav.config.plugins.comments.form.action ?  base_url ~ grav.config.plugins.comments.form.action : page.url }}\"
           method=\"{{ grav.config.plugins.comments.form.method|upper|default('POST') }}\">
 
@@ -257,7 +269,7 @@ $context["field"], "name", array()) == "email")) {
                 {% elseif field.name == 'email' %}
                     <input type=\"hidden\" name=\"{{ (scope ~ field.name)|fieldName }}\" value=\"{{grav.user.email}}\">
                 {% else %}
-                    <div>
+                    <div class=\"row\">
                         {% include \"forms/fields/#{field.type}/#{field.type}.html.twig\" %}
                     </div>
                 {% endif %}
@@ -297,6 +309,14 @@ $context["field"], "name", array()) == "email")) {
         </table>
     {% endif %}
 {% endif %}
-", "partials/comments.html.twig", "C:\\wamp\\www\\Naturamat\\user\\plugins\\comments\\templates\\partials\\comments.html.twig");
+    </div>
+</div>
+<style>
+    .container-comment{
+        margin-top: 50px;
+
+    }
+
+</style>", "partials/comments.html.twig", "C:\\wamp\\www\\Naturamat\\user\\plugins\\comments\\templates\\partials\\comments.html.twig");
     }
 }

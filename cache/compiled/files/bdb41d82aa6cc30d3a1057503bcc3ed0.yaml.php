@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/system/config/media.yaml',
-    'modified' => 1538999174,
+    'modified' => 1542045988,
     'data' => [
         'types' => [
             'defaults' => [
@@ -73,7 +73,7 @@ return [
                 'mime' => 'video/x-flv'
             ],
             'webm' => [
-                'type' => 'file',
+                'type' => 'video',
                 'thumb' => 'media/thumb-webm.png',
                 'mime' => 'video/webm'
             ],

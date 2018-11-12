@@ -2,25 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d1b0fdda-29a5-4081-9e67-56e1f0b0e81d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CHANGELOG.md" beforeDir="false" afterPath="$PROJECT_DIR$/CHANGELOG.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cache/problem-check-g-5ef24a6c.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/config/master-localhost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/06daf56c1c673898549850f7ea6b0548.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/06daf56c1c673898549850f7ea6b0548.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/158809de08024de45a27c814e3a82aef.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/158809de08024de45a27c814e3a82aef.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/3843cc4fe282463879698cfcbf9098be.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/3843cc4fe282463879698cfcbf9098be.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/423b72e347d4ae3d4eaaf3864962d667.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/423b72e347d4ae3d4eaaf3864962d667.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/44ab93b356c2d49a5a105f3526eb6046.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/44ab93b356c2d49a5a105f3526eb6046.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/4fe63f391fa4ef869f5c018a6d42e94c.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/4fe63f391fa4ef869f5c018a6d42e94c.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/52e22f7463e8c5f7c17246af2673036b.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/52e22f7463e8c5f7c17246af2673036b.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/55c64dea0cbc79fa92429d551cde084f.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/55c64dea0cbc79fa92429d551cde084f.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/5962e62ad8bc858907dc1d178976df9b.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/5962e62ad8bc858907dc1d178976df9b.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/629070023df059fe057cc021d89042c3.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/629070023df059fe057cc021d89042c3.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/6bb2fe223cbfad81ed5f3988036c46dc.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/6bb2fe223cbfad81ed5f3988036c46dc.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/6e9a91cd889638661affd51dfc96ac59.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/6e9a91cd889638661affd51dfc96ac59.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/779ae13b06bbaaabaf0ec23b112dcd13.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/779ae13b06bbaaabaf0ec23b112dcd13.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/793952a50cfc8e908bf7b16f021093c4.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/793952a50cfc8e908bf7b16f021093c4.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/8091689c73e800df37ba5ecdb4c0f153.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/8091689c73e800df37ba5ecdb4c0f153.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/847f6a0b6d13e1fdfa48b287396d84d4.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/847f6a0b6d13e1fdfa48b287396d84d4.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/87125109c4f18b4845dcb0a1570af637.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/87125109c4f18b4845dcb0a1570af637.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/890e339a98eb1da6caf8a4b23cb6f014.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/890e339a98eb1da6caf8a4b23cb6f014.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/93ec15d2120f39c63afb6ca402e6903b.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/93ec15d2120f39c63afb6ca402e6903b.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a042613df5e16a374fe4bf81b780c51e.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/a042613df5e16a374fe4bf81b780c51e.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a80747fda15631f5af0ed10ffb24ae71.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/a80747fda15631f5af0ed10ffb24ae71.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a8e269bb1faacd58c00562f5352a7b7d.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/a8e269bb1faacd58c00562f5352a7b7d.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/a976a5c134a2d0a9fa4687084c406f56.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/a976a5c134a2d0a9fa4687084c406f56.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/af7d0cc0351b7d451189cbfa83f4ae74.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/af7d0cc0351b7d451189cbfa83f4ae74.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b020ec745da1a5f9818c5d7fa41e0814.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/b020ec745da1a5f9818c5d7fa41e0814.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/b5b759a62fa45a3e5b9b4068363f260f.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/b5b759a62fa45a3e5b9b4068363f260f.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bb6684ef70c8c37c3a263d188477c638.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/bb6684ef70c8c37c3a263d188477c638.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/bdb41d82aa6cc30d3a1057503bcc3ed0.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/bdb41d82aa6cc30d3a1057503bcc3ed0.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cbedfaf0731cdd9689716fae4db62c77.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/cbedfaf0731cdd9689716fae4db62c77.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cc927991408d2c559f2a3e5bbd6fda89.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/cc927991408d2c559f2a3e5bbd6fda89.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/cd9a734016e4080889422235f0e7cc7a.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/cd9a734016e4080889422235f0e7cc7a.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/e0b75f6037f44717420a1192f77d6e44.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/e0b75f6037f44717420a1192f77d6e44.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/eb812a88df782b1103d1ed4e9b9f991e.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/eb812a88df782b1103d1ed4e9b9f991e.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/ebeb8973023c3cde99c80b1ed284d748.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/ebeb8973023c3cde99c80b1ed284d748.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/f217518e9909752838af5d10214c6805.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/f217518e9909752838af5d10214c6805.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/f9bdab8c0395bbc5336cc4d65b50e1d5.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/f9bdab8c0395bbc5336cc4d65b50e1d5.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/files/fb54b20874f20dfca04b01f19529c0d3.yaml.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/files/fb54b20874f20dfca04b01f19529c0d3.yaml.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/compiled/languages/master-localhost.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/doctrine/4f/672d61396234653561315b64366661303238316636393538373637636532333230303339643166623361385d5b315d.doctrinecache.data" beforeDir="false" afterPath="$PROJECT_DIR$/cache/doctrine/4f/672d61396234653561315b64366661303238316636393538373637636532333230303339643166623361385d5b315d.doctrinecache.data" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/problem-check-g-a9b4e5a1.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/twig/00/00869b6dfb1070cadd9328a25613243c6c83d1ddc19f35abb280daa2eebd809e.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/00/00869b6dfb1070cadd9328a25613243c6c83d1ddc19f35abb280daa2eebd809e.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cache/twig/c9/c97ed64ce490f47da3355c602b54ef098f8a4580328e0a54009728370b6fc667.php" beforeDir="false" afterPath="$PROJECT_DIR$/cache/twig/c9/c97ed64ce490f47da3355c602b54ef098f8a4580328e0a54009728370b6fc667.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/grav.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/grav.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/daily.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/daily.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/monthly.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/monthly.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/totals.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/totals.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/popularity/visitors.json" beforeDir="false" afterPath="$PROJECT_DIR$/logs/popularity/visitors.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/config/media.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/system/config/media.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/defines.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/defines.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Helpers/Excerpts.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Helpers/Excerpts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Page/Page.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Page/Page.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Common/Twig/TwigExtension.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/Grav/Common/Twig/TwigExtension.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Console/Cli/CleanCommand.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/Grav/Console/Cli/CleanCommand.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/system/src/Grav/Framework/Session/Session.php" beforeDir="false" afterPath="$PROJECT_DIR$/system/src/Grav/Framework/Session/Session.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/user/themes/customtheme/templates/partials/blog_item.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/partials/blog_item.html.twig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_real.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/vendor/composer/autoload_static.php" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/config/system.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user/config/system.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/plugins/comments/templates/partials/comments.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/plugins/comments/templates/partials/comments.html.twig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/plugins/email/email.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/user/plugins/email/email.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/user/themes/customtheme/templates/partials/lastnews_item.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/user/themes/customtheme/templates/partials/lastnews_item.html.twig" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -53,7 +86,7 @@
           <entry key="md" value="2257" />
           <entry key="php" value="27" />
           <entry key="scss" value="4" />
-          <entry key="twig" value="3853" />
+          <entry key="twig" value="3869" />
           <entry key="txt" value="899" />
           <entry key="yaml" value="363" />
         </counts>
@@ -66,7 +99,7 @@
           <entry key="PHP" value="27" />
           <entry key="PLAIN_TEXT" value="899" />
           <entry key="SCSS" value="4" />
-          <entry key="Twig" value="3853" />
+          <entry key="Twig" value="3869" />
           <entry key="YAML" value="363" />
         </counts>
       </usages-collector>
@@ -81,7 +114,7 @@
           <entry key="plugin" value="1" />
           <entry key="png" value="8" />
           <entry key="scss" value="4" />
-          <entry key="twig" value="191" />
+          <entry key="twig" value="193" />
           <entry key="yaml" value="58" />
           <entry key="yml" value="1" />
         </counts>
@@ -95,14 +128,23 @@
           <entry key="PHP" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="4" />
-          <entry key="Twig" value="191" />
+          <entry key="Twig" value="193" />
           <entry key="YAML" value="59" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/user/plugins/comments/templates/partials/comments.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/blog.html.twig">
           <provider selected="true" editor-type-id="text-editor">
@@ -113,17 +155,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/partials/blog_item.html.twig">
+        <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/partials/lastnews_item.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+            <state relative-caret-position="187">
+              <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/user/plugins/comments/comments.yaml">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -168,7 +205,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/first/first.md" />
         <option value="$PROJECT_DIR$/user/pages/03.galerie/L-urbain/lurbain.md" />
         <option value="$PROJECT_DIR$/user/pages/03.galerie/galerie.md" />
         <option value="$PROJECT_DIR$/user/pages/03.galerie/la-faune/first/first.md" />
@@ -219,6 +255,7 @@
         <option value="$PROJECT_DIR$/user/pages/04.contact/_main/form.md" />
         <option value="$PROJECT_DIR$/user/themes/customtheme/css/custom.css" />
         <option value="$PROJECT_DIR$/user/themes/customtheme/templates/partials/blog_item.html.twig" />
+        <option value="$PROJECT_DIR$/user/themes/customtheme/templates/partials/lastnews_item.html.twig" />
       </list>
     </option>
   </component>
@@ -315,25 +352,6 @@
               <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
               <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
               <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="comments" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
-              <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -342,6 +360,23 @@
               <item name="user" type="462c0819:PsiDirectoryNode" />
               <item name="themes" type="462c0819:PsiDirectoryNode" />
               <item name="customtheme" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="customtheme" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Naturamat" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Naturamat" type="462c0819:PsiDirectoryNode" />
+              <item name="user" type="462c0819:PsiDirectoryNode" />
+              <item name="themes" type="462c0819:PsiDirectoryNode" />
+              <item name="customtheme" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -625,7 +660,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="117854000" />
+    <option name="totallyTimeSpent" value="118059000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -637,10 +672,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.07995736" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4991708" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" sideWeight="0.50082916" side_tool="true" weight="0.25266525" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -717,17 +752,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="Install comments plugin" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/partials/portfolio_items.html.twig" />
-    <entry file="file://$PROJECT_DIR$/user/pages/03.galerie/la-flore/first/first.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="119">
-            <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/partials/galery_category.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -978,13 +1002,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/blog.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/user/plugins/comments/comments.yaml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -992,6 +1009,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="494">
           <caret line="92" lean-forward="true" selection-start-line="92" selection-end-line="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/comments/templates/partials/comments.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="42" column="47" selection-start-line="42" selection-start-column="47" selection-end-line="42" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/blog.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/user/themes/customtheme/templates/partials/lastnews_item.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
         </state>
       </provider>
     </entry>

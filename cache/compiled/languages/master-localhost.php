@@ -1,124 +1,128 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledLanguages',
-    'timestamp' => 1541853133,
-    'checksum' => '379b96099ed3058c93fc6825b3bc6796',
+    'timestamp' => 1542047108,
+    'checksum' => '5451a4c25fe130e3a46d769b242e2988',
     'files' => [
         'system/languages' => [
             'ar' => [
                 'file' => 'system/languages/ar.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'ca' => [
                 'file' => 'system/languages/ca.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'cs' => [
                 'file' => 'system/languages/cs.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'da' => [
                 'file' => 'system/languages/da.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'de' => [
                 'file' => 'system/languages/de.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'el' => [
                 'file' => 'system/languages/el.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'en' => [
                 'file' => 'system/languages/en.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'es' => [
                 'file' => 'system/languages/es.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'fi' => [
                 'file' => 'system/languages/fi.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'fr' => [
                 'file' => 'system/languages/fr.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'hr' => [
                 'file' => 'system/languages/hr.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'hu' => [
                 'file' => 'system/languages/hu.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'it' => [
                 'file' => 'system/languages/it.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'ja' => [
                 'file' => 'system/languages/ja.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'lt' => [
                 'file' => 'system/languages/lt.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'nb' => [
                 'file' => 'system/languages/nb.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'nl' => [
                 'file' => 'system/languages/nl.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'no' => [
                 'file' => 'system/languages/no.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'pl' => [
                 'file' => 'system/languages/pl.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'pt' => [
                 'file' => 'system/languages/pt.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'ro' => [
                 'file' => 'system/languages/ro.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'ru' => [
                 'file' => 'system/languages/ru.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'sk' => [
                 'file' => 'system/languages/sk.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'sv' => [
                 'file' => 'system/languages/sv.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'th' => [
                 'file' => 'system/languages/th.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'tr' => [
                 'file' => 'system/languages/tr.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'uk' => [
                 'file' => 'system/languages/uk.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ],
             'vi' => [
                 'file' => 'system/languages/vi.yaml',
-                'modified' => 1538999174
+                'modified' => 1542045988
             ]
         ],
         'user/plugins' => [
+            'plugins/comments' => [
+                'file' => 'user/plugins/comments/languages.yaml',
+                'modified' => 1542045373
+            ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/languages.yaml',
                 'modified' => 1538999174
@@ -1053,6 +1057,27 @@ return [
                 'USERNAME_REGEX_HELP' => 'Standard: nur Kleinbuchstaben, Ziffern, Bindestriche und Unterstriche. 3 - 16 Zeichen',
                 'CONTENT_PADDING' => 'Abstand um Inhalte',
                 'CONTENT_PADDING_HELP' => 'Abstand um Inhalte aktivieren/deaktivieren um mehr Platz anzubieten'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Kommentar hinzufügen',
+                'COMMENTS' => 'Kommentare',
+                'EMAIL_NOT_CONFIGURED' => 'Email nicht konfiguriert',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Neuer Kommentar für %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Ein neuer Kommentar am %1$s von %3$s (%4$s).</p><p>Seite: %2$s</p><p>Text: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Name:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'geschrieben am',
+                'BY' => 'von',
+                'NAME_LABEL' => 'Name',
+                'NAME_PLACEHOLDER' => 'Namen eingeben',
+                'EMAIL_LABEL' => 'Email',
+                'EMAIL_PLACEHOLDER' => 'Email-Adresse eingeben',
+                'MESSAGE_LABEL' => 'Kommentar',
+                'MESSAGE_PLACEHOLDER' => 'Kommentar eingeben',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Absenden',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Neuer Kommentar] von {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Vielen Dank für den Kommentar!'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'E-Mail ist nicht konfiguriert',
@@ -2046,6 +2071,27 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
                 'UPLOADS_SECURITY' => 'Uploads Security',
                 'UPLOADS_DANGEROUS_EXTENSIONS' => 'Dangerous Extensions',
                 'UPLOADS_DANGEROUS_EXTENSIONS_HELP' => 'Block these extensions from being uploaded no matter the accepted MIME types'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Add a comment',
+                'COMMENTS' => 'Comments',
+                'EMAIL_NOT_CONFIGURED' => 'Email not configured',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'New comment on %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>A new comment was made on %1$s by %3$s (%4$s).</p><p>Page: %2$s</p><p>Text: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Name:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'Written on',
+                'BY' => 'by',
+                'NAME_LABEL' => 'Name',
+                'NAME_PLACEHOLDER' => 'Enter your name',
+                'EMAIL_LABEL' => 'Email',
+                'EMAIL_PLACEHOLDER' => 'Enter your email address',
+                'MESSAGE_LABEL' => 'Comment',
+                'MESSAGE_PLACEHOLDER' => 'Enter your comment',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Submit',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[New Comment] from {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Thank you for writing your comment!'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Email not configured',
@@ -3072,6 +3118,27 @@ Tienes **2FA** habilitado en esta cuenta. Por favor usa tu aplicación **2FA** p
                 '2FA_SECRET_HELP' => 'Escanea este código QR en tu [Aplicación de Autenticador](https://learn.getgrav.org/admin-panel/2fa#apps). También es una buena idea hacer un respaldo del secreto en una ubicación segura, para el caso que necesites reinstalar tu aplicación. Revisa la [Documentación de Grav](https://learn.getgrav.org/admin-panel/2fa) para mas información ',
                 '2FA_REGENERATE' => 'Regenerar'
             ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Agregar un comentario',
+                'COMMENTS' => 'Comentarios',
+                'EMAIL_NOT_CONFIGURED' => 'El Email no está configurado',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Nuevo comentario en %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nuevo comentario se hizo en %1$s por %3$s (%4$s).</p><p>Page: %2$s</p><p>Text: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Nombre:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'Escrito en',
+                'BY' => 'por',
+                'NAME_LABEL' => 'Nombre',
+                'NAME_PLACEHOLDER' => 'Escriba su nombre',
+                'EMAIL_LABEL' => 'Email',
+                'EMAIL_PLACEHOLDER' => 'Escriba su email',
+                'MESSAGE_LABEL' => 'Comentario',
+                'MESSAGE_PLACEHOLDER' => 'Escriba su comentario',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Enviar',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Nuevo comentario] de {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Gracias por escribir su comentario!'
+            ],
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Por favor configura una dirección de \'remitente\' en la configuración del Plugin de Email o en el formulario',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Por favor configura una dirección de \'destinatario\' en la configuración del Plugin de Email o en el formulario'
@@ -4013,6 +4080,27 @@ Ruta: `%2$s`
                 '2FA_SECRET_HELP' => 'Scannez ce code QR dans votre [app d\'authentification](https://learn.getgrav.org/admin-panel/2fa#apps). Il est également conseillé de sauvegarder le code secret dans un emplacement sûr, au cas où vous deviez réinstaller l\'app. Consultez les [aides Grav](https://learn.getgrav.org/admin-panel/2fa) pour plus d\'informations ',
                 '2FA_REGENERATE' => 'Régénérer'
             ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Ajouter un commentaire',
+                'COMMENTS' => 'Commentaires',
+                'EMAIL_NOT_CONFIGURED' => 'E-mail non configuré',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Nouveau commentaire sur %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nouveau commentaire a été publié sur %1$s par %3$s (%4$s).</p><p>Page : %2$s</p><p>Texte : %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Nom :',
+                'EMAIL' => 'E-mail :',
+                'WRITTEN_ON' => 'Écrit le',
+                'BY' => 'par',
+                'NAME_LABEL' => 'Nom',
+                'NAME_PLACEHOLDER' => 'Indiquez votre nom',
+                'EMAIL_LABEL' => 'E-mail',
+                'EMAIL_PLACEHOLDER' => 'Indiquez votre adresse e-mail',
+                'MESSAGE_LABEL' => 'Commentaire',
+                'MESSAGE_PLACEHOLDER' => 'Rédigez votre commentaire',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Envoyer',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Nouveau commentaire] de {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Merci d\'avoir rédigé votre commentaire !'
+            ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'L’e-mail n’est pas configuré',
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Veuillez configurer une adresse de \'destinataire\' dans les paramètres du Plugin ou dans le formulaire.',
@@ -4817,6 +4905,27 @@ Path: `%2$s`
                 'GPM_OFFICIAL_ONLY_HELP' => 'Dopustiti izravne instalacije samo iz službenih GPM repozitorija.',
                 '2FA_CODE_INPUT' => '000000',
                 '2FA_REGENERATE' => 'Ponovno stvori'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Dodaj komentar',
+                'COMMENTS' => 'Komentari',
+                'EMAIL_NOT_CONFIGURED' => 'Email adresa nije podešena',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Novi komentar na %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Novi komentar je napisan na %1$s od %3$s (%4$s).</p><p>Stranica:: %2$s</p><p>Tekst: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Ime:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'Napisano je na',
+                'BY' => 'od',
+                'NAME_LABEL' => 'Ime',
+                'NAME_PLACEHOLDER' => 'Unesite ime',
+                'EMAIL_LABEL' => 'Email adresa',
+                'EMAIL_PLACEHOLDER' => 'Unesite email adresu',
+                'MESSAGE_LABEL' => 'Komentar',
+                'MESSAGE_PLACEHOLDER' => 'Unesite komentar',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Pošalji',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Novi komentar] od {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Hvala Vam što ste napisali svoj komentar!'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Email nije konfiguriran',
@@ -6550,6 +6659,27 @@ Du har **2FA** aktivert på denne kontoen. Bruk din **2FA** app for å angi gjel
                 '2FA_SECRET_HELP' => 'Skanne QR koden inn i [Autentiseringsappen] (https://learn.getgrav.org/admin-panel/2fa#apps). Det er også lurt å sikkerhetskopiere den hemmelige nøkkelen på et trygt sted i tilfelle du må re-installere appen.  Sjekk [Gravs dokumentasjon] (https://learn.getgrav.org/admin-panel/2fa) for mer info ',
                 '2FA_REGENERATE' => 'Opprett ny'
             ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Skriv en kommentar',
+                'COMMENTS' => 'Kommentarer',
+                'EMAIL_NOT_CONFIGURED' => 'Epost er ikke konfigurert',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Ny kommentar på %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>En ny kommentar er skrevet på %1$s av %3$s (%4$s).</p><p>Side: %2$s</p><p>Tekst: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Navn:',
+                'EMAIL' => 'Epost:',
+                'WRITTEN_ON' => 'Skrevet på',
+                'BY' => 'av',
+                'NAME_LABEL' => 'Navn',
+                'NAME_PLACEHOLDER' => 'Skriv ditt navn',
+                'EMAIL_LABEL' => 'Epost',
+                'EMAIL_PLACEHOLDER' => 'Skriv din epost adresse',
+                'MESSAGE_LABEL' => 'Kommentar',
+                'MESSAGE_PLACEHOLDER' => 'Skriv din kommentar',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Send',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Ny kommentar] fra {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Takk for din kommentar!'
+            ],
             'FRONTMATTER_ERROR_PAGE' => '---
 Tittel: %1$s
 ---
@@ -7431,6 +7561,27 @@ Aveți **2FA** activată pentru acest cont. Vă rugăm folosiți aplicația pent
                 '2FA_SECRET' => '2FA Secret',
                 '2FA_SECRET_HELP' => 'Scanați acest cod QR cu [aplicația de autentificare](https://learn.getgrav.org/admin-panel/2fa#apps). De asemenea este o idee bună să salvați secretul într-o locație sigură, în cazul in care aveți nevoie să reinstalați aplicația de autentificare. Verificați [documentația Grav](https://learn.getgrav.org/admin-panel/2fa) pentru mai multe informații ',
                 '2FA_REGENERATE' => 'Regenerează'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Adăugați un comentariu',
+                'COMMENTS' => 'Comentarii',
+                'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Comentariu nou pentru %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nou comentariu a fost adăugat la %1$s de către %3$s (%4$s).</p><p>Pagină: %2$s</p><p>Text: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Nume:',
+                'EMAIL' => 'Adresă de email:',
+                'WRITTEN_ON' => 'Scris în data de',
+                'BY' => 'de către',
+                'NAME_LABEL' => 'Numele',
+                'NAME_PLACEHOLDER' => 'Introduceți numele Dvs.',
+                'EMAIL_LABEL' => 'Email',
+                'EMAIL_PLACEHOLDER' => 'Introduceți adresa Dvs. de email',
+                'MESSAGE_LABEL' => 'Comentariu',
+                'MESSAGE_PLACEHOLDER' => 'Scrieți comentariul Dvs.',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Trimiteți',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Comentariu nou] from {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Vă mulțumim pentru comentariu!'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Adresa de email nu este configurată',
@@ -8365,6 +8516,18 @@ Calea: `%2$s`
                 '2FA_FAILED' => 'Недействительный код 2FA, пожалуйста попробуйте еще раз...',
                 '2FA_ENABLED' => '2FA включен',
                 '2FA_SECRET_HELP' => 'Сканируйте этот QR-код в свое [приложение аутентификации] (https://learn.getgrav.org/admin-panel/2fa#apps). Также рекомендуется резервировать секрет в безопасном месте, если вам нужно переустановить приложение. Для получения дополнительной информации просмотрите документы [Grav docs] (https://learn.getgrav.org/admin-panel/2fa) '
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Добавить комментарий',
+                'COMMENTS' => 'Комментарии',
+                'EMAIL_NOT_CONFIGURED' => 'Email не настроен',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Новый комментарий к %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Новый комментарий был сделан на %1$s by %3$s (%4$s).</p><p>Страница: %2$s</p><p>Текст: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Имя:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'Написан в',
+                'BY' => 'от'
             ],
             'PLUGIN_EMAIL' => [
                 'EMAIL_NOT_CONFIGURED' => 'Электронная почта не настроена',
@@ -15511,6 +15674,27 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 '2FA_SECRET_HELP' => 'Scandisci questo codice QR nella tua [Authenticator App](https://learn.getgrav.org/admin-panel/2fa#apps). È inoltre cosa buona fare il backup del Segreto in un luogo sicuro, nel caso in cui fosse necessario reinstallare la vostra app.  Controllare i [Grav docs] (https://learn.getgrav.org/admin-panel/2fa) per ulteriori informazioni ',
                 '2FA_REGENERATE' => 'Rigenera'
             ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Aggiungi un commento',
+                'COMMENTS' => 'Commenti',
+                'EMAIL_NOT_CONFIGURED' => 'Email non configurata',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Nuovo commento su %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Un nuovo commento è stato postato su %1$s da %3$s (%4$s).</p><p>Pagina: %2$s</p><p>Testo: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Nome:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'Scritto il',
+                'BY' => 'da',
+                'NAME_LABEL' => 'Nome',
+                'NAME_PLACEHOLDER' => 'Inserisci il tuo nome',
+                'EMAIL_LABEL' => 'Email',
+                'EMAIL_PLACEHOLDER' => 'Inserisci il tuo indirizzo email',
+                'MESSAGE_LABEL' => 'Messaggio',
+                'MESSAGE_PLACEHOLDER' => 'Inserisci il tuo commento',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Invia',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Nuovo commento] da {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Grazie per il tuo commento!'
+            ],
             'PLUGIN_EMAIL' => [
                 'PLEASE_CONFIGURE_A_TO_ADDRESS' => 'Per favore, configura l\'indirizzo di destinazione (\'to\') nella configurazione del Plugin Email, oppure direttamente nella form.',
                 'PLEASE_CONFIGURE_A_FROM_ADDRESS' => 'Per favore, configura l\'indirizzo di provenienza (\'from\') nella configurazione del Plugin Email, oppure direttamente nella form'
@@ -16265,6 +16449,27 @@ La **2FA** è abilitata per questo account. Si prega di utilizzare la vostra app
                 '2FA_CODE_INPUT' => '000000',
                 '2FA_SECRET' => '二段階認証',
                 '2FA_REGENERATE' => '再生成'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'コメントを追加する',
+                'COMMENTS' => 'コメント',
+                'EMAIL_NOT_CONFIGURED' => 'メールアドレスは設定さていません',
+                'NEW_COMMENT_EMAIL_SUBJECT' => '%1$sについて新しいコメント',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>新しいコメントが%1$sについて%3$sから(%4$s)書かれた.</p><p>ページー : %2$s</p><p>文書 : %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => '名前 :',
+                'EMAIL' => 'メールアドレス :',
+                'WRITTEN_ON' => 'に書かれた',
+                'BY' => 'に',
+                'NAME_LABEL' => '名前',
+                'NAME_PLACEHOLDER' => 'お名前を',
+                'EMAIL_LABEL' => 'メールアドレスを',
+                'EMAIL_PLACEHOLDER' => 'ご自分のメールアドレスをここに...',
+                'MESSAGE_LABEL' => 'コメント',
+                'MESSAGE_PLACEHOLDER' => 'コメントをここに',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => '送信する',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[新しいコメント]、 {{ form.value.name|e }}から',
+                'THANK_YOU_MESSAGE' => 'コメントを書いてくださいましてありがとうございました！'
             ],
             'FRONTMATTER_ERROR_PAGE' => '---
 title: %1$s
@@ -18371,6 +18576,18 @@ Masz na tym koncie włączone **2FA**. Użyj aplikacji od **2FA** i wprowadź ak
                 '2FA_SECRET' => 'Sekret 2FA',
                 '2FA_SECRET_HELP' => 'Zeskanuj ten kod QR do swojej [aplikacji uwierzytelniającej](https://learn.getgrav.org/admin-panel/2fa#apps). Zrobienie kopii zapasowej sekretu w bezpiecznym miejscu jest także dobrym pomysłem, w przypadku konieczności reinstalacji aplikacji. Przeczytaj [dokumentację Grav](https://learn.getgrav.org/admin-panel/2fa), aby dowiedzieć się więcej.',
                 '2FA_REGENERATE' => 'Zregeneruj'
+            ],
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Dodaj komentarz',
+                'COMMENTS' => 'Komentarzy',
+                'EMAIL_NOT_CONFIGURED' => 'Email jest nie skofigurowany',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Nowy komentarz %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Pojawił się nowy komentarz, napisany %1$s przez %3$s (%4$s).</p><p>Strona: %2$s</p><p>Treść: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Imię:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'Napisany przez',
+                'BY' => 'przez'
             ],
             'PLUGIN_ERROR' => [
                 'ERROR' => 'Błąd',
@@ -22868,6 +23085,29 @@ Path: `%2$s`
                 'ERROR_MESSAGE' => '呃，似乎这个页面不存在。'
             ]
         ],
+        'pt-br' => [
+            'PLUGIN_COMMENTS' => [
+                'ADD_COMMENT' => 'Escreva um comentário',
+                'COMMENTS' => 'Comentários',
+                'EMAIL_NOT_CONFIGURED' => 'E-mail não configurado',
+                'NEW_COMMENT_EMAIL_SUBJECT' => 'Novo comentário em %1$s',
+                'NEW_COMMENT_EMAIL_BODY' => '<p>Um novo comentário foi feito em %1$s por %3$s (%4$s).</p><p>Página: %2$s</p><p>Texto: %5$s</p>',
+                'EMAIL_FOOTER' => '',
+                'NAME' => 'Name:',
+                'EMAIL' => 'Email:',
+                'WRITTEN_ON' => 'Publicado em',
+                'BY' => 'por',
+                'NAME_LABEL' => 'Nome',
+                'NAME_PLACEHOLDER' => 'Escreva seu nome',
+                'EMAIL_LABEL' => 'E-mail',
+                'EMAIL_PLACEHOLDER' => 'Escreva seu e-mail. Ex.: seunome@provedor.com.br',
+                'MESSAGE_LABEL' => 'Comentário',
+                'MESSAGE_PLACEHOLDER' => 'Escreva seu comentário',
+                'SUBMIT_COMMENT_BUTTON_TEXT' => 'Enviar',
+                'EMAIL_NEW_COMMENT_SUBJECT' => '[Novo comentário] de {{ form.value.name|e }}',
+                'THANK_YOU_MESSAGE' => 'Obrigada por enviar seu comentário!'
+            ]
+        ],
         'nb' => [
             'MONTHS_OF_THE_YEAR' => [
                 0 => 'januar',
@@ -22893,7 +23133,7 @@ Path: `%2$s`
                 6 => 'søndag'
             ]
         ],
-        'checksum' => '379b96099ed3058c93fc6825b3bc6796',
-        'timestamp' => 1541853133
+        'checksum' => '5451a4c25fe130e3a46d769b242e2988',
+        'timestamp' => 1542047108
     ]
 ];

@@ -1,8 +1,8 @@
 enabled: true
-from:
-from_name:
-to:
-to_name:
+from: naturamat@hotmail.com
+from_name: Naturamat
+to: naturamat@hotmail.com
+to_name: Naturamat
 mailer:
   engine: sendmail
   smtp:

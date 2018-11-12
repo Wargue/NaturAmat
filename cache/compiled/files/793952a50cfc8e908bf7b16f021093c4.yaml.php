@@ -1,8 +1,8 @@
-{% include 'partials/comments.html.twig' with {'page': page} %}<?php
+<?php
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/system/blueprints/config/system.yaml',
-    'modified' => 1538999174,
+    'modified' => 1542045988,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SYSTEM',
         'form' => [

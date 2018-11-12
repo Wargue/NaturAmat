@@ -35,16 +35,17 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
         // line 10
         echo twig_slice($this->env, $this->getAttribute(($context["page"] ?? null), "content", array()), 0, 200);
         echo "</p>
+            </br>
             <a class=\"btn btn-default\" href=\"";
-        // line 11
+        // line 12
         echo $this->getAttribute(($context["page"] ?? null), "url", array());
-        echo "\">Read more</a>
+        echo "\">Lire plus</a>
         </div><!-- /.card-info -->
         <div class=\"utility-info\">
             <ul class=\"utility-list\">
                 <li class=\"comments\">12</li>
                 <li class=\"date\">";
-        // line 16
+        // line 17
         echo twig_date_format_filter($this->env, $this->getAttribute(($context["page"] ?? null), "date", array()), "d/m/Y");
         echo "</li>
             </ul>
@@ -70,7 +71,7 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
 
     public function getDebugInfo()
     {
-        return array (  48 => 16,  40 => 11,  36 => 10,  28 => 5,  23 => 3,  19 => 1,);
+        return array (  49 => 17,  41 => 12,  36 => 10,  28 => 5,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -93,7 +94,8 @@ class __TwigTemplate_9c33047c97b56b68fb77a11f86729dbe1c87b5da810917b08d3bd78d7e9
         </div><!-- /.title-content -->
         <div class=\"card-info\">
             <p>{{ page.content|slice(0,200)}}</p>
-            <a class=\"btn btn-default\" href=\"{{ page.url }}\">Read more</a>
+            </br>
+            <a class=\"btn btn-default\" href=\"{{ page.url }}\">Lire plus</a>
         </div><!-- /.card-info -->
         <div class=\"utility-info\">
             <ul class=\"utility-list\">
