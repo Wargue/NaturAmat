@@ -1174,7 +1174,7 @@ class Page implements PageInterface
     }
 
     /**
-     * Gets and sets the name field.  If no name field is set, it will return 'first.md'.
+     * Gets and sets the name field.  If no name field is set, it will return 'default.md'.
      *
      * @param  string $var The name of this page.
      *
@@ -1186,7 +1186,7 @@ class Page implements PageInterface
             $this->name = $var;
         }
 
-        return empty($this->name) ? 'first.md' : $this->name;
+        return empty($this->name) ? 'default.md' : $this->name;
     }
 
     /**
