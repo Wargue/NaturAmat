@@ -48,7 +48,7 @@ class __TwigTemplate_3694cc9f16924f4a23019568b11abc2752ac2f7c1ffae2f82370903b94a
         echo ($context["base_url_absolute"] ?? null);
         echo "\"><img src=\"";
         echo ($context["theme_url"] ?? null);
-        echo "/img/logofooter.png\" alt=\"\"></a>
+        echo "/img/logo/logo.png\" alt=\"\"></a>
             </div>
             <div class=\"col-lg-4 col-md-4 col-sm-4 footercol\">
                 <p class=\"footerpriv\">&copy; 2013 &bull; <a class=\"privacylink\" href=\"";
@@ -97,7 +97,7 @@ class __TwigTemplate_3694cc9f16924f4a23019568b11abc2752ac2f7c1ffae2f82370903b94a
                 </ul>
             </div>
             <div class=\"col-lg-4 col-md-4 col-sm-4 footerlogo footercol\">
-                <a class=\"smalllogo2 logo\" href=\"{{ base_url_absolute }}\"><img src=\"{{ theme_url }}/img/logofooter.png\" alt=\"\"></a>
+                <a class=\"smalllogo2 logo\" href=\"{{ base_url_absolute }}\"><img src=\"{{ theme_url }}/img/logo/logo.png\" alt=\"\"></a>
             </div>
             <div class=\"col-lg-4 col-md-4 col-sm-4 footercol\">
                 <p class=\"footerpriv\">&copy; 2013 &bull; <a class=\"privacylink\" href=\"{{ base_url_absolute }}/privacy\">Privacy policy</a></p>

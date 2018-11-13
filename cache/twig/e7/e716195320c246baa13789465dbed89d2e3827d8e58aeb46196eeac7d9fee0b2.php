@@ -118,6 +118,7 @@ class __TwigTemplate_d9446695d3d273a1846d8503e533c23108172143a0599880c49f593bee0
         {% endfor %}
     </div>
 {% endblock %}
+
 ", "modular.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\modular.html.twig");
     }
 }

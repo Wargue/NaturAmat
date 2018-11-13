@@ -367,3 +367,7 @@ textarea.form-control {
         height: 15%;
     }
 }
+
+#content{
+    min-height: 0 !important
+}

@@ -11,5 +11,6 @@ content:
         custom:
             - _slider
             - _welcome
+            - _lastpicture
             - _lastnews
 ---
