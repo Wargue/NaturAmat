@@ -21,7 +21,7 @@ class __TwigTemplate_d5da24b5bb81305ef833238af3854e91373010de4c554483ec08ae2401f
         <div class=\"bg-card\">
             <div class=\"img_lastpicture\">";
         // line 4
-        echo twig_first($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array()));
+        echo twig_last($this->env, $this->getAttribute($this->getAttribute(($context["page"] ?? null), "media", array()), "images", array()));
         echo "</div>
             <div class=\"title-content\">
                 <h3>";
@@ -44,8 +44,12 @@ class __TwigTemplate_d5da24b5bb81305ef833238af3854e91373010de4c554483ec08ae2401f
             </div><!-- /.card-info -->
             <div class=\"utility-info\">
                 <ul class=\"utility-list\">
-                    <li class=\"date\">";
+                    <li class=\"img_author\">dump(";
         // line 17
+        echo $this->getAttribute(($context["image"] ?? null), "author", array());
+        echo ")</li>
+                    <li class=\"date\">";
+        // line 18
         echo twig_date_format_filter($this->env, $this->getAttribute(($context["page"] ?? null), "date", array()), "d/m/Y");
         echo "</li>
                 </ul>
@@ -70,7 +74,7 @@ class __TwigTemplate_d5da24b5bb81305ef833238af3854e91373010de4c554483ec08ae2401f
 
     public function getDebugInfo()
     {
-        return array (  49 => 17,  42 => 13,  37 => 11,  29 => 6,  24 => 4,  19 => 1,);
+        return array (  53 => 18,  49 => 17,  42 => 13,  37 => 11,  29 => 6,  24 => 4,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -86,7 +90,7 @@ class __TwigTemplate_d5da24b5bb81305ef833238af3854e91373010de4c554483ec08ae2401f
         return new Twig_Source("<div class=\"news col-lg-3\">
     <div class=\"blog-card spring-fever\">
         <div class=\"bg-card\">
-            <div class=\"img_lastpicture\">{{ page.media.images|first }}</div>
+            <div class=\"img_lastpicture\">{{ page.media.images|last }}</div>
             <div class=\"title-content\">
                 <h3>{{ page.title }}</h3>
                 <hr />
@@ -99,6 +103,7 @@ class __TwigTemplate_d5da24b5bb81305ef833238af3854e91373010de4c554483ec08ae2401f
             </div><!-- /.card-info -->
             <div class=\"utility-info\">
                 <ul class=\"utility-list\">
+                    <li class=\"img_author\">dump({{ image.author }})</li>
                     <li class=\"date\">{{ page.date|date(\"d/m/Y\") }}</li>
                 </ul>
             </div><!-- /.utility-info -->

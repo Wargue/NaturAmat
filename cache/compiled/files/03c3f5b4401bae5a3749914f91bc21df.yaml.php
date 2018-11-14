@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/themes/customtheme/blueprints/portfolio.yaml',
-    'modified' => 1541850959,
+    'modified' => 1542186463,
     'data' => [
         'title' => 'Gallery',
         '@extends' => [
@@ -48,6 +48,11 @@ return [
                                             'type' => 'text',
                                             'label' => 'hor or ver',
                                             'help' => 'horizontal ou vertical'
+                                        ],
+                                        '.author' => [
+                                            'type' => 'text',
+                                            'label' => 'Photographe',
+                                            'help' => 'Nom du photographe'
                                         ]
                                     ]
                                 ]

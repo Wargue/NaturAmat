@@ -38,3 +38,7 @@ form:
                   type: text
                   label: hor or ver
                   help: horizontal ou vertical
+                .author:
+                  type: text
+                  label: Photographe
+                  help: Nom du photographe

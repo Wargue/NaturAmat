@@ -13,7 +13,7 @@
 <div class="gallery" itemscope="" itemtype="http://schema.org/ImageGallery">
     {% for image in page.header.images %}
             <figure class="gallery-item {{ image.hv }}" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="{{ page.media[image.thumbnail].url }}" itemprop="contentUrl" data-size="{{ image.size }}"><img class="lazyload lazypreload fadein" src="{{ page.media[image.thumbnail].url }}" data-src="{{ page.media[image.thumbnail].url }}" itemprop="thumbnail" alt="{{ image.description }}"/></a>
-                <figcaption class="gallery-caption" itemprop="caption description">{{ image.description }}</figcaption>
+                <figcaption class="gallery-caption" itemprop="caption description">{{ image.description }}</br>{{ image.author }}</figcaption>
             </figure>
 
     {% endfor %}

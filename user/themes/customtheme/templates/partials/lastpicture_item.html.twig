@@ -1,7 +1,7 @@
 <div class="news col-lg-3">
     <div class="blog-card spring-fever">
         <div class="bg-card">
-            <div class="img_lastpicture">{{ page.media.images|first }}</div>
+            <div class="img_lastpicture">{{ page.media.images|last }}</div>
             <div class="title-content">
                 <h3>{{ page.title }}</h3>
                 <hr />
@@ -14,6 +14,7 @@
             </div><!-- /.card-info -->
             <div class="utility-info">
                 <ul class="utility-list">
+                    <li class="img_author">dump({{ image.author }})</li>
                     <li class="date">{{ page.date|date("d/m/Y") }}</li>
                 </ul>
             </div><!-- /.utility-info -->

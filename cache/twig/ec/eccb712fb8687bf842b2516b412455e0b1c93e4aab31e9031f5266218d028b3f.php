@@ -77,6 +77,8 @@ class __TwigTemplate_3e980e46dcdafb849f3cb2ffe334f90a3c0f8f4f3a510c2718c818cb32e
                 <figcaption class=\"gallery-caption\" itemprop=\"caption description\">";
             // line 16
             echo $this->getAttribute($context["image"], "description", array());
+            echo "</br>";
+            echo $this->getAttribute($context["image"], "author", array());
             echo "</figcaption>
             </figure>
 
@@ -359,7 +361,7 @@ class __TwigTemplate_3e980e46dcdafb849f3cb2ffe334f90a3c0f8f4f3a510c2718c818cb32e
 
     public function getDebugInfo()
     {
-        return array (  89 => 20,  79 => 16,  64 => 15,  60 => 14,  57 => 13,  54 => 12,  50 => 10,  47 => 9,  44 => 8,  41 => 7,  38 => 6,  35 => 5,  32 => 4,  29 => 3,  11 => 1,);
+        return array (  91 => 20,  79 => 16,  64 => 15,  60 => 14,  57 => 13,  54 => 12,  50 => 10,  47 => 9,  44 => 8,  41 => 7,  38 => 6,  35 => 5,  32 => 4,  29 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -387,7 +389,7 @@ class __TwigTemplate_3e980e46dcdafb849f3cb2ffe334f90a3c0f8f4f3a510c2718c818cb32e
 <div class=\"gallery\" itemscope=\"\" itemtype=\"http://schema.org/ImageGallery\">
     {% for image in page.header.images %}
             <figure class=\"gallery-item {{ image.hv }}\" itemprop=\"associatedMedia\" itemscope=\"\" itemtype=\"http://schema.org/ImageObject\"><a href=\"{{ page.media[image.thumbnail].url }}\" itemprop=\"contentUrl\" data-size=\"{{ image.size }}\"><img class=\"lazyload lazypreload fadein\" src=\"{{ page.media[image.thumbnail].url }}\" data-src=\"{{ page.media[image.thumbnail].url }}\" itemprop=\"thumbnail\" alt=\"{{ image.description }}\"/></a>
-                <figcaption class=\"gallery-caption\" itemprop=\"caption description\">{{ image.description }}</figcaption>
+                <figcaption class=\"gallery-caption\" itemprop=\"caption description\">{{ image.description }}</br>{{ image.author }}</figcaption>
             </figure>
 
     {% endfor %}
