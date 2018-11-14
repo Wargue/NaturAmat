@@ -1,0 +1,109 @@
+1542789237
+a:2:{s:7:"content";s:4350:" <div class="row_1">
+        <div class="container">
+            <p class="title1">Les dernières photos</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div id="last-news-item">
+                                            <div class="news col-lg-3">
+    <div class="blog-card spring-fever">
+        <div class="bg-card">
+            <div class="img_lastpicture"><img alt="" src="/Naturamat/user/pages/03.galerie/l-urbain/blop.jpg" /></div>
+            <div class="title-content">
+                <h3>l'urbain</h3>
+                <hr />
+                <div class="intro"></div>
+            </div><!-- /.title-content -->
+            <div class="card-info">
+                <p></p>
+                </br>
+                <a class="btn btn-default" href="/Naturamat/fr/galerie/l-urbain">Voir la galerie</a>
+            </div><!-- /.card-info -->
+            <div class="utility-info">
+                <ul class="utility-list">
+                    <li class="date">12/11/2018</li>
+                </ul>
+            </div><!-- /.utility-info -->
+            <!-- overlays -->
+            <div class="gradient-overlay"></div>
+            <div class="color-overlay"></div>
+        </div>
+    </div><!-- /.blog-card -->
+</div>                                            <div class="news col-lg-3">
+    <div class="blog-card spring-fever">
+        <div class="bg-card">
+            <div class="img_lastpicture"><img alt="" src="/Naturamat/user/pages/03.galerie/la-faune/DSC_1317.jpg" /></div>
+            <div class="title-content">
+                <h3>la faune</h3>
+                <hr />
+                <div class="intro"></div>
+            </div><!-- /.title-content -->
+            <div class="card-info">
+                <p></p>
+                </br>
+                <a class="btn btn-default" href="/Naturamat/fr/galerie/la-faune">Voir la galerie</a>
+            </div><!-- /.card-info -->
+            <div class="utility-info">
+                <ul class="utility-list">
+                    <li class="date">10/11/2018</li>
+                </ul>
+            </div><!-- /.utility-info -->
+            <!-- overlays -->
+            <div class="gradient-overlay"></div>
+            <div class="color-overlay"></div>
+        </div>
+    </div><!-- /.blog-card -->
+</div>                                            <div class="news col-lg-3">
+    <div class="blog-card spring-fever">
+        <div class="bg-card">
+            <div class="img_lastpicture"></div>
+            <div class="title-content">
+                <h3>la flore</h3>
+                <hr />
+                <div class="intro"></div>
+            </div><!-- /.title-content -->
+            <div class="card-info">
+                <p></p>
+                </br>
+                <a class="btn btn-default" href="/Naturamat/fr/galerie/la-flore">Voir la galerie</a>
+            </div><!-- /.card-info -->
+            <div class="utility-info">
+                <ul class="utility-list">
+                    <li class="date">05/11/2018</li>
+                </ul>
+            </div><!-- /.utility-info -->
+            <!-- overlays -->
+            <div class="gradient-overlay"></div>
+            <div class="color-overlay"></div>
+        </div>
+    </div><!-- /.blog-card -->
+</div>                                            <div class="news col-lg-3">
+    <div class="blog-card spring-fever">
+        <div class="bg-card">
+            <div class="img_lastpicture"></div>
+            <div class="title-content">
+                <h3>les paysages</h3>
+                <hr />
+                <div class="intro"></div>
+            </div><!-- /.title-content -->
+            <div class="card-info">
+                <p></p>
+                </br>
+                <a class="btn btn-default" href="/Naturamat/fr/galerie/les-paysages">Voir la galerie</a>
+            </div><!-- /.card-info -->
+            <div class="utility-info">
+                <ul class="utility-list">
+                    <li class="date">05/11/2018</li>
+                </ul>
+            </div><!-- /.utility-info -->
+            <!-- overlays -->
+            <div class="gradient-overlay"></div>
+            <div class="color-overlay"></div>
+        </div>
+    </div><!-- /.blog-card -->
+</div>                                    </div>
+            </div>
+        </div>
+    </div>
+";s:12:"content_meta";N;}

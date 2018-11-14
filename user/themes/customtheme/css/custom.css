@@ -371,3 +371,9 @@ textarea.form-control {
 #content{
     min-height: 0 !important
 }
+
+.img_lastpicture{
+    width: 350px;
+    margin-top: 150px;
+
+}

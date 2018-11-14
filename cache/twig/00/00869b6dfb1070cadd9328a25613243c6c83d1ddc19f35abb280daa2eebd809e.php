@@ -217,7 +217,6 @@ $context["field"], "name", array()) == "email")) {
 <style>
     .container-comment{
         margin-top: 50px;
-
     }
 
 </style>";
@@ -314,7 +313,6 @@ $context["field"], "name", array()) == "email")) {
 <style>
     .container-comment{
         margin-top: 50px;
-
     }
 
 </style>", "partials/comments.html.twig", "C:\\wamp\\www\\Naturamat\\user\\plugins\\comments\\templates\\partials\\comments.html.twig");
