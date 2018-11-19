@@ -2,10 +2,10 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/plugins/login/blueprints.yaml',
-    'modified' => 1538999174,
+    'modified' => 1542217657,
     'data' => [
         'name' => 'Login',
-        'version' => '2.7.3',
+        'version' => '2.8.0',
         'description' => 'Enables user authentication and login screen.',
         'icon' => 'sign-in',
         'author' => [
@@ -322,7 +322,7 @@ return [
                                             'type' => 'toggle',
                                             'label' => 'PLUGIN_LOGIN.SET_USER_DISABLED',
                                             'help' => 'PLUGIN_LOGIN.SET_USER_DISABLED_HELP',
-                                            'highlight' => 1,
+                                            'highlight' => 0,
                                             'options' => [
                                                 1 => 'PLUGIN_ADMIN.YES',
                                                 0 => 'PLUGIN_ADMIN.NO'
@@ -348,7 +348,20 @@ return [
                                             'type' => 'toggle',
                                             'label' => 'PLUGIN_LOGIN.SEND_ACTIVATION_EMAIL',
                                             'help' => 'PLUGIN_LOGIN.SEND_ACTIVATION_EMAIL_HELP',
-                                            'highlight' => 1,
+                                            'highlight' => 0,
+                                            'options' => [
+                                                1 => 'PLUGIN_ADMIN.YES',
+                                                0 => 'PLUGIN_ADMIN.NO'
+                                            ],
+                                            'validate' => [
+                                                'type' => 'bool'
+                                            ]
+                                        ],
+                                        'user_registration.options.manually_enable' => [
+                                            'type' => 'toggle',
+                                            'label' => 'PLUGIN_LOGIN.MANUALLY_ENABLE',
+                                            'help' => 'PLUGIN_LOGIN.MANUALLY_ENABLE_HELP',
+                                            'highlight' => 0,
                                             'options' => [
                                                 1 => 'PLUGIN_ADMIN.YES',
                                                 0 => 'PLUGIN_ADMIN.NO'
@@ -361,7 +374,7 @@ return [
                                             'type' => 'toggle',
                                             'label' => 'PLUGIN_LOGIN.SEND_NOTIFICATION_EMAIL',
                                             'help' => 'PLUGIN_LOGIN.SEND_NOTIFICATION_EMAIL_HELP',
-                                            'highlight' => 1,
+                                            'highlight' => 0,
                                             'options' => [
                                                 1 => 'PLUGIN_ADMIN.YES',
                                                 0 => 'PLUGIN_ADMIN.NO'
@@ -374,10 +387,13 @@ return [
                                             'type' => 'toggle',
                                             'label' => 'PLUGIN_LOGIN.SEND_WELCOME_EMAIL',
                                             'help' => 'PLUGIN_LOGIN.SEND_WELCOME_EMAIL_HELP',
-                                            'highlight' => 1,
+                                            'highlight' => 0,
                                             'options' => [
                                                 1 => 'PLUGIN_ADMIN.YES',
                                                 0 => 'PLUGIN_ADMIN.NO'
+                                            ],
+                                            'validate' => [
+                                                'type' => 'bool'
                                             ]
                                         ]
                                     ]

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/plugins/login/login.yaml',
-    'modified' => 1538999174,
+    'modified' => 1542217657,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,
@@ -52,6 +52,7 @@ return [
                 'set_user_disabled' => false,
                 'login_after_registration' => false,
                 'send_activation_email' => false,
+                'manually_enable' => false,
                 'send_notification_email' => false,
                 'send_welcome_email' => false
             ]

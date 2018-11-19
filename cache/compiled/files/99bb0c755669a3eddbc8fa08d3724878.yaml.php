@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://email/email.yaml',
-    'modified' => 1542047173,
+    'modified' => 1542653027,
     'data' => [
         'enabled' => true,
-        'from' => 'naturamat@hotmail.com',
-        'from_name' => 'Naturamat',
-        'to' => 'naturamat@hotmail.com',
-        'to_name' => 'Naturamat',
+        'from' => NULL,
+        'from_name' => NULL,
+        'to' => NULL,
+        'to_name' => NULL,
         'mailer' => [
             'engine' => 'sendmail',
             'smtp' => [

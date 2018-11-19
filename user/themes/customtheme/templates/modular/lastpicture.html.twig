@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row">
                 <div id="last-news-item">
-                    {% for child in page.find('/galerie').collection |slice(0, 4) %}
+                    {% for child in page.find('/galerie').children() |slice(0, 4) %}
                         {% include 'partials/lastpicture_item.html.twig' with  {'categories':page, 'page': child,'img': image, 'truncate':true} %}
                     {% endfor %}
                 </div>

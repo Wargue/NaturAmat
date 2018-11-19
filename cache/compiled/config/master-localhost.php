@@ -1,13 +1,21 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1542048054,
-    'checksum' => 'd0ca66e6d48f94ffbad5e75d4fb4a511',
+    'timestamp' => 1542654758,
+    'checksum' => 'bad493828aa61deeef953bcaf5f54dc3',
     'files' => [
         'user/config' => [
             'media' => [
                 'file' => 'user/config/media.yaml',
                 'modified' => 1540491044
+            ],
+            'plugins/comments' => [
+                'file' => 'user/config/plugins/comments.yaml',
+                'modified' => 1542045373
+            ],
+            'plugins/email' => [
+                'file' => 'user/config/plugins/email.yaml',
+                'modified' => 1542654758
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -15,7 +23,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1538999174
+                'modified' => 1542217784
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -23,35 +31,35 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1542048054
+                'modified' => 1542653031
             ]
         ],
         'system/config' => [
             'media' => [
                 'file' => 'system/config/media.yaml',
-                'modified' => 1542045988
+                'modified' => 1542217612
             ],
             'security' => [
                 'file' => 'system/config/security.yaml',
-                'modified' => 1542045988
+                'modified' => 1542217612
             ],
             'site' => [
                 'file' => 'system/config/site.yaml',
-                'modified' => 1542045988
+                'modified' => 1542217612
             ],
             'streams' => [
                 'file' => 'system/config/streams.yaml',
-                'modified' => 1542045988
+                'modified' => 1542217612
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1542045988
+                'modified' => 1542217612
             ]
         ],
         'user/plugins' => [
             'plugins/admin' => [
                 'file' => 'user/plugins/admin/admin.yaml',
-                'modified' => 1541853124
+                'modified' => 1542217668
             ],
             'plugins/comments' => [
                 'file' => 'user/plugins/comments/comments.yaml',
@@ -59,7 +67,7 @@ return [
             ],
             'plugins/email' => [
                 'file' => 'user/plugins/email/email.yaml',
-                'modified' => 1542047173
+                'modified' => 1542653027
             ],
             'plugins/error' => [
                 'file' => 'user/plugins/error/error.yaml',
@@ -75,7 +83,7 @@ return [
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
-                'modified' => 1538999174
+                'modified' => 1542217657
             ],
             'plugins/markdown-notices' => [
                 'file' => 'user/plugins/markdown-notices/markdown-notices.yaml',
@@ -246,16 +254,16 @@ return [
             ],
             'email' => [
                 'enabled' => true,
-                'from' => 'naturamat@hotmail.com',
-                'from_name' => 'Naturamat',
-                'to' => 'naturamat@hotmail.com',
-                'to_name' => 'Naturamat',
+                'from' => 'gillet_l@hotmail.com',
+                'from_name' => 'Laurent',
+                'to' => 'gillet_l@hotmail.com',
+                'to_name' => NULL,
                 'mailer' => [
                     'engine' => 'sendmail',
                     'smtp' => [
                         'server' => 'localhost',
                         'port' => 25,
-                        'encryption' => 'none',
+                        'encryption' => 'ssl',
                         'user' => '',
                         'password' => ''
                     ],
@@ -352,6 +360,7 @@ return [
                         'set_user_disabled' => false,
                         'login_after_registration' => false,
                         'send_activation_email' => false,
+                        'manually_enable' => false,
                         'send_notification_email' => false,
                         'send_welcome_email' => false
                     ]
@@ -692,11 +701,11 @@ return [
             'salt' => 'ODdjznR2xaF54E'
         ],
         'site' => [
-            'title' => 'Grav',
-            'default_lang' => 'en',
+            'title' => 'Naturamat',
+            'default_lang' => 'fr',
             'author' => [
-                'name' => 'Joe Bloggs',
-                'email' => 'joe@example.com'
+                'name' => 'Laurent Gillet',
+                'email' => 'gillet_l@hotmail.com'
             ],
             'taxonomies' => [
                 0 => 'category',

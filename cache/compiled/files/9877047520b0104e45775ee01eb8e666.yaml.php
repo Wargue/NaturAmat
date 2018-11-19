@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/plugins/login/languages/en.yaml',
-    'modified' => 1538999174,
+    'modified' => 1542217657,
     'data' => [
         'PLUGIN_LOGIN' => [
             'USERNAME' => 'Username',
@@ -56,7 +56,8 @@ return [
             'NOTIFICATION_EMAIL_BODY' => '<h1>New User</h1><p>Hi, a new user registered on %1$s.</p><p><ul><li>Username: <b>%2$s</b></li><li>Email: <b>%3$s</b></ul><p><p><br/><a href="%4$s" class="btn-primary">Visit %1$s</a><br/><br/></p>',
             'EMAIL_FOOTER' => 'GetGrav.org',
             'ACTIVATION_LINK_EXPIRED' => 'Activation link expired',
-            'USER_ACTIVATED_SUCCESSFULLY' => 'User activated successfully',
+            'USER_ACTIVATED_SUCCESSFULLY' => 'User account activated successfully',
+            'USER_ACTIVATED_SUCCESSFULLY_NOT_ENABLED' => 'User account activated but account is being reviewed',
             'INVALID_REQUEST' => 'Invalid request',
             'USER_REGISTRATION' => 'User Registration',
             'USER_REGISTRATION_ENABLED_HELP' => 'Enable the user registration',
@@ -133,7 +134,9 @@ You have **2FA** enabled on this account. Please use your **2FA** app to enter t
             '2FA_SECRET' => '2FA Secret',
             '2FA_SECRET_HELP' => 'Scan this QR code into your [Authenticator App](https://learn.getgrav.org/admin-panel/2fa#apps). Also it\'s a good idea to backup the secret in a safe location, in case you need to reinstall your app. Check the [Grav docs](https://learn.getgrav.org/admin-panel/2fa) for more information ',
             '2FA_REGENERATE' => 'Regenerate',
-            'BTN_CANCEL' => 'Cancel'
+            'BTN_CANCEL' => 'Cancel',
+            'MANUALLY_ENABLE' => 'Manually Enable',
+            'MANUALLY_ENABLE_HELP' => 'When using \'activation email\' and \'notification email\', you can ensure the user can self activate, but requires manually enabling the user to login'
         ]
     ]
 ];

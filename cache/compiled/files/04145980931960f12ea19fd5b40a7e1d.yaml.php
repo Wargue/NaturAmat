@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/plugins/email/languages.yaml',
-    'modified' => 1538999174,
+    'modified' => 1542653027,
     'data' => [
         'en' => [
             'PLUGIN_EMAIL' => [

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/plugins/login/languages/hu.yaml',
-    'modified' => 1538999174,
+    'modified' => 1542217657,
     'data' => [
         'PLUGIN_LOGIN' => [
             'ACCESS_DENIED' => 'Hozzáférés megtagadva...',

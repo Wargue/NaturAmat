@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/system/blueprints/config/system.yaml',
-    'modified' => 1542045988,
+    'modified' => 1542217612,
     'data' => [
         'title' => 'PLUGIN_ADMIN.SYSTEM',
         'form' => [
