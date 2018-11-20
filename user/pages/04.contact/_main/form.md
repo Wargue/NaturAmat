@@ -6,15 +6,14 @@ process:
 ---
 
 ## Notre Adresse
-9 - 3815 Thatcher Avenue <br />
-Saskatoon, Saskatchewan <br />
-S7R 1A3 <br />
+Rue Major Mouzon, 69A <br />sd
+6890 Ochamps <br />
 
 ## Nos Informations
-**Email:**  		 		info@yastech.ca <br />
-**Primary Phone:**   		1 (306) 249 - 9609 <br />
-**Alternate Phone:**   		1 (306) 249 - 9612 <br />
-**Fax:**   				1 (306) 931 - 6739 <br />
+**Email:**  		 		info@naturamat.be <br />
+**Primary Phone:**   		+32(0)61 25 87 62 <br />
+**Alternate Phone:**   		+32(0)498 47 44 47 <br />
+
 
 
 

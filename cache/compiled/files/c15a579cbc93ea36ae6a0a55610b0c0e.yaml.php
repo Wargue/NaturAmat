@@ -2,14 +2,14 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/config/plugins/jscomments.yaml',
-    'modified' => 1542661546,
+    'modified' => 1542664504,
     'data' => [
         'enabled' => true,
         'active' => true,
         'provider' => 'disqus',
         'providers' => [
             'disqus' => [
-                'shortname' => 'Naturamat',
+                'shortname' => 'naturamat',
                 'show_count' => true,
                 'language' => 'fr'
             ],
