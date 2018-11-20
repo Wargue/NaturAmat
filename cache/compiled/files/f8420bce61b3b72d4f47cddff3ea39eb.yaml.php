@@ -2,21 +2,18 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/config/plugins/email.yaml',
-    'modified' => 1542653371,
+    'modified' => 1542654758,
     'data' => [
         'enabled' => true,
         'from' => 'gillet_l@hotmail.com',
         'from_name' => 'Laurent',
-        'to' => NULL,
-        'to_name' => NULL,
+        'to' => 'gillet_l@hotmail.com',
         'mailer' => [
             'engine' => 'sendmail',
             'smtp' => [
                 'server' => 'localhost',
                 'port' => 25,
-                'encryption' => 'none',
-                'user' => '',
-                'password' => ''
+                'encryption' => 'ssl'
             ],
             'sendmail' => [
                 'bin' => '/usr/sbin/sendmail -bs'

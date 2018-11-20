@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1542654758,
-    'checksum' => 'bad493828aa61deeef953bcaf5f54dc3',
+    'timestamp' => 1542664504,
+    'checksum' => '237e7091450df49f5fa5556048f7f7e9',
     'files' => [
         'user/config' => [
             'media' => [
@@ -16,6 +16,10 @@ return [
             'plugins/email' => [
                 'file' => 'user/config/plugins/email.yaml',
                 'modified' => 1542654758
+            ],
+            'plugins/jscomments' => [
+                'file' => 'user/config/plugins/jscomments.yaml',
+                'modified' => 1542664504
             ],
             'security' => [
                 'file' => 'user/config/security.yaml',
@@ -31,7 +35,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1542653031
+                'modified' => 1542655333
             ]
         ],
         'system/config' => [
@@ -80,6 +84,10 @@ return [
             'plugins/gantry5' => [
                 'file' => 'user/plugins/gantry5/gantry5.yaml',
                 'modified' => 1541454101
+            ],
+            'plugins/jscomments' => [
+                'file' => 'user/plugins/jscomments/jscomments.yaml',
+                'modified' => 1542661896
             ],
             'plugins/login' => [
                 'file' => 'user/plugins/login/login.yaml',
@@ -310,6 +318,85 @@ return [
                 'debug' => false,
                 'compile_yaml' => true,
                 'compile_twig' => true
+            ],
+            'jscomments' => [
+                'enabled' => true,
+                'active' => true,
+                'provider' => 'disqus',
+                'providers' => [
+                    'discourse' => [
+                        'host' => ''
+                    ],
+                    'disqus' => [
+                        'shortname' => 'naturamat',
+                        'show_count' => true,
+                        'language' => 'fr'
+                    ],
+                    'facebook' => [
+                        'app_id' => '',
+                        'num_posts' => 5,
+                        'colorscheme' => 'light',
+                        'order_by' => 'social',
+                        'language' => '',
+                        'width' => '100%'
+                    ],
+                    'googleplus' => [
+                        'show_count' => false,
+                        'language' => '',
+                        'width' => '100%'
+                    ],
+                    'intensedebate' => [
+                        'account_number' => ''
+                    ],
+                    'isso' => [
+                        'host' => '',
+                        'builtin_css' => true,
+                        'language' => '',
+                        'reply_to_self' => false,
+                        'require' => [
+                            'author' => true,
+                            'email' => true
+                        ],
+                        'comments' => [
+                            'number' => 10,
+                            'nested_number' => 5,
+                            'reveal' => 5
+                        ],
+                        'avatar' => [
+                            'enabled' => true,
+                            'background' => '',
+                            'foreground' => ''
+                        ],
+                        'vote' => [
+                            'enabled' => true,
+                            'levels' => '-5,5'
+                        ]
+                    ],
+                    'muut' => [
+                        'forum' => '',
+                        'channel' => 'General',
+                        'widget' => false,
+                        'show_online' => false,
+                        'show_title' => false,
+                        'upload' => false,
+                        'share' => true,
+                        'language' => ''
+                    ],
+                    'hypercomments' => [
+                        'widget_id' => NULL,
+                        'social' => [
+                            0 => 'vk',
+                            1 => 'odnoklassniki',
+                            2 => 'yandex',
+                            3 => 'mailru',
+                            4 => 'google',
+                            5 => 'livejournal',
+                            6 => 'facebook',
+                            7 => 'twitter',
+                            8 => 'tumblr'
+                        ]
+                    ]
+                ]
             ],
             'login' => [
                 'enabled' => true,

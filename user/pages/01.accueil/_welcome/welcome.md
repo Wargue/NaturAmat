@@ -3,4 +3,4 @@ title: welcome
 body_classes: "modular"
 ---
 
-CECI EST FORCEMENT UN TEST ! ha oui !s
+Bonjour à tous et bienvenu sur notre tout nouveau site !

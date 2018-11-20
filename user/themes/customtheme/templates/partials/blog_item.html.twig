@@ -89,11 +89,11 @@
         {% set show_prev_next = true %}
     {% endif %}
 
-
-
-
     {% if show_prev_next %}
-        {% include 'partials/comments.html.twig' with {'page': page} %}
+
+        {% if config.plugins.jscomments.enabled %}
+            {{ jscomments()|raw }}
+        {% endif %}
         <p class="prev-next">
             {% if not page.isFirst %}
                 <a class="button" href="{{ page.nextSibling.url }}"><i class="fa fa-chevron-left"></i> Article précédent </a>
