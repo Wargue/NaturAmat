@@ -22,23 +22,29 @@ class __TwigTemplate_d5bde5cd38d5d54c6b7bd5714aa6c033d7c2b18030bd05826374d8160dc
         // line 3
         echo ($context["base_url_absolute"] ?? null);
         echo "\"></a></h1>
+          <img class=\"logo_header2\" alt=\"logo NaturAmat\" src=\"";
+        // line 4
+        echo ($context["theme_url"] ?? null);
+        echo "/img/logo/logo.png\">
       </div>
       <div class=\"menuheader\">
           <div class=\"container\">
               <div class=\"row\">
                   <div class=\"logo_menubar col-lg-3\">
                       <img class=\"logo_header\" alt=\"logo NaturAmat\" src=\"";
-        // line 9
+        // line 10
         echo ($context["theme_url"] ?? null);
         echo "/img/logo/logo.png\">
+
                   </div>
                   <div class=\"nav_header col-lg-9\">
                       <nav class=\"navbar navbar-default navbar-static-top tm_navbar\" role=\"navigation\">
                           ";
-        // line 13
-        $this->loadTemplate("partials/navigation.html.twig", "partials/header.html.twig", 13)->display($context);
-        // line 14
+        // line 15
+        $this->loadTemplate("partials/navigation.html.twig", "partials/header.html.twig", 15)->display($context);
+        // line 16
         echo "                      </nav>
+                      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"> </button>
                   </div>
               </div>
           </div>
@@ -58,7 +64,7 @@ class __TwigTemplate_d5bde5cd38d5d54c6b7bd5714aa6c033d7c2b18030bd05826374d8160dc
 
     public function getDebugInfo()
     {
-        return array (  41 => 14,  39 => 13,  32 => 9,  23 => 3,  19 => 1,);
+        return array (  46 => 16,  44 => 15,  36 => 10,  27 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -74,17 +80,20 @@ class __TwigTemplate_d5bde5cd38d5d54c6b7bd5714aa6c033d7c2b18030bd05826374d8160dc
         return new Twig_Source("<header id=\"header\">
       <div class=\"container\">
         <h1 class=\"navbar-brand navbar-brand_\"><a href=\"{{ base_url_absolute }}\"></a></h1>
+          <img class=\"logo_header2\" alt=\"logo NaturAmat\" src=\"{{ theme_url }}/img/logo/logo.png\">
       </div>
       <div class=\"menuheader\">
           <div class=\"container\">
               <div class=\"row\">
                   <div class=\"logo_menubar col-lg-3\">
                       <img class=\"logo_header\" alt=\"logo NaturAmat\" src=\"{{ theme_url }}/img/logo/logo.png\">
+
                   </div>
                   <div class=\"nav_header col-lg-9\">
                       <nav class=\"navbar navbar-default navbar-static-top tm_navbar\" role=\"navigation\">
                           {% include 'partials/navigation.html.twig' %}
                       </nav>
+                      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"> </button>
                   </div>
               </div>
           </div>

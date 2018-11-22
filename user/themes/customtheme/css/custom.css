@@ -21,6 +21,42 @@
     left: 20px;
 }
 
+
+
+@media screen and (min-width: 1220px) {
+    .logo_header2 {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1220px) {
+    .logo_header {
+        display: none;
+    }
+    .logo_header2 {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar{
+        display: none;
+    }
+
+    .menuheader .container{
+
+    }
+}
+
+
+
+
+
 .tm_navbar .nav li {
 
     padding: 0 60px 0 75px;

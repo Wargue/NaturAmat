@@ -77,17 +77,34 @@ class __TwigTemplate_ac247ee279c18267810dff279522b56b834c9e30d90c29c47a0dc6839f8
                 <figcaption class=\"gallery-caption\" itemprop=\"caption description\">";
             // line 16
             echo $this->getAttribute($context["image"], "description", array());
-            echo "</br>";
+            echo "<br>
+                </figcaption>
+                <figcaption class=\"gallery-caption-desc\" itemprop=\"caption description\">
+                    <div class=\"description_photo\">
+                        <u>Auteur : </u> <br>
+                        ";
+            // line 21
             echo $this->getAttribute($context["image"], "author", array());
-            echo "</figcaption>
+            echo "
+                    </div>
+                    <br>
+                    <div class=\"description_contact\">
+                        <u>Le contacter: </u> <br>
+                        <a class=\"mail\" href=\"mailto:";
+            // line 26
+            echo $this->getAttribute($context["image"], "mail", array());
+            echo "\">";
+            echo $this->getAttribute($context["image"], "mail", array());
+            echo "</a>
+                    </div>
+                </figcaption>
             </figure>
-
     ";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['image'], $context['_parent'], $context['loop']);
         $context = array_intersect_key($context, $_parent) + $_parent;
-        // line 20
+        // line 31
         echo "</div>
     <div class=\"pswp\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">
         <!--
@@ -176,6 +193,7 @@ class __TwigTemplate_ac247ee279c18267810dff279522b56b834c9e30d90c29c47a0dc6839f8
                         if (figureEl.children.length > 1) {
                             // <figcaption> content
                             item.title = figureEl.children[1].innerHTML;
+                            item.title = figureEl.children[2].innerHTML;
                         }
                         if (linkEl.children.length > 0) {
                             // <img> thumbnail element, retrieving thumbnail url
@@ -361,7 +379,7 @@ class __TwigTemplate_ac247ee279c18267810dff279522b56b834c9e30d90c29c47a0dc6839f8
 
     public function getDebugInfo()
     {
-        return array (  91 => 20,  79 => 16,  64 => 15,  60 => 14,  57 => 13,  54 => 12,  50 => 10,  47 => 9,  44 => 8,  41 => 7,  38 => 6,  35 => 5,  32 => 4,  29 => 3,  11 => 1,);
+        return array (  108 => 31,  95 => 26,  87 => 21,  79 => 16,  64 => 15,  60 => 14,  57 => 13,  54 => 12,  50 => 10,  47 => 9,  44 => 8,  41 => 7,  38 => 6,  35 => 5,  32 => 4,  29 => 3,  11 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -389,9 +407,20 @@ class __TwigTemplate_ac247ee279c18267810dff279522b56b834c9e30d90c29c47a0dc6839f8
 <div class=\"gallery\" itemscope=\"\" itemtype=\"http://schema.org/ImageGallery\">
     {% for image in page.header.images %}
             <figure class=\"gallery-item {{ image.hv }}\" itemprop=\"associatedMedia\" itemscope=\"\" itemtype=\"http://schema.org/ImageObject\"><a href=\"{{ page.media[image.thumbnail].url }}\" itemprop=\"contentUrl\" data-size=\"{{ image.size }}\"><img class=\"lazyload lazypreload fadein\" src=\"{{ page.media[image.thumbnail].url }}\" data-src=\"{{ page.media[image.thumbnail].url }}\" itemprop=\"thumbnail\" alt=\"{{ image.description }}\"/></a>
-                <figcaption class=\"gallery-caption\" itemprop=\"caption description\">{{ image.description }}</br>{{ image.author }}</figcaption>
+                <figcaption class=\"gallery-caption\" itemprop=\"caption description\">{{ image.description }}<br>
+                </figcaption>
+                <figcaption class=\"gallery-caption-desc\" itemprop=\"caption description\">
+                    <div class=\"description_photo\">
+                        <u>Auteur : </u> <br>
+                        {{ image.author }}
+                    </div>
+                    <br>
+                    <div class=\"description_contact\">
+                        <u>Le contacter: </u> <br>
+                        <a class=\"mail\" href=\"mailto:{{ image.mail }}\">{{ image.mail }}</a>
+                    </div>
+                </figcaption>
             </figure>
-
     {% endfor %}
 </div>
     <div class=\"pswp\" tabindex=\"-1\" role=\"dialog\" aria-hidden=\"true\">
@@ -481,6 +510,7 @@ class __TwigTemplate_ac247ee279c18267810dff279522b56b834c9e30d90c29c47a0dc6839f8
                         if (figureEl.children.length > 1) {
                             // <figcaption> content
                             item.title = figureEl.children[1].innerHTML;
+                            item.title = figureEl.children[2].innerHTML;
                         }
                         if (linkEl.children.length > 0) {
                             // <img> thumbnail element, retrieving thumbnail url

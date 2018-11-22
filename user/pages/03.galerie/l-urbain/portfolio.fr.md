@@ -8,36 +8,36 @@ images:
         thumbnail: chevreuil.jpg
         size: 3647x2325
         hv: horizontal
+        author: 'Joris Lecaille'
     -
         title: Cerf
         description: 'Un cerf perdu'
         thumbnail: cerf.jpg
         size: 4514x2953
         hv: horizontal
+        author: 'Joris Lecaille'
     -
         title: qsdf
         description: qsdf
         thumbnail: blop.jpg
         size: 4240x2738
         hv: horizontal
+        author: 'Joris Lecaille'
     -
         title: sdf
         description: sdf
         thumbnail: blup.jpg
         size: 4715x3115
         hv: horizontal
-    -
-        title: Snow
-        description: 'Un pas dans la neige'
-        thumbnail: snow.jpg
-        size: 400x600
-        hv: vertical
+        author: 'Joris Lecaille'
+        mail: gillet_l@hotmail.com
     -
         title: dfghjk
         description: fghjk
         thumbnail: pif.jpg
         size: 4810x2990
         hv: horizontal
+        author: 'Joris Lecaille'
     -
         title: 'Le chevreuil'
         description: sdfpgkjl

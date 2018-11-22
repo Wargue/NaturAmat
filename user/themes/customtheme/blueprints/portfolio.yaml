@@ -43,3 +43,7 @@ form:
                   type: text
                   label: Photographe
                   help: Nom du photographe
+                .mail:
+                  type: email
+                  label: Mail
+                  help: Email du photographe

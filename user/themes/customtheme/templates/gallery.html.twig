@@ -167,7 +167,8 @@ $(window).load(function() {
                             <div id="container" class="clearfix">
                                 {% for element in page.header.gallery  %}
                                     <div class="element transition {{ element.filter }}" data-category="transition">
-                                        <a href="{{ page.media[element.image].url }}" class="thumb"><figure class="img-polaroid">{{ page.media[element.image].resize(270, 190).html() }}</figure></a><span class="description">{{ element.description }}</span>
+                                        <a href="{{ page.media[element.image].url }}" class="thumb"><figure class="img-polaroid">{{ page.media[element.image].resize(270, 190).html() }}</figure></a>
+                                        <span class="description">{{ element.description }}</span>
                                     </div>
                                 {% endfor %}
                             </div>

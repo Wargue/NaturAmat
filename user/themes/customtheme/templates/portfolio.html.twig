@@ -13,9 +13,20 @@
 <div class="gallery" itemscope="" itemtype="http://schema.org/ImageGallery">
     {% for image in page.header.images %}
             <figure class="gallery-item {{ image.hv }}" itemprop="associatedMedia" itemscope="" itemtype="http://schema.org/ImageObject"><a href="{{ page.media[image.thumbnail].url }}" itemprop="contentUrl" data-size="{{ image.size }}"><img class="lazyload lazypreload fadein" src="{{ page.media[image.thumbnail].url }}" data-src="{{ page.media[image.thumbnail].url }}" itemprop="thumbnail" alt="{{ image.description }}"/></a>
-                <figcaption class="gallery-caption" itemprop="caption description">{{ image.description }}</br>{{ image.author }}</figcaption>
+                <figcaption class="gallery-caption" itemprop="caption description">{{ image.description }}<br>
+                </figcaption>
+                <figcaption class="gallery-caption-desc" itemprop="caption description">
+                    <div class="description_photo">
+                        <u>Auteur : </u> <br>
+                        {{ image.author }}
+                    </div>
+                    <br>
+                    <div class="description_contact">
+                        <u>Le contacter: </u> <br>
+                        <a class="mail" href="mailto:{{ image.mail }}">{{ image.mail }}</a>
+                    </div>
+                </figcaption>
             </figure>
-
     {% endfor %}
 </div>
     <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
@@ -105,6 +116,7 @@
                         if (figureEl.children.length > 1) {
                             // <figcaption> content
                             item.title = figureEl.children[1].innerHTML;
+                            item.title = figureEl.children[2].innerHTML;
                         }
                         if (linkEl.children.length > 0) {
                             // <img> thumbnail element, retrieving thumbnail url
