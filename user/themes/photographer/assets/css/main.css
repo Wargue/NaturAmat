@@ -125,14 +125,17 @@
           text-transform: uppercase;
           color: #9A9898;
         }
-        .tags {
-          display: inline;
-          background-color: rgba(101, 97, 97, 0.1);
-          padding: 0rem 1rem 0.5rem;
-          margin-bottom: 0rem;
-          list-style: none;
-          text-align: center;
-        }
+@media screen and (min-width: 1220px) {
+	.tags {
+		display: inline;
+		background-color: rgba(101, 97, 97, 0.1);
+		padding: 0rem 1rem 0.5rem;
+		margin-bottom: 0rem;
+		list-style: none;
+		text-align: center;
+	}
+}
+
         .tags li {
           display: inline-block;
           font-size: 1rem;
@@ -969,17 +972,7 @@
 
 		/* Button */
 
-			input[type="button"],
-			input[type="submit"],
-			input[type="reset"],
-			button,
-			.button {
-				display: block;
-				width: 100%;
-				font-size: 1.25em;
-				padding: 0.75em 0 0.75em 0;
-				margin: 0.5em 0 0.5em 0;
-			}
+
 
 		/* Pagination */
 
@@ -990,8 +983,7 @@
 		/* Box */
 
 			.box.post {
-				padding-bottom: 5em;
-				margin-bottom: 6em;
+
 			}
 
 				.box.post header > p {

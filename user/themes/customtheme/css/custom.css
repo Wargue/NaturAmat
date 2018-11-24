@@ -21,14 +21,11 @@
     left: 20px;
 }
 
-
-
 @media screen and (min-width: 1220px) {
     .logo_header2 {
         display: none;
     }
 }
-
 
 @media screen and (max-width: 1220px) {
     .logo_header {
@@ -37,24 +34,25 @@
     .logo_header2 {
         width: 50%;
     }
-}
-
-@media screen and (max-width: 1220px) {
-
-}
-
-@media screen and (max-width: 1000px) {
-    .navbar{
+    .image.featured{
+        width: auto;
+        height: auto;
+    }
+    .image.blog{
+        width: auto;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .tags{
         display: none;
     }
+}
 
-    .menuheader .container{
+@media screen and (max-width: 990px) {
+    .tm_navbar{
 
     }
 }
-
-
-
 
 
 .tm_navbar .nav li {
@@ -201,9 +199,7 @@ width: max-content;
 .row{
 
 }
-.tags{
-    width: auto;
-}
+
 .blog_content_header{
     width: auto;
     margin-bottom: 15px;
@@ -390,9 +386,27 @@ width: max-content;
 }
 
 #sidebar-contact{
-    background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
-    padding-bottom: 20px;
-    height: 600px;
+     background: #2f3133 url(../img/patternbg.jpg) 0 0 repeat;
+     padding-bottom: 20px;
+     height: 600px;
+
+ }
+
+#sidebar-contact p{
+color: darkgrey;
+
+}
+
+.container p{
+    color: darkgrey;
+}
+
+p.title1 {
+    color: white;
+}
+
+p.title2 {
+    color: white;
 }
 
 textarea.form-control {
@@ -425,4 +439,11 @@ textarea.form-control {
     bottom: 0;
     background-color: #fff;
     background-image: url(../img/pattern2.jpg);
+}
+
+@media screen and (max-width: 736px) {
+
+    .navbar-toggle {
+        bottom: 12px;
+    }
 }

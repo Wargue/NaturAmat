@@ -16,7 +16,7 @@
     {% endfor %}
 {% endmacro %}
 
-<ul class="nav sf-menu">
+<ul class="nav navbar-nav">
     {% if config.themes.photographer.dropdown.enabled %}
         {{ _self.loop(pages) }}
         {% else %}
@@ -31,33 +31,4 @@
                 {% endif %}
             {% endfor %}
         {% endif %}
-        {% for mitem in site.menu %}
-            <li>
-                <a href="{{ mitem.link }}">
-                    {{ mitem.text }}
-                </a>
-                {% if mitem.submenu %}
-                    <ul>
-                        {% for sub1 in mitem.submenu %}
-                            <li>{% if loop.first %}<img src="{{ theme_url }}/img/arrowup.png" alt="">{% endif %}
-                                <a href="{{ sub1.link }}">
-                                    {{ sub1.text }}
-                                </a>
-                                {% if sub1.submenu %}
-                                    <ul>
-                                        {% for sub2 in sub1.submenu %}
-                                            <li>
-                                                <a href="{{ sub2.link }}">
-                                                    {{ sub2.text }}
-                                                </a>
-                                            </li>
-                                        {% endfor %}
-                                    </ul>
-                                {% endif %}
-                            </li>
-                        {% endfor %}
-                    </ul>
-                {% endif %}
-            </li>
-        {% endfor %}
-    </ul>   
+</ul>

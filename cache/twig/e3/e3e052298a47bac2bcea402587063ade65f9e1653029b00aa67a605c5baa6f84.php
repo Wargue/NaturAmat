@@ -35,16 +35,25 @@ class __TwigTemplate_d5bde5cd38d5d54c6b7bd5714aa6c033d7c2b18030bd05826374d8160dc
         // line 10
         echo ($context["theme_url"] ?? null);
         echo "/img/logo/logo.png\">
-
                   </div>
                   <div class=\"nav_header col-lg-9\">
+
                       <nav class=\"navbar navbar-default navbar-static-top tm_navbar\" role=\"navigation\">
-                          ";
-        // line 15
-        $this->loadTemplate("partials/navigation.html.twig", "partials/header.html.twig", 15)->display($context);
+                          <div class=\"collapse navbar-collapse\" id=\"myNavbar\">
+                            ";
         // line 16
-        echo "                      </nav>
-                      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"> </button>
+        $this->loadTemplate("partials/navigation.html.twig", "partials/header.html.twig", 16)->display($context);
+        // line 17
+        echo "                          </div>
+                          <div class=\"navbar-header\">
+                              <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">
+                                  <span class=\"icon-bar\"></span>
+                                  <span class=\"icon-bar\"></span>
+                                  <span class=\"icon-bar\"></span>
+                                  <span class=\"icon-bar\"></span>
+                              </button>
+                          </div>
+                      </nav>
                   </div>
               </div>
           </div>
@@ -64,7 +73,7 @@ class __TwigTemplate_d5bde5cd38d5d54c6b7bd5714aa6c033d7c2b18030bd05826374d8160dc
 
     public function getDebugInfo()
     {
-        return array (  46 => 16,  44 => 15,  36 => 10,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  47 => 17,  45 => 16,  36 => 10,  27 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -87,13 +96,22 @@ class __TwigTemplate_d5bde5cd38d5d54c6b7bd5714aa6c033d7c2b18030bd05826374d8160dc
               <div class=\"row\">
                   <div class=\"logo_menubar col-lg-3\">
                       <img class=\"logo_header\" alt=\"logo NaturAmat\" src=\"{{ theme_url }}/img/logo/logo.png\">
-
                   </div>
                   <div class=\"nav_header col-lg-9\">
+
                       <nav class=\"navbar navbar-default navbar-static-top tm_navbar\" role=\"navigation\">
-                          {% include 'partials/navigation.html.twig' %}
+                          <div class=\"collapse navbar-collapse\" id=\"myNavbar\">
+                            {% include 'partials/navigation.html.twig' %}
+                          </div>
+                          <div class=\"navbar-header\">
+                              <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"#myNavbar\">
+                                  <span class=\"icon-bar\"></span>
+                                  <span class=\"icon-bar\"></span>
+                                  <span class=\"icon-bar\"></span>
+                                  <span class=\"icon-bar\"></span>
+                              </button>
+                          </div>
                       </nav>
-                      <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\".navbar-collapse\"> </button>
                   </div>
               </div>
           </div>
