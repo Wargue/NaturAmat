@@ -51,10 +51,10 @@ class __TwigTemplate_0330de2a538129414a4f22ea81e45753876d76fc953d669f9ad267240b6
         echo "/img/logo/logo.png\" alt=\"\"></a>
             </div>
             <div class=\"col-lg-4 col-md-4 col-sm-4 footercol\">
-                <p class=\"footerpriv\">&copy; 2013 &bull; <a class=\"privacylink\" href=\"";
+                <p class=\"footerpriv\">&copy; 2018 &bull; <a class=\"privacylink\" href=\"";
         // line 15
         echo ($context["base_url_absolute"] ?? null);
-        echo "/privacy\">Privacy policy</a></p>
+        echo "/privacy\">MENTIONS LEGALES</a></p>
             </div>
         </div>
     </div>
@@ -100,7 +100,7 @@ class __TwigTemplate_0330de2a538129414a4f22ea81e45753876d76fc953d669f9ad267240b6
                 <a class=\"smalllogo2 logo\" href=\"{{ base_url_absolute }}\"><img src=\"{{ theme_url }}/img/logo/logo.png\" alt=\"\"></a>
             </div>
             <div class=\"col-lg-4 col-md-4 col-sm-4 footercol\">
-                <p class=\"footerpriv\">&copy; 2013 &bull; <a class=\"privacylink\" href=\"{{ base_url_absolute }}/privacy\">Privacy policy</a></p>
+                <p class=\"footerpriv\">&copy; 2018 &bull; <a class=\"privacylink\" href=\"{{ base_url_absolute }}/privacy\">MENTIONS LEGALES</a></p>
             </div>
         </div>
     </div>
