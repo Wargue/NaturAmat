@@ -18,52 +18,39 @@ class __TwigTemplate_9d128264a8d9891ab78ee615faaf6ee8a0d663d784b4d2b7fcb544becfa
         // line 18
         echo "
 <ul class=\"nav navbar-nav\">
-    ";
-        // line 20
-        if ($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "themes", array()), "photographer", array()), "dropdown", array()), "enabled", array())) {
-            // line 21
-            echo "        ";
-            echo $this->getAttribute($this, "loop", array(0 => ($context["pages"] ?? null)), "method");
-            echo "
         ";
-        } else {
-            // line 23
-            echo "        ";
-            $context['_parent'] = $context;
-            $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["pages"] ?? null), "children", array()));
-            foreach ($context['_seq'] as $context["_key"] => $context["page"]) {
-                // line 24
-                echo "            ";
-                if ($this->getAttribute($context["page"], "visible", array())) {
-                    // line 25
-                    echo "                ";
-                    $context["current_page"] = ((($this->getAttribute($context["page"], "active", array()) || $this->getAttribute($context["page"], "activeChild", array()))) ? ("active") : (""));
-                    // line 26
-                    echo "                    <li class=\"";
-                    echo ($context["current_page"] ?? null);
-                    echo "\">
+        // line 20
+        $context['_parent'] = $context;
+        $context['_seq'] = twig_ensure_traversable($this->getAttribute(($context["pages"] ?? null), "children", array()));
+        foreach ($context['_seq'] as $context["_key"] => $context["page"]) {
+            // line 21
+            echo "            ";
+            if ($this->getAttribute($context["page"], "visible", array())) {
+                // line 22
+                echo "                ";
+                $context["current_page"] = ((($this->getAttribute($context["page"], "active", array()) || $this->getAttribute($context["page"], "activeChild", array()))) ? ("active") : (""));
+                // line 23
+                echo "                    <li class=\"";
+                echo ($context["current_page"] ?? null);
+                echo "\">
                         <a href=\"";
-                    // line 27
-                    echo $this->getAttribute($context["page"], "url", array());
-                    echo "\">
-                            ";
-                    // line 28
-                    echo $this->getAttribute($context["page"], "menu", array());
-                    echo "
-                        </a>
+                // line 24
+                echo $this->getAttribute($context["page"], "url", array());
+                echo "\"><img src=\"";
+                echo $this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute($this->getAttribute($context["page"], "header", array()), "media", array()), "images", array()), ($context["image"] ?? null), array(), "array"), "url", array());
+                echo "\">";
+                echo $this->getAttribute($context["page"], "menu", array());
+                echo "</a>
                     </li>
                 ";
-                }
-                // line 32
-                echo "            ";
             }
-            $_parent = $context['_parent'];
-            unset($context['_seq'], $context['_iterated'], $context['_key'], $context['page'], $context['_parent'], $context['loop']);
-            $context = array_intersect_key($context, $_parent) + $_parent;
-            // line 33
-            echo "        ";
+            // line 27
+            echo "            ";
         }
-        // line 34
+        $_parent = $context['_parent'];
+        unset($context['_seq'], $context['_iterated'], $context['_key'], $context['page'], $context['_parent'], $context['loop']);
+        $context = array_intersect_key($context, $_parent) + $_parent;
+        // line 28
         echo "</ul>";
     }
 
@@ -150,7 +137,7 @@ class __TwigTemplate_9d128264a8d9891ab78ee615faaf6ee8a0d663d784b4d2b7fcb544becfa
 
     public function getDebugInfo()
     {
-        return array (  123 => 16,  119 => 14,  113 => 11,  110 => 10,  108 => 9,  103 => 7,  99 => 6,  94 => 5,  91 => 4,  88 => 3,  83 => 2,  71 => 1,  67 => 34,  64 => 33,  58 => 32,  51 => 28,  47 => 27,  42 => 26,  39 => 25,  36 => 24,  31 => 23,  25 => 21,  23 => 20,  19 => 18,);
+        return array (  110 => 16,  106 => 14,  100 => 11,  97 => 10,  95 => 9,  90 => 7,  86 => 6,  81 => 5,  78 => 4,  75 => 3,  70 => 2,  58 => 1,  54 => 28,  48 => 27,  38 => 24,  33 => 23,  30 => 22,  27 => 21,  23 => 20,  19 => 18,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -182,20 +169,14 @@ class __TwigTemplate_9d128264a8d9891ab78ee615faaf6ee8a0d663d784b4d2b7fcb544becfa
 {% endmacro %}
 
 <ul class=\"nav navbar-nav\">
-    {% if config.themes.photographer.dropdown.enabled %}
-        {{ _self.loop(pages) }}
-        {% else %}
         {% for page in pages.children %}
             {% if page.visible %}
                 {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
                     <li class=\"{{ current_page }}\">
-                        <a href=\"{{ page.url }}\">
-                            {{ page.menu }}
-                        </a>
+                        <a href=\"{{ page.url }}\"><img src=\"{{ page.header.media.images[image].url }}\">{{ page.menu }}</a>
                     </li>
                 {% endif %}
             {% endfor %}
-        {% endif %}
 </ul>", "partials/navigation.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\partials\\navigation.html.twig");
     }
 }

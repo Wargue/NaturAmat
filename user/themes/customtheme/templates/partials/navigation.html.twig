@@ -17,18 +17,12 @@
 {% endmacro %}
 
 <ul class="nav navbar-nav">
-    {% if config.themes.photographer.dropdown.enabled %}
-        {{ _self.loop(pages) }}
-        {% else %}
         {% for page in pages.children %}
             {% if page.visible %}
                 {% set current_page = (page.active or page.activeChild) ? 'active' : '' %}
                     <li class="{{ current_page }}">
-                        <a href="{{ page.url }}">
-                            {{ page.menu }}
-                        </a>
+                        <a href="{{ page.url }}"><img src="{{ page.header.media.images[image].url }}">{{ page.menu }}</a>
                     </li>
                 {% endif %}
             {% endfor %}
-        {% endif %}
 </ul>
