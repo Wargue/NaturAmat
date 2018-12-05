@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/wamp/www/Naturamat/user/plugins/form/languages.yaml',
-    'modified' => 1538999174,
+    'modified' => 1543863249,
     'data' => [
         'en' => [
             'PLUGIN_FORM' => [
@@ -147,7 +147,7 @@ return [
                 'ACCEPT' => 'Autoriser les Types MIME',
                 'ACCEPT_HELP' => 'Liste des Types MIME autorisés au chargement',
                 'ERROR_VALIDATING_CAPTCHA' => 'Erreur lors de la validation du Captcha',
-                'DATA_SUMMARY' => 'Voici le résumé de ce que vous nous avez écrit :',
+                'DATA_SUMMARY' => 'Résumé de votre message :',
                 'NO_FORM_DATA' => 'Aucune donnée de formulaire disponible',
                 'RECAPTCHA' => 'ReCaptcha',
                 'RECAPTCHA_SITE_KEY' => 'Clé du site',

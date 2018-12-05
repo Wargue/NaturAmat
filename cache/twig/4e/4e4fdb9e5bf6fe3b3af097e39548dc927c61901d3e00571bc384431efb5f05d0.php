@@ -16,7 +16,7 @@ class __TwigTemplate_ddd52b809c4b543ff69eb2064467c4379b6bc6e2c3cf698283985e1cb5e
     protected function doDisplay(array $context, array $blocks = array())
     {
         // line 1
-        echo "<div class=\"news col-lg-3\">
+        echo "<div class=\"news col-lg-3 col-md-6 col-sm-6\">
     <div class=\"blog-card spring-fever\">
         <div class=\"bg-card\">
             <div class=\"img_lastpicture\">";
@@ -36,7 +36,7 @@ class __TwigTemplate_ddd52b809c4b543ff69eb2064467c4379b6bc6e2c3cf698283985e1cb5e
         // line 11
         echo twig_slice($this->env, $this->getAttribute(($context["page"] ?? null), "content", array()), 0, 200);
         echo "</p>
-                </br>
+                <br>
                 <a class=\"btn btn-default\" href=\"";
         // line 13
         echo $this->getAttribute(($context["page"] ?? null), "url", array());
@@ -84,7 +84,7 @@ class __TwigTemplate_ddd52b809c4b543ff69eb2064467c4379b6bc6e2c3cf698283985e1cb5e
 
     public function getSourceContext()
     {
-        return new Twig_Source("<div class=\"news col-lg-3\">
+        return new Twig_Source("<div class=\"news col-lg-3 col-md-6 col-sm-6\">
     <div class=\"blog-card spring-fever\">
         <div class=\"bg-card\">
             <div class=\"img_lastpicture\">{{ page.media.images|last }}</div>
@@ -95,7 +95,7 @@ class __TwigTemplate_ddd52b809c4b543ff69eb2064467c4379b6bc6e2c3cf698283985e1cb5e
             </div><!-- /.title-content -->
             <div class=\"card-info\">
                 <p>{{ page.content|slice(0,200)}}</p>
-                </br>
+                <br>
                 <a class=\"btn btn-default\" href=\"{{ page.url }}\">Voir la galerie</a>
             </div><!-- /.card-info -->
             <div class=\"utility-info\">

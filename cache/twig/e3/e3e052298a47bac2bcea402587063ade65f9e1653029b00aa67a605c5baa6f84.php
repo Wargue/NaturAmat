@@ -29,33 +29,20 @@ class __TwigTemplate_d5bde5cd38d5d54c6b7bd5714aa6c033d7c2b18030bd05826374d8160dc
       </div>
       <div class=\"menuheader\">
           <div class=\"container\">
-              <div class=\"row\">
                   <div class=\"logo_menubar col-lg-3\">
                       <img class=\"logo_header\" alt=\"logo NaturAmat\" src=\"";
-        // line 10
+        // line 9
         echo ($context["theme_url"] ?? null);
         echo "/img/logo/logo.png\">
                   </div>
                   <div class=\"nav_header col-lg-9\">
                       <nav class=\"navbar navbar-default navbar-static-top tm_navbar\" role=\"navigation\">
-                          <div class=\"container\" style=\"background: none\">
-                              <div class=\"navbar-header\">
-                                  <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"top-navbar\">
-                                      <span class=\"icon-bar\"></span>
-                                      <span class=\"icon-bar\"></span>
-                                      <span class=\"icon-bar\"></span>
-                                  </button>
-                              </div>
-                              <div class=\"collapse navbar-collapse\" id=\"top-navbar\">
                                 ";
-        // line 23
-        $this->loadTemplate("partials/navigation.html.twig", "partials/header.html.twig", 23)->display($context);
-        // line 24
-        echo "                              </div>
-                          </div>
-                      </nav>
+        // line 13
+        $this->loadTemplate("partials/navigation.html.twig", "partials/header.html.twig", 13)->display($context);
+        // line 14
+        echo "                      </nav>
                   </div>
-              </div>
           </div>
       </div>
 </header>";
@@ -73,7 +60,7 @@ class __TwigTemplate_d5bde5cd38d5d54c6b7bd5714aa6c033d7c2b18030bd05826374d8160dc
 
     public function getDebugInfo()
     {
-        return array (  54 => 24,  52 => 23,  36 => 10,  27 => 4,  23 => 3,  19 => 1,);
+        return array (  44 => 14,  42 => 13,  35 => 9,  27 => 4,  23 => 3,  19 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -93,27 +80,14 @@ class __TwigTemplate_d5bde5cd38d5d54c6b7bd5714aa6c033d7c2b18030bd05826374d8160dc
       </div>
       <div class=\"menuheader\">
           <div class=\"container\">
-              <div class=\"row\">
                   <div class=\"logo_menubar col-lg-3\">
                       <img class=\"logo_header\" alt=\"logo NaturAmat\" src=\"{{ theme_url }}/img/logo/logo.png\">
                   </div>
                   <div class=\"nav_header col-lg-9\">
                       <nav class=\"navbar navbar-default navbar-static-top tm_navbar\" role=\"navigation\">
-                          <div class=\"container\" style=\"background: none\">
-                              <div class=\"navbar-header\">
-                                  <button type=\"button\" class=\"navbar-toggle\" data-toggle=\"collapse\" data-target=\"top-navbar\">
-                                      <span class=\"icon-bar\"></span>
-                                      <span class=\"icon-bar\"></span>
-                                      <span class=\"icon-bar\"></span>
-                                  </button>
-                              </div>
-                              <div class=\"collapse navbar-collapse\" id=\"top-navbar\">
                                 {% include 'partials/navigation.html.twig' %}
-                              </div>
-                          </div>
                       </nav>
                   </div>
-              </div>
           </div>
       </div>
 </header>", "partials/header.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\partials\\header.html.twig");

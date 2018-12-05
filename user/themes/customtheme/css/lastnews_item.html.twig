@@ -1,0 +1,27 @@
+<div class="news col-lg-3">
+    <div class="blog-card spring-fever">
+        <div class="bg-card">{{ page.media.images|first }}
+        <div class="title-content">
+            <h3>{{ page.title }}</h3>
+            <hr />
+            <div class="intro"></div>
+        </div><!-- /.title-content -->
+        <div class="card-info">
+            <p>{{ page.content|slice(0,200)}}</p>
+            </br>
+            <a class="btn btn-default" href="{{ page.url }}">Lire plus</a>
+        </div><!-- /.card-info -->
+        <div class="utility-info">
+            <ul class="utility-list">
+                <li class="comments"><a href="{{ page.url }}#disqus_thread"></a></li>
+                <li class="date">{{ page.date|date("d/m/Y") }}</li>
+            </ul>
+        </div><!-- /.utility-info -->
+        <!-- overlays -->
+        <div class="gradient-overlay"></div>
+        <div class="color-overlay"></div>
+        </div>
+    </div><!-- /.blog-card -->
+</div>
+<script>          window.DISQUSWIDGETS = undefined;
+    $.getScript("http://" + {{ shortname|e('js') }} + ".disqus.com/count.js");</script>

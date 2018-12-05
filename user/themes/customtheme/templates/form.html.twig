@@ -1,0 +1,16 @@
+{% extends 'partials/base.html.twig' %}
+
+{% block content %}
+<div class="contact-page">
+<div class="container modular-row contact {{ page.header.class }}">
+    <div class="row contact-row">
+        <div id="listing-contact" class="col-lg-6">
+            {% include "forms/form.html.twig" %}
+        </div>
+        <div id="sidebar-contact" class="col-lg-6">
+            {{ page.content }}
+        </div>
+    </div>
+</div>
+</div>
+{% endblock %}

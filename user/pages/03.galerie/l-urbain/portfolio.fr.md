@@ -48,4 +48,3 @@ images:
 content:
     items: '@self.children'
 ---
-

@@ -45,26 +45,28 @@ class __TwigTemplate_c0fd3da8c4e9ad9e96027b79a51b058f0f24954c3b0aab998abe0bd6048
         $this->displayBlock('body', $context, $blocks);
         // line 81
         echo "
-
         <script src=\"";
-        // line 83
+        // line 82
         echo ($context["theme_url"] ?? null);
         echo "/js/bootstrap.min.js\" type=\"text/javascript\" ></script>
         <script src=\"";
-        // line 84
+        // line 83
         echo ($context["theme_url"] ?? null);
         echo "/js/tm-scripts.js\" type=\"text/javascript\" ></script>
-
-
-        ";
-        // line 87
-        $this->displayBlock('footer', $context, $blocks);
-        // line 90
-        echo "
         <script src='https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.2/lazysizes.min.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.js'></script>
         <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.js'></script>
         <script id=\"dsq-count-scr\" src=\"//naturamat.disqus.com/count.js\" async></script>
+
+
+
+        ";
+        // line 91
+        $this->displayBlock('footer', $context, $blocks);
+        // line 94
+        echo "
+
+
     </body>
 </html>
 ";
@@ -269,13 +271,13 @@ class __TwigTemplate_c0fd3da8c4e9ad9e96027b79a51b058f0f24954c3b0aab998abe0bd6048
     {
     }
 
-    // line 87
+    // line 91
     public function block_footer($context, array $blocks = array())
     {
-        // line 88
+        // line 92
         echo "             ";
-        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 88)->display($context);
-        // line 89
+        $this->loadTemplate("partials/footer.html.twig", "partials/base.html.twig", 92)->display($context);
+        // line 93
         echo "        ";
     }
 
@@ -291,7 +293,7 @@ class __TwigTemplate_c0fd3da8c4e9ad9e96027b79a51b058f0f24954c3b0aab998abe0bd6048
 
     public function getDebugInfo()
     {
-        return array (  279 => 89,  276 => 88,  273 => 87,  268 => 79,  264 => 80,  261 => 79,  258 => 78,  254 => 76,  251 => 75,  248 => 74,  243 => 55,  240 => 54,  237 => 53,  234 => 52,  232 => 51,  229 => 50,  226 => 49,  223 => 48,  221 => 47,  216 => 44,  213 => 43,  210 => 42,  207 => 41,  204 => 40,  201 => 39,  198 => 38,  195 => 37,  192 => 36,  189 => 35,  186 => 34,  183 => 33,  180 => 32,  177 => 31,  174 => 30,  171 => 29,  166 => 25,  163 => 24,  160 => 23,  158 => 22,  154 => 20,  151 => 19,  148 => 18,  145 => 17,  142 => 16,  139 => 15,  136 => 14,  131 => 70,  127 => 68,  125 => 67,  111 => 57,  109 => 29,  103 => 27,  101 => 14,  93 => 9,  90 => 8,  88 => 7,  80 => 6,  77 => 5,  74 => 4,  63 => 90,  61 => 87,  55 => 84,  51 => 83,  47 => 81,  45 => 78,  42 => 77,  40 => 74,  36 => 72,  34 => 4,  29 => 2,  26 => 1,);
+        return array (  281 => 93,  278 => 92,  275 => 91,  270 => 79,  266 => 80,  263 => 79,  260 => 78,  256 => 76,  253 => 75,  250 => 74,  245 => 55,  242 => 54,  239 => 53,  236 => 52,  234 => 51,  231 => 50,  228 => 49,  225 => 48,  223 => 47,  218 => 44,  215 => 43,  212 => 42,  209 => 41,  206 => 40,  203 => 39,  200 => 38,  197 => 37,  194 => 36,  191 => 35,  188 => 34,  185 => 33,  182 => 32,  179 => 31,  176 => 30,  173 => 29,  168 => 25,  165 => 24,  162 => 23,  160 => 22,  156 => 20,  153 => 19,  150 => 18,  147 => 17,  144 => 16,  141 => 15,  138 => 14,  133 => 70,  129 => 68,  127 => 67,  113 => 57,  111 => 29,  105 => 27,  103 => 14,  95 => 9,  92 => 8,  90 => 7,  82 => 6,  79 => 5,  76 => 4,  67 => 94,  65 => 91,  54 => 83,  50 => 82,  47 => 81,  45 => 78,  42 => 77,  40 => 74,  36 => 72,  34 => 4,  29 => 2,  26 => 1,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -385,19 +387,21 @@ class __TwigTemplate_c0fd3da8c4e9ad9e96027b79a51b058f0f24954c3b0aab998abe0bd6048
             {% block content %}{% endblock %}
         {% endblock %}
 
-
         <script src=\"{{ theme_url }}/js/bootstrap.min.js\" type=\"text/javascript\" ></script>
         <script src=\"{{ theme_url }}/js/tm-scripts.js\" type=\"text/javascript\" ></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.2/lazysizes.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.js'></script>
+        <script id=\"dsq-count-scr\" src=\"//naturamat.disqus.com/count.js\" async></script>
+
 
 
         {% block footer %}
              {% include 'partials/footer.html.twig' %}
         {% endblock %}
 
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/lazysizes/4.0.2/lazysizes.min.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe.js'></script>
-        <script src='https://cdnjs.cloudflare.com/ajax/libs/photoswipe/4.1.2/photoswipe-ui-default.js'></script>
-        <script id=\"dsq-count-scr\" src=\"//naturamat.disqus.com/count.js\" async></script>
+
+
     </body>
 </html>
 ", "partials/base.html.twig", "C:\\wamp\\www\\Naturamat\\user\\themes\\customtheme\\templates\\partials\\base.html.twig");
