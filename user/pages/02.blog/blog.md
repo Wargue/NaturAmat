@@ -4,7 +4,7 @@ blog_url: blog
 menu: Blog
 
 sitemap:
-    changefreq: monthly
+    changefreq: 
     priority: 1.03
 
 content:

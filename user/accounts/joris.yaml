@@ -1,0 +1,11 @@
+email: info@naturamat.be
+access:
+  admin:
+    login: true
+    super: false
+  site:
+    login: true
+fullname: 'Joris Lecaille'
+title: Administrateur
+state: enabled
+hashed_password: $2y$10$9Gxjy0aDL16gfLrtfB/XSeMwd3f2UULzRZmLe1NP6Z4hEMXGVERX6
