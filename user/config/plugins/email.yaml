@@ -5,9 +5,11 @@ to: gillet_l@hotmail.com
 mailer:
   engine: sendmail
   smtp:
-    server: localhost
-    port: 25
+    server: smtp.eu.mailgun.org
+    port: 465
     encryption: ssl
+    user: postmaster@naturamat.ouargue.be
+    password:
   sendmail:
     bin: '/usr/sbin/sendmail -bs'
 content_type: text/html
