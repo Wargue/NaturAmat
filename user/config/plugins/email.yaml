@@ -1,16 +1,16 @@
 enabled: true
-from: info@naturamat.be
+from: gillet_l@hotmail.com
 from_name: Laurent
-to: gillet_l@hotmail.com
+to: ouargue@hotmail.com
 mailer:
-  engine: sendmail
+  engine: smtp
   smtp:
     server: smtp.eu.mailgun.org
     port: 465
     encryption: ssl
     user: postmaster@naturamat.ouargue.be
-    password:
+    password: Max!mum069
   sendmail:
     bin: '/usr/sbin/sendmail -bs'
 content_type: text/html
-debug: false
+debug: true
